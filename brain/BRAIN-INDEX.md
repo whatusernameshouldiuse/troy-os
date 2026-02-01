@@ -1,6 +1,6 @@
 # BRAIN-INDEX.md
 
-> **Last Updated:** 2026-01-30 (Nightly compound)
+> **Last Updated:** 2026-01-31 (Nightly compound)
 > **Purpose:** Single entry point for all agents. Read this FIRST before any work.
 
 ---
@@ -36,6 +36,7 @@
 
 | Date | Decision | Reasoning | File |
 |------|----------|-----------|------|
+| 2026-01-31 | Document J/OpenClaw session gap | J sessions don't create files, breaks automation | `learnings/general.md` |
 | 2026-01-30 | Implement guerrilla marketing crons | Compound over time, 6 automation systems | `learnings/general.md` |
 | 2026-01-30 | Expert panel newsletter format | Rated 93.5/100, "The Armory Brief" | `patterns/what-works.md` |
 | 2026-01-29 | Test publish pipeline before scaling content | BBGV blogs blocked by CMS - lesson learned | `learnings/general.md` |
