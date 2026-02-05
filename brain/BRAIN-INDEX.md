@@ -1,21 +1,22 @@
 # BRAIN-INDEX.md
 
-> **Last Updated:** 2026-01-31 (Nightly compound)
+> **Last Updated:** 2026-02-04 (Nightly compound)
 > **Purpose:** Single entry point for all agents. Read this FIRST before any work.
 
 ---
 
 ## CURRENT PRIORITY
 
-**Focus:** Guerrilla Marketing + Newsletter Optimization
+**Focus:** Hallmark Dentistry Deploy + Guerrilla Marketing
 
 | Business | This Week | Status |
 |----------|-----------|--------|
+| **Hallmark Dentistry** | Next.js site built, AI images generated, awaiting Vercel deploy + DNS | 🟡 Deploy Ready |
 | **BBGV** | Newsletter format done, Gmail deliverability fixes applied | 🟡 Testing |
-| **Rentagun** | Review monitoring active, competitor shadow running | 🟢 Automation Active |
+| **Rentagun** | Return labels have ASR, Klaviyo flows transactional | 🟢 Running |
 | **GunStreamer** | Launch kit created, awaiting assets | 🟡 Asset Collection |
 | **Marketing Automation** | 6 cron jobs running guerrilla tactics | 🟢 Running |
-| **Local SEO** | Client maintenance | 🟢 Stable |
+| **Local SEO** | Hallmark is first Vercel migration | 🟡 Active Deploy |
 
 ---
 
@@ -23,6 +24,8 @@
 
 | Project | Phase | Next Action | Owner |
 |---------|-------|-------------|-------|
+| Hallmark Dentistry | 🔴 Priority | Vercel deploy + DNS switch | J/Cowork |
+| Mission Control | Active | Wire up agent spawn from prompts | - |
 | BBGV Blog CMS | Blocked | Enable image upload feature | Dev team |
 | BBGV robots.txt | Blocked | Allow AI crawlers (GPTBot, ClaudeBot) | Dev team |
 | BBGV Newsletter | Active | Monitor deliverability after format changes | - |
@@ -36,6 +39,8 @@
 
 | Date | Decision | Reasoning | File |
 |------|----------|-----------|------|
+| 2026-02-04 | AI image prompts: "Photo of..." not "photorealistic" | Avoids filters, add camera metadata for realism | `learnings/general.md` |
+| 2026-02-04 | Multi-agent coordination via LIVE files | J/Cowork working same codebase need shared status | `patterns/what-works.md` |
 | 2026-01-31 | Document J/OpenClaw session gap | J sessions don't create files, breaks automation | `learnings/general.md` |
 | 2026-01-30 | Implement guerrilla marketing crons | Compound over time, 6 automation systems | `learnings/general.md` |
 | 2026-01-30 | Expert panel newsletter format | Rated 93.5/100, "The Armory Brief" | `patterns/what-works.md` |
