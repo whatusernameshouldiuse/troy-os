@@ -1,7 +1,7 @@
 # Rentagun Marketing Playbook
 
-**Last Updated:** 2026-01-28
-**Status:** Active - Post-SHOT Show Launch
+**Last Updated:** 2026-02-05
+**Status:** Active - Operations plugin v1.3.0, Gun Finder quiz built
 **Purpose:** Actionable marketing templates, sequences, and strategies for growing Rentagun
 
 ---
@@ -1424,6 +1424,65 @@ NOTES
 | **Google Analytics** | Website tracking | Free |
 | **Bitly** or **Linktree** | Link tracking | Free-$10/mo |
 | **RevenueHunt** | Quiz | [Current tool] |
+
+---
+
+## Gun Finder Quiz Plugin (NEW - 2026-02-05)
+
+**Status:** Built, needs lifestyle photos + deployment
+**Shortcode:** `[rentagun_gun_finder]`
+**Files:** `/Users/troyvanmaanen/Library/Mobile Documents/iCloud~md~obsidian/Documents/Work/rentagun-gun-finder/`
+
+Interactive 5-step firearm recommendation quiz inspired by Old Town Kayak Finder:
+1. **Purpose** - What do you want the gun for?
+2. **Type** - Dynamic options based on purpose selection
+3. **Vibe** - Multi-select personality (max 2)
+4. **Experience** - Skill level (includes safety filter for beginners)
+5. **Results** - Ranked recommendations with whyText
+
+**Features:**
+- 50 firearms in JSON data with tags and purpose-specific descriptions
+- Scoring algorithm with purpose weighting
+- Safety filter: no dangerous guns for beginners
+- Ranked badges: Best Match / Great Pick / Solid Choice
+- Segmented progress bar
+- Premium CSS design (~720 lines)
+
+**Deployment TODO:**
+1. Generate/source 16 lifestyle photos for card backgrounds (currently emoji placeholders)
+2. Test full quiz flow with real images
+3. Deploy to WordPress staging
+4. Integrate with welcome email sequence (replace RevenueHunt quiz references)
+
+**Marketing Integration:**
+- Welcome Email 1 CTA → "Take the Quiz" should point to Gun Finder page
+- Quiz Reminder Email → Same Gun Finder page
+- Results can feed into Klaviyo profile properties for segmentation
+- Consider tracking quiz completions as Klaviyo events for flow triggers
+
+---
+
+## Operations Plugin Status (2026-02-05)
+
+**Version:** v1.3.0 (12 bugs fixed from v1.2.0)
+**File:** `/Users/troyvanmaanen/rentagun-operations/rentagun-operations.php`
+**Deployment ZIP:** `/Users/troyvanmaanen/rentagun-operations-v1.3.0.zip`
+
+**All 5 Klaviyo Flows LIVE:**
+| Flow | Reply-To |
+|------|----------|
+| Order Placed | support@rentagun.com |
+| Order Shipped | support@rentagun.com |
+| Delivered to FFL | support@rentagun.com |
+| Return Due Soon | support@rentagun.com |
+| Return Received | support@rentagun.com |
+
+**Key fixes in v1.3:**
+- Race condition prevention (transient locks for auto-send)
+- Empty customer name fallback
+- HPOS compatibility
+- Complete FFL validation
+- Dummy phone number filtering
 
 ---
 
