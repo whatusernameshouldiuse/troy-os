@@ -1,6 +1,6 @@
 # BBGV Marketing Playbook
 
-> **Last Updated:** 2026-01-28
+> **Last Updated:** 2026-02-06
 > **Status:** Active playbook for team execution
 > **Owner:** Troy VanMaanen
 
@@ -148,6 +148,41 @@ Unsubscribe | Update preferences | Forward to a friend
 | New Opt-ins/Week | 800 | 1,200 | 1,500 |
 | Unsubscribe Rate | TBD | <0.5% | <0.3% |
 | Newsletter → Upgrade | TBD | 2% | 4% |
+
+---
+
+## 1b. Current Blog & Automation Status (Updated 2026-02-06)
+
+### Blog Inventory: 6 Articles (not 5)
+| # | Article | SEO Status | CMS Status |
+|---|---------|------------|------------|
+| 1 | Winchester 1897 Trench Gun | SEO-optimized (32 NeuronWriter entities) | HTML export ready |
+| 2 | Colt 1911 | Draft complete | Needs HTML export |
+| 3 | M1 Garand | Draft complete | Needs HTML export |
+| 4 | Luger P08 | Draft complete | Needs HTML export |
+| 5 | AK-47 | Draft complete | Needs HTML export |
+| 6 | Springfield 1903 | Draft complete | Needs HTML export |
+
+**Compiled file:** `Projects/BBGV/BBGV-ALL-BLOGS-COMPILED.md`
+
+### n8n Social Distribution Workflows
+| Workflow | ID | Status |
+|----------|----|--------|
+| BBGV Social Media Distributor | `1Q3oqgHrsYo9syVO` | Created, needs credentials |
+| BBGV Social Analytics Feedback Loop | `au8gfYbtAzvI8mi8` | Created, needs credentials |
+
+**Next:** Configure Anthropic API key + social platform credentials in n8n.
+
+### Klaviyo Email Warm-Up Status
+| List | ID | Profiles | Status |
+|------|----|----------|--------|
+| Cold Warm-Up Batch 001 | (original) | 500 | Imported |
+| Cold Warm-Up Batch 002 | `S3k2tf` | 2,000 | Imported 2026-02-06 |
+| Verified but unused | — | ~189K | Sitting in Reoon |
+
+**Pipeline Gap:** Daily Reoon verification runs but nothing pushes results to Klaviyo. 11 pending tasks with undownloaded results. Fix: add Klaviyo import step to daily pipeline.
+
+**Next emails needed:** Beta Dashboard Update + Blog Teaser for Batch 002.
 
 ---
 
