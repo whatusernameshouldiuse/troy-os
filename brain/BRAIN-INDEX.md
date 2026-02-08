@@ -1,22 +1,38 @@
 # BRAIN-INDEX.md
 
-> **Last Updated:** 2026-02-04 (Nightly compound)
+> **Last Updated:** 2026-02-07 (Nightly compound)
 > **Purpose:** Single entry point for all agents. Read this FIRST before any work.
 
 ---
 
 ## CURRENT PRIORITY
 
-**Focus:** Hallmark Dentistry Deploy + Guerrilla Marketing
+**Focus:** BBGV Email Pipeline + Merge Accumulated Content
 
 | Business | This Week | Status |
 |----------|-----------|--------|
-| **Hallmark Dentistry** | Next.js site built, AI images generated, awaiting Vercel deploy + DNS | 🟡 Deploy Ready |
-| **BBGV** | Newsletter format done, Gmail deliverability fixes applied | 🟡 Testing |
-| **Rentagun** | Return labels have ASR, Klaviyo flows transactional | 🟢 Running |
+| **BBGV** | 2 n8n workflows built, Batch 002 (2K) warming, 6 blogs SEO'd. Fix Reoon→Klaviyo pipeline (189K emails unused). | 🔴 Pipeline Fix |
+| **Rentagun** | Valentine's campaign ready (Feb 7-14), post-Valentine's content ready (Feb 17-21). Both on unmerged branches. | 🟡 Merge Needed |
+| **Hallmark Dentistry** | Deployed, legal pages done, footer redesigned. FAQ page + Dentologie-style design improvements pending. | 🟡 Enhancement |
 | **GunStreamer** | Launch kit created, awaiting assets | 🟡 Asset Collection |
-| **Marketing Automation** | 6 cron jobs running guerrilla tactics | 🟢 Running |
-| **Local SEO** | Hallmark is first Vercel migration | 🟡 Active Deploy |
+| **Marketing Automation** | 6 cron jobs running, caffeinate fixed for 24/7 reliability | 🟢 Running |
+| **Local SEO** | local-seo-website-build skill created from Hallmark project | 🟢 Skill Ready |
+
+---
+
+## ⚠️ BRANCH MERGE NEEDED
+
+**8 compound branches** have content that was never merged to main (Jan 28–Feb 6):
+- `compound/2026-01-28-rentagun-social-post` — Social post + skills
+- `compound/2026-01-29-rentagun-winback-emails` — 3-email win-back sequence
+- `compound/2026-01-30-rentagun-social-content` — 5 carousels + stories
+- `compound/2026-01-31-rentagun-feb-calendar` — February calendar
+- `compound/2026-02-03-product-launch-sop` — Launch checklist SOP
+- `compound/2026-02-04-project-md-template` — PROJECT.md template
+- `compound/2026-02-05-rentagun-valentines-campaign` — Valentine's campaign (3 emails + 7 social + landing page)
+- `compound/2026-02-06-bbgv-email-rentagun-social` — Luger email + Feb week 4 social
+
+**Decision needed:** Merge all to main, or change auto-compound to commit directly to main for content.
 
 ---
 
@@ -24,14 +40,15 @@
 
 | Project | Phase | Next Action | Owner |
 |---------|-------|-------------|-------|
-| Hallmark Dentistry | 🔴 Priority | Vercel deploy + DNS switch | J/Cowork |
-| Mission Control | Active | Wire up agent spawn from prompts | - |
+| BBGV Reoon→Klaviyo Pipeline | 🔴 Priority | Fix daily pipeline to push 189K verified emails | Claude Code |
+| BBGV Warm-Up Emails | 🔴 Priority | Beta Dashboard email (needs Troy input) + Blog Teaser (Luger P08 ready) | Claude Code |
+| BBGV n8n Credentials | Active | Configure Anthropic, Twitter, Facebook, LinkedIn, Sheets in n8n | Troy |
+| Hallmark FAQ | Active | Build /faq page from 30 dental questions | Claude Code |
+| Hallmark Design | Active | Dentologie-style Featured Services, teal insurance section | Claude Code |
+| Rentagun Gun Finder | Blocked | Needs 16 lifestyle photos for quiz | Troy |
 | BBGV Blog CMS | Blocked | Enable image upload feature | Dev team |
 | BBGV robots.txt | Blocked | Allow AI crawlers (GPTBot, ClaudeBot) | Dev team |
-| BBGV Newsletter | Active | Monitor deliverability after format changes | - |
-| Guerrilla Marketing | Running | Review cron outputs | - |
-| Rentagun Chatbot | Ready | Deploy to Vercel (needs auth) | Troy |
-| GunStreamer Launch | Ready | Complete asset creation | - |
+| GunStreamer Launch | Ready | Complete asset creation | Troy |
 
 ---
 
@@ -39,14 +56,13 @@
 
 | Date | Decision | Reasoning | File |
 |------|----------|-----------|------|
+| 2026-02-07 | Content branches should go to main, not feature branches | Troy doesn't review branches — 8 accumulated unmerged | `learnings/general.md` |
+| 2026-02-06 | Reddit/Quora = templates only, never automate | High spam/ban risk | `learnings/general.md` |
+| 2026-02-06 | Use real photos for firearms, not AI | AI hallucinate gun models | `learnings/general.md` |
+| 2026-02-06 | Voice > SEO when they conflict (NeuronWriter) | Brand authenticity matters more than keyword stuffing | `patterns/what-works.md` |
+| 2026-02-05 | Content goes direct to main for review visibility | Branches create invisible work | `learnings/general.md` |
 | 2026-02-04 | AI image prompts: "Photo of..." not "photorealistic" | Avoids filters, add camera metadata for realism | `learnings/general.md` |
 | 2026-02-04 | Multi-agent coordination via LIVE files | J/Cowork working same codebase need shared status | `patterns/what-works.md` |
-| 2026-01-31 | Document J/OpenClaw session gap | J sessions don't create files, breaks automation | `learnings/general.md` |
-| 2026-01-30 | Implement guerrilla marketing crons | Compound over time, 6 automation systems | `learnings/general.md` |
-| 2026-01-30 | Expert panel newsletter format | Rated 93.5/100, "The Armory Brief" | `patterns/what-works.md` |
-| 2026-01-29 | Test publish pipeline before scaling content | BBGV blogs blocked by CMS - lesson learned | `learnings/general.md` |
-| 2026-01-28 | Automated tracking stack | Sessions auto-flow to accomplishments (11 PM) → weekly summaries (Fri 9 AM) | Obsidian sessions |
-| 2026-01-28 | Single source of truth for GTM docs | troy-os GitHub repo is authoritative | `CLAUDE-GTM.md` |
 
 ---
 
