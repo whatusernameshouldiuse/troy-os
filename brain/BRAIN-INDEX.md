@@ -1,38 +1,28 @@
 # BRAIN-INDEX.md
 
-> **Last Updated:** 2026-02-07 (Nightly compound)
+> **Last Updated:** 2026-02-12 (Nightly compound)
 > **Purpose:** Single entry point for all agents. Read this FIRST before any work.
+> **Primary BRAIN-INDEX:** Obsidian `Claude-Shared-Brain/BRAIN-INDEX.md` (most current)
 
 ---
 
 ## CURRENT PRIORITY
 
-**Focus:** BBGV Email Pipeline + Merge Accumulated Content
+**Focus:** Rentagun Acquisition Engine Phase B + April Content Calendar
 
 | Business | This Week | Status |
 |----------|-----------|--------|
-| **BBGV** | 2 n8n workflows built, Batch 002 (2K) warming, 6 blogs SEO'd. Fix Reoon→Klaviyo pipeline (189K emails unused). | 🔴 Pipeline Fix |
-| **Rentagun** | Valentine's campaign ready (Feb 7-14), post-Valentine's content ready (Feb 17-21). Both on unmerged branches. | 🟡 Merge Needed |
-| **Hallmark Dentistry** | Deployed, legal pages done, footer redesigned. FAQ page + Dentologie-style design improvements pending. | 🟡 Enhancement |
+| **Rentagun** | Acquisition Engine Phase A done (112 tests). 5 Klaviyo email templates updated. March social COMPLETE (all 5 weeks). April calendar needed. app.rentagun.com needs Cloudflare A record. | 🟡 Phase B + April |
+| **BBGV** | 2 n8n workflows built, Batch 002 warming, pSEO architecture complete. Reoon→Klaviyo pipeline STILL broken (189K emails). Ad gallery cloned to MacBook. | 🔴 Pipeline Fix |
+| **Hallmark Dentistry** | Deployed, legal pages done. FAQ page + design improvements pending. | 🟡 Enhancement |
 | **GunStreamer** | Launch kit created, awaiting assets | 🟡 Asset Collection |
-| **Marketing Automation** | 6 cron jobs running, caffeinate fixed for 24/7 reliability | 🟢 Running |
-| **Local SEO** | local-seo-website-build skill created from Hallmark project | 🟢 Skill Ready |
+| **Local SEO** | competitor-audit-tool built. Phase 0 now mandatory before builds. | 🟢 Tool Ready |
 
 ---
 
-## ⚠️ BRANCH MERGE NEEDED
+## ✅ BRANCHES RESOLVED
 
-**8 compound branches** have content that was never merged to main (Jan 28–Feb 6):
-- `compound/2026-01-28-rentagun-social-post` — Social post + skills
-- `compound/2026-01-29-rentagun-winback-emails` — 3-email win-back sequence
-- `compound/2026-01-30-rentagun-social-content` — 5 carousels + stories
-- `compound/2026-01-31-rentagun-feb-calendar` — February calendar
-- `compound/2026-02-03-product-launch-sop` — Launch checklist SOP
-- `compound/2026-02-04-project-md-template` — PROJECT.md template
-- `compound/2026-02-05-rentagun-valentines-campaign` — Valentine's campaign (3 emails + 7 social + landing page)
-- `compound/2026-02-06-bbgv-email-rentagun-social` — Luger email + Feb week 4 social
-
-**Decision needed:** Merge all to main, or change auto-compound to commit directly to main for content.
+All compound branches merged to main (2026-02-08). Content now goes direct to main per policy.
 
 ---
 
@@ -40,29 +30,26 @@
 
 | Project | Phase | Next Action | Owner |
 |---------|-------|-------------|-------|
+| Rentagun Acquisition Phase B | Active | Infrastructure wiring (env vars, Supabase RLS) | Claude Code |
+| Rentagun April Calendar | Ready | Create April content calendar + Week 1 posts | Claude Code |
+| Rentagun Cloudflare DNS | Blocked | Add A record: `app` → `76.76.21.21` | Troy |
+| Rentagun Klaviyo Flows | Blocked | Update 5 flow email subject lines in Klaviyo UI | Troy |
 | BBGV Reoon→Klaviyo Pipeline | 🔴 Priority | Fix daily pipeline to push 189K verified emails | Claude Code |
-| BBGV Warm-Up Emails | 🔴 Priority | Beta Dashboard email (needs Troy input) + Blog Teaser (Luger P08 ready) | Claude Code |
-| BBGV n8n Credentials | Active | Configure Anthropic, Twitter, Facebook, LinkedIn, Sheets in n8n | Troy |
+| BBGV pSEO Files | Open | Copy deliverables from scratchpad to permanent location (5 days open) | Claude Code |
 | Hallmark FAQ | Active | Build /faq page from 30 dental questions | Claude Code |
-| Hallmark Design | Active | Dentologie-style Featured Services, teal insurance section | Claude Code |
-| Rentagun Gun Finder | Blocked | Needs 16 lifestyle photos for quiz | Troy |
-| BBGV Blog CMS | Blocked | Enable image upload feature | Dev team |
-| BBGV robots.txt | Blocked | Allow AI crawlers (GPTBot, ClaudeBot) | Dev team |
-| GunStreamer Launch | Ready | Complete asset creation | Troy |
+| Mac Mini SSH | Blocked | Enable Remote Login on 192.168.200.141 | Troy |
 
 ---
 
 ## RECENT DECISIONS
 
-| Date | Decision | Reasoning | File |
-|------|----------|-----------|------|
-| 2026-02-07 | Content branches should go to main, not feature branches | Troy doesn't review branches — 8 accumulated unmerged | `learnings/general.md` |
-| 2026-02-06 | Reddit/Quora = templates only, never automate | High spam/ban risk | `learnings/general.md` |
-| 2026-02-06 | Use real photos for firearms, not AI | AI hallucinate gun models | `learnings/general.md` |
-| 2026-02-06 | Voice > SEO when they conflict (NeuronWriter) | Brand authenticity matters more than keyword stuffing | `patterns/what-works.md` |
-| 2026-02-05 | Content goes direct to main for review visibility | Branches create invisible work | `learnings/general.md` |
-| 2026-02-04 | AI image prompts: "Photo of..." not "photorealistic" | Avoids filters, add camera metadata for realism | `learnings/general.md` |
-| 2026-02-04 | Multi-agent coordination via LIVE files | J/Cowork working same codebase need shared status | `patterns/what-works.md` |
+| Date | Decision | Reasoning |
+|------|----------|-----------|
+| 2026-02-11 | Klaviyo flow subjects = UI only | API returns 405 on PATCH |
+| 2026-02-11 | GitHub clone > SCP for Mac mini files | SSH disabled on mini |
+| 2026-02-11 | Phase 0 competitive audit mandatory | Data-driven > guesswork |
+| 2026-02-11 | Subagents for research only | File writes get auto-denied |
+| 2026-02-08 | Content direct to main | Troy doesn't review branches |
 
 ---
 
