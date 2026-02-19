@@ -3,6 +3,9 @@
 **/credentials.json
 **/.env
 **/.env.*
+.secrets/
+.env
+*.env
 
 # OS files
 .DS_Store
