@@ -1,0 +1,184 @@
+# Skills Canonical Index (Deduped)
+
+Unique skills: 88
+
+Priority rule: workspace > agents > builtin.
+
+## Canonical Skills
+- `1password` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/1password`
+- `ab-test-setup` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/ab-test-setup`
+- `ad-creative` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/ad-creative`
+- `ai-seo` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/ai-seo`
+- `analytics-tracking` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/analytics-tracking`
+- `apple-notes` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/apple-notes`
+- `apple-reminders` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/apple-reminders`
+- `bear-notes` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/bear-notes`
+- `blogwatcher` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/blogwatcher`
+- `blucli` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/blucli`
+- `bluebubbles` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/bluebubbles`
+- `camsnap` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/camsnap`
+- `canvas` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/canvas`
+- `churn-prevention` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/churn-prevention`
+- `clawhub` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/clawhub`
+- `coding-agent` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/coding-agent`
+- `cold-email` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/cold-email`
+- `community` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community`
+- `competitor-alternatives` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/competitor-alternatives`
+- `content-strategy` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/content-strategy`
+- `copy-editing` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/copy-editing`
+- `copywriter` [workspace] -> `/Users/troyvanmaanen/clawd/skills/copywriter`
+- `copywriting` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/copywriting`
+- `discord` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/discord`
+- `eightctl` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/eightctl`
+- `email-marketing` [workspace] -> `/Users/troyvanmaanen/clawd/skills/email-marketing`
+- `email-sequence` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/email-sequence`
+- `find-skills` [agents] -> `/Users/troyvanmaanen/.agents/skills/find-skills`
+- `food-order` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/food-order`
+- `form-cro` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/form-cro`
+- `free-tool-strategy` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/free-tool-strategy`
+- `gemini` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/gemini`
+- `gh-issues` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/gh-issues`
+- `gifgrep` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/gifgrep`
+- `github` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/github`
+- `gog` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/gog`
+- `goplaces` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/goplaces`
+- `healthcheck` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/healthcheck`
+- `himalaya` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/himalaya`
+- `imsg` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/imsg`
+- `larrybrain` [workspace] -> `/Users/troyvanmaanen/clawd/skills/larrybrain`
+- `launch-strategy` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/launch-strategy`
+- `marketing-ideas` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/marketing-ideas`
+- `marketing-psychology` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/marketing-psychology`
+- `mcp-builder` [agents] -> `/Users/troyvanmaanen/.agents/skills/mcp-builder`
+- `mcporter` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/mcporter`
+- `model-usage` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/model-usage`
+- `nano-banana-pro` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/nano-banana-pro`
+- `nano-pdf` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/nano-pdf`
+- `notion` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/notion`
+- `obsidian` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/obsidian`
+- `onboarding-cro` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/onboarding-cro`
+- `openai-image-gen` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/openai-image-gen`
+- `openai-whisper` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/openai-whisper`
+- `openai-whisper-api` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/openai-whisper-api`
+- `openhue` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/openhue`
+- `oracle` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/oracle`
+- `ordercli` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/ordercli`
+- `page-cro` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/page-cro`
+- `paid-ads` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/paid-ads`
+- `paywall-upgrade-cro` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/paywall-upgrade-cro`
+- `peekaboo` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/peekaboo`
+- `popup-cro` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/popup-cro`
+- `pricing-strategy` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/pricing-strategy`
+- `product-marketing-context` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/product-marketing-context`
+- `programmatic-seo` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/programmatic-seo`
+- `referral-program` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/referral-program`
+- `sag` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/sag`
+- `schema-markup` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/schema-markup`
+- `self-improving` [workspace] -> `/Users/troyvanmaanen/clawd/skills/self-improving`
+- `seo-audit` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/seo-audit`
+- `session-logs` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/session-logs`
+- `sherpa-onnx-tts` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/sherpa-onnx-tts`
+- `signup-flow-cro` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/signup-flow-cro`
+- `skill-creator` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/skill-creator`
+- `slack` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/slack`
+- `social-content` [workspace] -> `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/social-content`
+- `songsee` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/songsee`
+- `sonoscli` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/sonoscli`
+- `spotify-player` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/spotify-player`
+- `summarize` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/summarize`
+- `things-mac` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/things-mac`
+- `tmux` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/tmux`
+- `trello` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/trello`
+- `video-frames` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/video-frames`
+- `voice-call` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/voice-call`
+- `wacli` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/wacli`
+- `weather` [builtin] -> `/opt/homebrew/lib/node_modules/openclaw/skills/weather`
+
+## Duplicate Families
+- `ab-test-setup`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/ab-test-setup`
+  - agents: `/Users/troyvanmaanen/.agents/skills/ab-test-setup`
+- `ad-creative`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/ad-creative`
+  - agents: `/Users/troyvanmaanen/.agents/skills/ad-creative`
+- `ai-seo`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/ai-seo`
+  - agents: `/Users/troyvanmaanen/.agents/skills/ai-seo`
+- `analytics-tracking`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/analytics-tracking`
+  - agents: `/Users/troyvanmaanen/.agents/skills/analytics-tracking`
+- `churn-prevention`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/churn-prevention`
+  - agents: `/Users/troyvanmaanen/.agents/skills/churn-prevention`
+- `cold-email`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/cold-email`
+  - agents: `/Users/troyvanmaanen/.agents/skills/cold-email`
+- `competitor-alternatives`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/competitor-alternatives`
+  - agents: `/Users/troyvanmaanen/.agents/skills/competitor-alternatives`
+- `content-strategy`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/content-strategy`
+  - agents: `/Users/troyvanmaanen/.agents/skills/content-strategy`
+- `copy-editing`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/copy-editing`
+  - agents: `/Users/troyvanmaanen/.agents/skills/copy-editing`
+- `copywriting`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/copywriting`
+  - agents: `/Users/troyvanmaanen/.agents/skills/copywriting`
+- `email-sequence`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/email-sequence`
+  - agents: `/Users/troyvanmaanen/.agents/skills/email-sequence`
+- `form-cro`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/form-cro`
+  - agents: `/Users/troyvanmaanen/.agents/skills/form-cro`
+- `free-tool-strategy`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/free-tool-strategy`
+  - agents: `/Users/troyvanmaanen/.agents/skills/free-tool-strategy`
+- `launch-strategy`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/launch-strategy`
+  - agents: `/Users/troyvanmaanen/.agents/skills/launch-strategy`
+- `marketing-ideas`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/marketing-ideas`
+  - agents: `/Users/troyvanmaanen/.agents/skills/marketing-ideas`
+- `marketing-psychology`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/marketing-psychology`
+  - agents: `/Users/troyvanmaanen/.agents/skills/marketing-psychology`
+- `onboarding-cro`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/onboarding-cro`
+  - agents: `/Users/troyvanmaanen/.agents/skills/onboarding-cro`
+- `page-cro`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/page-cro`
+  - agents: `/Users/troyvanmaanen/.agents/skills/page-cro`
+- `paid-ads`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/paid-ads`
+  - agents: `/Users/troyvanmaanen/.agents/skills/paid-ads`
+- `paywall-upgrade-cro`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/paywall-upgrade-cro`
+  - agents: `/Users/troyvanmaanen/.agents/skills/paywall-upgrade-cro`
+- `popup-cro`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/popup-cro`
+  - agents: `/Users/troyvanmaanen/.agents/skills/popup-cro`
+- `pricing-strategy`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/pricing-strategy`
+  - agents: `/Users/troyvanmaanen/.agents/skills/pricing-strategy`
+- `product-marketing-context`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/product-marketing-context`
+  - agents: `/Users/troyvanmaanen/.agents/skills/product-marketing-context`
+- `programmatic-seo`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/programmatic-seo`
+  - agents: `/Users/troyvanmaanen/.agents/skills/programmatic-seo`
+- `referral-program`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/referral-program`
+  - agents: `/Users/troyvanmaanen/.agents/skills/referral-program`
+- `schema-markup`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/schema-markup`
+  - agents: `/Users/troyvanmaanen/.agents/skills/schema-markup`
+- `seo-audit`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/seo-audit`
+  - agents: `/Users/troyvanmaanen/.agents/skills/seo-audit`
+- `signup-flow-cro`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/signup-flow-cro`
+  - agents: `/Users/troyvanmaanen/.agents/skills/signup-flow-cro`
+- `social-content`
+  - workspace: `/Users/troyvanmaanen/clawd/skills/community/marketingskills/skills/social-content`
+  - agents: `/Users/troyvanmaanen/.agents/skills/social-content`
