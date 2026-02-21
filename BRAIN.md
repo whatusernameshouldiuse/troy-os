@@ -28,4 +28,3 @@ Last Updated: 2026-02-21
 
 ## Owner Decisions Needed
 - Approve/install flagged third-party skills (case-by-case)
-- Rotate exposed Notion token after successful publish
