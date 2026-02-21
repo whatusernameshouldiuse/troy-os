@@ -1,0 +1,8 @@
+127.0.0.1 - - [19/Feb/2026 12:19:33] "GET /mission-control/ HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2026 12:22:22] code 404, message File not found
+127.0.0.1 - - [19/Feb/2026 12:22:22] "GET /mission-control/%E2%80%AF%E2%81%A0 HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2026 12:22:22] code 404, message File not found
+127.0.0.1 - - [19/Feb/2026 12:22:22] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [19/Feb/2026 12:22:29] "GET /mission-control HTTP/1.1" 301 -
+127.0.0.1 - - [19/Feb/2026 12:22:29] "GET /mission-control/ HTTP/1.1" 200 -
+127.0.0.1 - - [19/Feb/2026 12:22:29] "GET /mission-control/data.json HTTP/1.1" 200 -

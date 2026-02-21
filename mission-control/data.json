@@ -1,0 +1,69 @@
+{
+  "lastUpdated": "2026-02-19T18:20:00Z",
+  "owner": "Troy",
+  "priorities": [
+    {
+      "rank": 1,
+      "project": "BBGV",
+      "objective": "Launch 1/2 punch content system (newsletter + blog)",
+      "status": "in_progress"
+    },
+    {
+      "rank": 2,
+      "project": "RentAGun",
+      "objective": "Deploy customer acquisition system",
+      "status": "queued"
+    },
+    {
+      "rank": 3,
+      "project": "Local SEO",
+      "objective": "Backlog / maintain readiness",
+      "status": "queued"
+    }
+  ],
+  "projects": [
+    {
+      "name": "BBGV",
+      "status": "in_progress",
+      "goal": "Newsletter + blog engine",
+      "nextActions": [
+        "Define offer, audience, voice, proof",
+        "Build newsletter operating cadence",
+        "Build blog production + conversion loop"
+      ],
+      "agents": ["Architect", "Money Maker", "Operator"]
+    },
+    {
+      "name": "RentAGun",
+      "status": "queued",
+      "goal": "Customer acquisition deployment",
+      "nextActions": [
+        "Lock target market + service area",
+        "Define CTA and channel mix",
+        "Deploy campaign + tracking loop"
+      ],
+      "agents": ["Architect", "Money Maker", "Operator"]
+    },
+    {
+      "name": "Local SEO",
+      "status": "queued",
+      "goal": "Pipeline project",
+      "nextActions": [
+        "Keep baseline docs current",
+        "Prioritize when BBGV/RentAGun stabilize"
+      ],
+      "agents": ["Operator"]
+    }
+  ],
+  "agentBoard": [
+    {"agent": "Architect", "focus": "Strategy and priorities", "status": "active"},
+    {"agent": "Builder", "focus": "Execution and systems", "status": "standby"},
+    {"agent": "Money Maker", "focus": "Growth and revenue", "status": "active"},
+    {"agent": "Operator", "focus": "Ops and cadence", "status": "active"}
+  ],
+  "today": [
+    "Mission control live at local URL",
+    "OpenClaw updated to latest",
+    "LaunchAgents migrated from cron"
+  ]
+}

@@ -1,0 +1,16 @@
+# Ops Log
+
+## 2026-02-20
+- Implemented Agent Ops hardening pack:
+  - AGENT-OPS-PREFLIGHT.md
+  - MODEL-ROUTING-MATRIX.md
+  - PROJECT-INTAKE-TEMPLATE.md
+  - MEMORY-MAINTENANCE-RUNBOOK.md
+  - SKILL-BUILDER-TRIGGER.md
+  - DELEGATION-FALLBACK-POLICY.md
+- Implemented operations upgrades from review:
+  - PROMPT-TEMPLATES.md
+  - SYSTEM-HYGIENE-CHECKLIST.md
+  - DELEGATION-HEALTH-TEST.md
+  - NOTION-HANDOFF-RUNBOOK.md
+- Updated OPENCLAW-OPERATING-DOCTRINE.md control files list.
