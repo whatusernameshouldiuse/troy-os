@@ -5,10 +5,10 @@
 - Keeping automations and status boards aligned
 
 ## New Curiosities
-- Which preflight check should flag credential exposure risks immediately after external API handoffs?
+- What completion-check routine should run when multiple high-priority subagents are active simultaneously?
 
 ## Signals I’m Watching
-- Operational reliability improves when token use is paired with post-deployment rotation and explicit permission verification.
+- System throughput increases when orchestration separates $200/hr judgment work from delegated production execution.
 
 ## Doctrine Focus
 - Maintain stale-signal monitoring and visible health freshness across workflows.

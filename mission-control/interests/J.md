@@ -5,10 +5,10 @@
 - Turning strategy into concrete weekly execution lanes
 
 ## New Curiosities
-- What scorecard cadence best ties BBGV’s subscription-replacement target to weekly ICO and consignment execution?
+- What decision protocol turns subagent outputs into same-day revenue actions without review bottlenecks?
 
 ## Signals I’m Watching
-- Strategic clarity improved after locking revenue-replacement framing and phased valuation-free transition criteria.
+- Leverage improved once high-depth execution was delegated and main-loop focus stayed on money-moving decisions.
 
 ## Doctrine Focus
 - Keep weekly priorities explicit and auditable against one north-star objective.
