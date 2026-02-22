@@ -35,3 +35,6 @@ build/
 # Temporary files
 *.tmp
 *.temp
+
+# Automation runtime logs
+.automation/logs/*.log
