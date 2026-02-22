@@ -137,6 +137,15 @@ Use project-local `CLAUDE.md` to adapt communication style, workflow steps, and 
 - **Discord links:** Wrap multiple links in `<>` to suppress embeds: `<https://example.com>`
 - **WhatsApp:** No headers — use **bold** or CAPS for emphasis
 
+## File Output Visibility (Obsidian-First)
+
+From now on, whenever you create or significantly update a user-facing file:
+- If the file is in the Obsidian vault, immediately open it in Obsidian.
+- In your reply, include the exact file path and a short preview summary.
+- Prefer single "LIVE" draft files for iterative work instead of creating many scattered files.
+
+If a file is created outside Obsidian (e.g., `~/clawd`), summarize it clearly and mirror to Obsidian when it is intended for user review.
+
 ## 💓 Heartbeats - Be Proactive!
 
 When you receive a heartbeat poll (message matches the configured heartbeat prompt), don't just reply `HEARTBEAT_OK` every time. Use heartbeats productively!
