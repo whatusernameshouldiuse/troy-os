@@ -15,12 +15,16 @@ Last Updated: 2026-02-22
 ## Immediate Actions
 - Pull Klaviyo campaign metrics (complaint, bounce, unsub, domain performance) and diagnose
 - Send BBGV trigger handoff to dev + confirm implementation ETA
-- Draft/send corrected BBGV Email A/B with deliverability-safe settings
+- Review incoming subagent deliverables and convert to owner-assigned launch tasks
 
 ## Background Tasks
 - Vault/workspace normalization completed
 - Ops hardening docs installed and wired into doctrine
 - Skills registry centralized (`skills-hub/SKILLS-CANONICAL.md` + inventory)
+- Active subagents:
+  - bbgv-content-machine-v1
+  - rentagun-acq-system-v1
+  - ops-automation-bottomline
 
 ## Blockers / Attention Needed
 - Browser relay attach remains unreliable; API publishing path is fallback
