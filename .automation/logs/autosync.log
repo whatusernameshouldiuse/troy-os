@@ -1917,3 +1917,11 @@ To https://github.com/whatusernameshouldiuse/troy-os.git
 To https://github.com/whatusernameshouldiuse/troy-os.git
    4b9a493..88bce41  main -> main
 [2026-02-21 19:02:17] synced: branch=main
+[main d655b55] chore(autosync): workspace update 2026-02-21 19:04:17
+ 5 files changed, 254 insertions(+), 1 deletion(-)
+ create mode 100644 skills/drr-researcher/SKILL.md
+ create mode 100644 skills/drr-researcher/references/prompt-frameworks.md
+ create mode 100644 skills/drr-researcher/scripts/generate_drr_prompts.py
+To https://github.com/whatusernameshouldiuse/troy-os.git
+   88bce41..d655b55  main -> main
+[2026-02-21 19:04:18] synced: branch=main

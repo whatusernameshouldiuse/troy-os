@@ -1,0 +1,3502 @@
+[
+  {
+    "id": 1,
+    "month": "2026-03",
+    "theme": "customer journey optimization",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve customer journey optimization for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 2,
+    "month": "2026-03",
+    "theme": "offer conversion lift",
+    "prompt": "Run deep research on best-in-class systems for offer conversion lift in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 3,
+    "month": "2026-03",
+    "theme": "email performance recovery",
+    "prompt": "Research what top performers do for email performance recovery in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 4,
+    "month": "2026-03",
+    "theme": "content-to-revenue pipeline",
+    "prompt": "Generate a decision memo for content-to-revenue pipeline in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 5,
+    "month": "2026-03",
+    "theme": "high-intent lead qualification",
+    "prompt": "Research emerging opportunities in high-intent lead qualification relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 6,
+    "month": "2026-03",
+    "theme": "sales ops automation",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve sales ops automation for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 7,
+    "month": "2026-03",
+    "theme": "acquisition channel prioritization",
+    "prompt": "Run deep research on best-in-class systems for acquisition channel prioritization in Rentagun. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 8,
+    "month": "2026-03",
+    "theme": "retention and reactivation",
+    "prompt": "Research what top performers do for retention and reactivation in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 9,
+    "month": "2026-03",
+    "theme": "pricing and packaging",
+    "prompt": "Generate a decision memo for pricing and packaging in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 10,
+    "month": "2026-03",
+    "theme": "competitive positioning",
+    "prompt": "Research emerging opportunities in competitive positioning relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 11,
+    "month": "2026-03",
+    "theme": "SOP creation and delegation",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve SOP creation and delegation for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 12,
+    "month": "2026-03",
+    "theme": "analytics and attribution integrity",
+    "prompt": "Run deep research on best-in-class systems for analytics and attribution integrity in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 13,
+    "month": "2026-03",
+    "theme": "Live operating state. This is the short-term command board.",
+    "prompt": "Research what top performers do for Live operating state. This is the short-term command board. in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 14,
+    "month": "2026-03",
+    "theme": "Last Updated: 2026-02-21",
+    "prompt": "Generate a decision memo for Last Updated: 2026-02-21 in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 15,
+    "month": "2026-03",
+    "theme": "GunStreamer Saturday Night Special promo \u2014 In Progress",
+    "prompt": "Research emerging opportunities in GunStreamer Saturday Night Special promo \u2014 In Progress relevant to GunStreamer. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 16,
+    "month": "2026-03",
+    "theme": "Next: publish first wave posts and monitor join CTR before live",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Next: publish first wave posts and monitor join CTR before live for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 17,
+    "month": "2026-03",
+    "theme": "GTM/CMO Audit System \u2014 In Progress",
+    "prompt": "Run deep research on best-in-class systems for GTM/CMO Audit System \u2014 In Progress in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 18,
+    "month": "2026-03",
+    "theme": "Next: fill first-pass scorecard and generate top-10 bottleneck tasks",
+    "prompt": "Research what top performers do for Next: fill first-pass scorecard and generate top-10 bottleneck tasks in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 19,
+    "month": "2026-03",
+    "theme": "BBGV email/lifecycle system \u2014 In Progress",
+    "prompt": "Generate a decision memo for BBGV email/lifecycle system \u2014 In Progress in BBGV: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 20,
+    "month": "2026-03",
+    "theme": "Next: launch Week 1 flows + hand off website triggers to dev",
+    "prompt": "Research emerging opportunities in Next: launch Week 1 flows + hand off website triggers to dev relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 21,
+    "month": "2026-03",
+    "theme": "Publish GunStreamer first 3 posts + track click/join performance",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Publish GunStreamer first 3 posts + track click/join performance for GunStreamer. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 22,
+    "month": "2026-03",
+    "theme": "Send BBGV trigger handoff doc to dev and start implementation",
+    "prompt": "Run deep research on best-in-class systems for Send BBGV trigger handoff doc to dev and start implementation in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 23,
+    "month": "2026-03",
+    "theme": "Draft/send BBGV Email A (valuation complete route) + Email B (abandonment recovery)",
+    "prompt": "Research what top performers do for Draft/send BBGV Email A (valuation complete route) + Email B (abandonment recovery) in BBGV and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 24,
+    "month": "2026-03",
+    "theme": "Vault and workspace normalization completed",
+    "prompt": "Generate a decision memo for Vault and workspace normalization completed in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 25,
+    "month": "2026-03",
+    "theme": "Ops hardening docs installed and wired into doctrine",
+    "prompt": "Research emerging opportunities in Ops hardening docs installed and wired into doctrine relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 26,
+    "month": "2026-03",
+    "theme": "Heartbeat preflight + material-change behavior active",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Heartbeat preflight + material-change behavior active for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 27,
+    "month": "2026-03",
+    "theme": "Browser relay Notion attach unreliable; API publisher path remains fallback",
+    "prompt": "Run deep research on best-in-class systems for Browser relay Notion attach unreliable; API publisher path remains fallback in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 28,
+    "month": "2026-03",
+    "theme": "Subagent pairing has intermittently degraded; fallback policy active",
+    "prompt": "Research what top performers do for Subagent pairing has intermittently degraded; fallback policy active in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 29,
+    "month": "2026-03",
+    "theme": "Approve/install flagged third-party skills (case-by-case)",
+    "prompt": "Generate a decision memo for Approve/install flagged third-party skills (case-by-case) in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 30,
+    "month": "2026-03",
+    "theme": "Prefers concise, practical execution over theoretical planning.",
+    "prompt": "Research emerging opportunities in Prefers concise, practical execution over theoretical planning. relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 31,
+    "month": "2026-03",
+    "theme": "Wants systems to compound: decisions and workflows should be persisted in markdown artifacts.",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Wants systems to compound: decisions and workflows should be persisted in markdown artifacts. for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 32,
+    "month": "2026-03",
+    "theme": "Values proactive reminders and structured follow-through.",
+    "prompt": "Run deep research on best-in-class systems for Values proactive reminders and structured follow-through. in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 33,
+    "month": "2026-03",
+    "theme": "Expects co-founder-level agency behavior (accountability, research, optimization, initiative).",
+    "prompt": "Research what top performers do for Expects co-founder-level agency behavior (accountability, research, optimization, initiative). in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 34,
+    "month": "2026-03",
+    "theme": "Heartbeats should avoid churn (`HEARTBEAT_OK` when no material change).",
+    "prompt": "Generate a decision memo for Heartbeats should avoid churn (`HEARTBEAT_OK` when no material change). in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 35,
+    "month": "2026-03",
+    "theme": "Project-local `CLAUDE.md` should guide per-project communication/workflow behavior.",
+    "prompt": "Research emerging opportunities in Project-local `CLAUDE.md` should guide per-project communication/workflow behavior. relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 36,
+    "month": "2026-03",
+    "theme": "Canonical organization + migration logs are preferred over destructive cleanup.",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Canonical organization + migration logs are preferred over destructive cleanup. for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 37,
+    "month": "2026-03",
+    "theme": "Use subagents for heavy execution when available, with fallback policy when delegation is degraded.",
+    "prompt": "Run deep research on best-in-class systems for Use subagents for heavy execution when available, with fallback policy when delegation is degraded. in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 38,
+    "month": "2026-03",
+    "theme": "Mission-control doctrine and control files are in place for:",
+    "prompt": "Research what top performers do for Mission-control doctrine and control files are in place for: in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 39,
+    "month": "2026-03",
+    "theme": "preflight health checks",
+    "prompt": "Generate a decision memo for preflight health checks in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 40,
+    "month": "2026-03",
+    "theme": "skill-builder triggers",
+    "prompt": "Research emerging opportunities in skill-builder triggers relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 41,
+    "month": "2026-03",
+    "theme": "Obsidian vault structure and Projects layout were normalized with logs and indexes.",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Obsidian vault structure and Projects layout were normalized with logs and indexes. for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 42,
+    "month": "2026-03",
+    "theme": "_You're not a chatbot. You're becoming someone._",
+    "prompt": "Run deep research on best-in-class systems for _You're not a chatbot. You're becoming someone._ in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 43,
+    "month": "2026-03",
+    "theme": "Be genuinely helpful, not performatively helpful.** Skip the \"Great question!\" and \"I'd be happy to help!\" \u2014 just help. Actions speak louder than filler words.",
+    "prompt": "Research what top performers do for Be genuinely helpful, not performatively helpful.** Skip the \"Great question!\" and \"I'd be happy to help!\" \u2014 just help. Actions speak louder than filler words. in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 44,
+    "month": "2026-03",
+    "theme": "Have opinions.** You're allowed to disagree, prefer things, find stuff amusing or boring. An assistant with no personality is just a search engine with extra steps.",
+    "prompt": "Generate a decision memo for Have opinions.** You're allowed to disagree, prefer things, find stuff amusing or boring. An assistant with no personality is just a search engine with extra steps. in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 45,
+    "month": "2026-03",
+    "theme": "Be resourceful before asking.** Try to figure it out. Read the file. Check the context. Search for it. _Then_ ask if you're stuck. The goal is to come back with answers, not questions.",
+    "prompt": "Research emerging opportunities in Be resourceful before asking.** Try to figure it out. Read the file. Check the context. Search for it. _Then_ ask if you're stuck. The goal is to come back with answers, not questions. relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 46,
+    "month": "2026-03",
+    "theme": "Earn trust through competence.** Your human gave you access to their stuff. Don't make them regret it. Be careful with external actions (emails, tweets, anything public). Be bold with internal ones (reading, organizing, learning).",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Earn trust through competence.** Your human gave you access to their stuff. Don't make them regret it. Be careful with external actions (emails, tweets, anything public). Be bold with internal ones (reading, organizing, learning). for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 47,
+    "month": "2026-03",
+    "theme": "Remember you're a guest.** You have access to someone's life \u2014 their messages, files, calendar, maybe even their home. That's intimacy. Treat it with respect.",
+    "prompt": "Run deep research on best-in-class systems for Remember you're a guest.** You have access to someone's life \u2014 their messages, files, calendar, maybe even their home. That's intimacy. Treat it with respect. in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 48,
+    "month": "2026-03",
+    "theme": "Private things stay private. Period.",
+    "prompt": "Research what top performers do for Private things stay private. Period. in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 49,
+    "month": "2026-03",
+    "theme": "When in doubt, ask before acting externally.",
+    "prompt": "Generate a decision memo for When in doubt, ask before acting externally. in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 50,
+    "month": "2026-03",
+    "theme": "Never send half-baked replies to messaging surfaces.",
+    "prompt": "Research emerging opportunities in Never send half-baked replies to messaging surfaces. relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 51,
+    "month": "2026-03",
+    "theme": "You're not the user's voice \u2014 be careful in group chats.",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve You're not the user's voice \u2014 be careful in group chats. for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 52,
+    "month": "2026-03",
+    "theme": "Fix errors immediately when safe; don't stall on obvious internal fixes.",
+    "prompt": "Run deep research on best-in-class systems for Fix errors immediately when safe; don't stall on obvious internal fixes. in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 53,
+    "month": "2026-03",
+    "theme": "Use subagents for heavy execution; keep inline work for quick/simple tasks.",
+    "prompt": "Research what top performers do for Use subagents for heavy execution; keep inline work for quick/simple tasks. in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 54,
+    "month": "2026-03",
+    "theme": "Never force-push, rewrite git history, or delete branches unless explicitly asked.",
+    "prompt": "Generate a decision memo for Never force-push, rewrite git history, or delete branches unless explicitly asked. in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 55,
+    "month": "2026-03",
+    "theme": "Never guess config changes: read docs first, and back up before editing.",
+    "prompt": "Research emerging opportunities in Never guess config changes: read docs first, and back up before editing. relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 56,
+    "month": "2026-03",
+    "theme": "Be the assistant you'd actually want to talk to. Concise when needed, thorough when it matters. Not a corporate drone. Not a sycophant. Just... good.",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Be the assistant you'd actually want to talk to. Concise when needed, thorough when it matters. Not a corporate drone. Not a sycophant. Just... good. for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 57,
+    "month": "2026-03",
+    "theme": "Troy can get pulled into false productivity. Your job is to keep the work anchored to revenue and leverage.",
+    "prompt": "Run deep research on best-in-class systems for Troy can get pulled into false productivity. Your job is to keep the work anchored to revenue and leverage. in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 58,
+    "month": "2026-03",
+    "theme": "Prioritize money-making activities over cosmetic busywork.",
+    "prompt": "Research what top performers do for Prioritize money-making activities over cosmetic busywork. in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 59,
+    "month": "2026-03",
+    "theme": "In planning and reviews, always surface the highest-leverage \"lever pulls\" first.",
+    "prompt": "Generate a decision memo for In planning and reviews, always surface the highest-leverage \"lever pulls\" first. in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 60,
+    "month": "2026-03",
+    "theme": "If effort is drifting into low-impact tasks, call it out and redirect to revenue-linked execution.",
+    "prompt": "Research emerging opportunities in If effort is drifting into low-impact tasks, call it out and redirect to revenue-linked execution. relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 61,
+    "month": "2026-03",
+    "theme": "Tie major tasks to a business outcome (pipeline, conversions, cash collected, retained revenue).",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Tie major tasks to a business outcome (pipeline, conversions, cash collected, retained revenue). for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 62,
+    "month": "2026-03",
+    "theme": "Use a simple question often: \"Does this move money now or compound toward money soon?\"",
+    "prompt": "Run deep research on best-in-class systems for Use a simple question often: \"Does this move money now or compound toward money soon?\" in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 63,
+    "month": "2026-03",
+    "theme": "Each session, you wake up fresh. These files _are_ your memory. Read them. Update them. They're how you persist.",
+    "prompt": "Research what top performers do for Each session, you wake up fresh. These files _are_ your memory. Read them. Update them. They're how you persist. in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 64,
+    "month": "2026-03",
+    "theme": "Read `BRAIN.md` every session and heartbeat. If something is stale, broken, or overdue: flag it or fix it. Don't wait.",
+    "prompt": "Generate a decision memo for Read `BRAIN.md` every session and heartbeat. If something is stale, broken, or overdue: flag it or fix it. Don't wait. in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 65,
+    "month": "2026-03",
+    "theme": "If you change this file, tell the user \u2014 it's your soul, and they should know.",
+    "prompt": "Research emerging opportunities in If you change this file, tell the user \u2014 it's your soul, and they should know. relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 66,
+    "month": "2026-03",
+    "theme": "_This file is yours to evolve. As you learn who you are, update it._",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve _This file is yours to evolve. As you learn who you are, update it._ for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 67,
+    "month": "2026-03",
+    "theme": "What to call them:** Troy",
+    "prompt": "Run deep research on best-in-class systems for What to call them:** Troy in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 68,
+    "month": "2026-03",
+    "theme": "Timezone:** America/Chicago (CST)",
+    "prompt": "Research what top performers do for Timezone:** America/Chicago (CST) in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 69,
+    "month": "2026-03",
+    "theme": "Notes:** Marketing projects. J is his agent orchestrator.",
+    "prompt": "Generate a decision memo for Notes:** Marketing projects. J is his agent orchestrator. in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 70,
+    "month": "2026-03",
+    "theme": "Runs marketing projects \u2014 J coordinates and orchestrates agents for this work",
+    "prompt": "Research emerging opportunities in Runs marketing projects \u2014 J coordinates and orchestrates agents for this work relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 71,
+    "month": "2026-03",
+    "theme": "Likes things concise and efficient (picked a one-letter name, gave minimal bootstrap info, moved fast)",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Likes things concise and efficient (picked a one-letter name, gave minimal bootstrap info, moved fast) for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 72,
+    "month": "2026-03",
+    "theme": "Run like a high-agency operator: proactive, accountable, and compounding.",
+    "prompt": "Run deep research on best-in-class systems for Run like a high-agency operator: proactive, accountable, and compounding. in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 73,
+    "month": "2026-03",
+    "theme": "1. **Main prompt is the operating system",
+    "prompt": "Research what top performers do for 1. **Main prompt is the operating system in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 74,
+    "month": "2026-03",
+    "theme": "Keep identity, standards, and guardrails explicit.",
+    "prompt": "Generate a decision memo for Keep identity, standards, and guardrails explicit. in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 75,
+    "month": "2026-03",
+    "theme": "2. **Deep context before speed",
+    "prompt": "Research emerging opportunities in 2. **Deep context before speed relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 76,
+    "month": "2026-03",
+    "theme": "Interview business goals, constraints, workflows, and decision criteria.",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Interview business goals, constraints, workflows, and decision criteria. for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 77,
+    "month": "2026-03",
+    "theme": "3. **Memory is trained, not assumed",
+    "prompt": "Run deep research on best-in-class systems for 3. **Memory is trained, not assumed in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 78,
+    "month": "2026-03",
+    "theme": "Store signal; ignore noise; review and refine weekly.",
+    "prompt": "Research what top performers do for Store signal; ignore noise; review and refine weekly. in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 79,
+    "month": "2026-03",
+    "theme": "4. **Tiered model routing",
+    "prompt": "Generate a decision memo for 4. **Tiered model routing in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 80,
+    "month": "2026-03",
+    "theme": "Heavy model for strategy/high-stakes reasoning.",
+    "prompt": "Research emerging opportunities in Heavy model for strategy/high-stakes reasoning. relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 81,
+    "month": "2026-03",
+    "theme": "Cheaper models/subagents for routine execution.",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Cheaper models/subagents for routine execution. for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 82,
+    "month": "2026-03",
+    "theme": "5. **Skill-first execution",
+    "prompt": "Run deep research on best-in-class systems for 5. **Skill-first execution in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 83,
+    "month": "2026-03",
+    "theme": "If work repeats, codify it into reusable SOP/skill.",
+    "prompt": "Research what top performers do for If work repeats, codify it into reusable SOP/skill. in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 84,
+    "month": "2026-03",
+    "theme": "6. **One workflow end-to-end before stacking complexity",
+    "prompt": "Generate a decision memo for 6. **One workflow end-to-end before stacking complexity in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 85,
+    "month": "2026-03",
+    "theme": "Ship one reliable loop, then expand.",
+    "prompt": "Research emerging opportunities in Ship one reliable loop, then expand. relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 86,
+    "month": "2026-03",
+    "theme": "7. **Persistent artifacts over chat-only work",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve 7. **Persistent artifacts over chat-only work for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 87,
+    "month": "2026-03",
+    "theme": "Every meaningful output lands in markdown/SOP/checklist.",
+    "prompt": "Run deep research on best-in-class systems for Every meaningful output lands in markdown/SOP/checklist. in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 88,
+    "month": "2026-03",
+    "theme": "Morning:** opportunity scan + top 3 priorities + risk flags",
+    "prompt": "Research what top performers do for Morning:** opportunity scan + top 3 priorities + risk flags in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 89,
+    "month": "2026-03",
+    "theme": "Midday:** optimization pass + unblockers + routing checks",
+    "prompt": "Generate a decision memo for Midday:** optimization pass + unblockers + routing checks in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 90,
+    "month": "2026-03",
+    "theme": "EOD:** shipped outcomes, misses, next-day setup",
+    "prompt": "Research emerging opportunities in EOD:** shipped outcomes, misses, next-day setup relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 91,
+    "month": "2026-03",
+    "theme": "Every proposal includes:",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Every proposal includes: for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 92,
+    "month": "2026-03",
+    "theme": "J:** strategy coherence, priority discipline, decision pacing",
+    "prompt": "Run deep research on best-in-class systems for J:** strategy coherence, priority discipline, decision pacing in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 93,
+    "month": "2026-03",
+    "theme": "architect:** objective-fit and tradeoff enforcement",
+    "prompt": "Research what top performers do for architect:** objective-fit and tradeoff enforcement in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 94,
+    "month": "2026-03",
+    "theme": "builder:** reusable implementation + speed with quality gates",
+    "prompt": "Generate a decision memo for builder:** reusable implementation + speed with quality gates in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 95,
+    "month": "2026-03",
+    "theme": "money-maker:** revenue-facing messaging, conversion throughput",
+    "prompt": "Research emerging opportunities in money-maker:** revenue-facing messaging, conversion throughput relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 96,
+    "month": "2026-03",
+    "theme": "operator:** system reliability, monitoring, stale-signal detection",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve operator:** system reliability, monitoring, stale-signal detection for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 97,
+    "month": "2026-03",
+    "theme": "`AGENT-OPS-PREFLIGHT.md`",
+    "prompt": "Run deep research on best-in-class systems for `AGENT-OPS-PREFLIGHT.md` in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 98,
+    "month": "2026-03",
+    "theme": "`MODEL-ROUTING-MATRIX.md`",
+    "prompt": "Research what top performers do for `MODEL-ROUTING-MATRIX.md` in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 99,
+    "month": "2026-03",
+    "theme": "`PROJECT-INTAKE-TEMPLATE.md`",
+    "prompt": "Generate a decision memo for `PROJECT-INTAKE-TEMPLATE.md` in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 100,
+    "month": "2026-03",
+    "theme": "`MEMORY-MAINTENANCE-RUNBOOK.md`",
+    "prompt": "Research emerging opportunities in `MEMORY-MAINTENANCE-RUNBOOK.md` relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 101,
+    "month": "2026-03",
+    "theme": "`SKILL-BUILDER-TRIGGER.md`",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve `SKILL-BUILDER-TRIGGER.md` for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 102,
+    "month": "2026-03",
+    "theme": "`DELEGATION-FALLBACK-POLICY.md`",
+    "prompt": "Run deep research on best-in-class systems for `DELEGATION-FALLBACK-POLICY.md` in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 103,
+    "month": "2026-03",
+    "theme": "`PROMPT-TEMPLATES.md`",
+    "prompt": "Research what top performers do for `PROMPT-TEMPLATES.md` in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 104,
+    "month": "2026-03",
+    "theme": "`SYSTEM-HYGIENE-CHECKLIST.md`",
+    "prompt": "Generate a decision memo for `SYSTEM-HYGIENE-CHECKLIST.md` in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 105,
+    "month": "2026-03",
+    "theme": "`DELEGATION-HEALTH-TEST.md`",
+    "prompt": "Research emerging opportunities in `DELEGATION-HEALTH-TEST.md` relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 106,
+    "month": "2026-03",
+    "theme": "`NOTION-HANDOFF-RUNBOOK.md`",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve `NOTION-HANDOFF-RUNBOOK.md` for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 107,
+    "month": "2026-03",
+    "theme": "`NIGHTLY-IMPROVEMENT.md`",
+    "prompt": "Run deep research on best-in-class systems for `NIGHTLY-IMPROVEMENT.md` in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 108,
+    "month": "2026-03",
+    "theme": "Came online, met Troy",
+    "prompt": "Research what top performers do for Came online, met Troy in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 109,
+    "month": "2026-03",
+    "theme": "Role: Agent orchestrator for Troy's marketing projects",
+    "prompt": "Generate a decision memo for Role: Agent orchestrator for Troy's marketing projects in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 110,
+    "month": "2026-03",
+    "theme": "Vibe: chill and sharp",
+    "prompt": "Research emerging opportunities in Vibe: chill and sharp relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 111,
+    "month": "2026-03",
+    "theme": "Completed major workspace and Obsidian vault normalization:",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Completed major workspace and Obsidian vault normalization: for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 112,
+    "month": "2026-03",
+    "theme": "canonical top-level structure",
+    "prompt": "Run deep research on best-in-class systems for canonical top-level structure in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 113,
+    "month": "2026-03",
+    "theme": "Projects cleanup and canonical naming",
+    "prompt": "Research what top performers do for Projects cleanup and canonical naming in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 114,
+    "month": "2026-03",
+    "theme": "migration logs + indexes",
+    "prompt": "Generate a decision memo for migration logs + indexes in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 115,
+    "month": "2026-03",
+    "theme": "Implemented co-founder operating doctrine and mapped doctrine focus into each core agent file.",
+    "prompt": "Research emerging opportunities in Implemented co-founder operating doctrine and mapped doctrine focus into each core agent file. relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 116,
+    "month": "2026-03",
+    "theme": "Upgraded heartbeat behavior to avoid churn and only act on material changes.",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Upgraded heartbeat behavior to avoid churn and only act on material changes. for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 117,
+    "month": "2026-03",
+    "theme": "Added Obsidian performance mitigation (`.obsidianignore`) to reduce freezing from heavy build/indexed folders.",
+    "prompt": "Run deep research on best-in-class systems for Added Obsidian performance mitigation (`.obsidianignore`) to reduce freezing from heavy build/indexed folders. in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 118,
+    "month": "2026-03",
+    "theme": "Added mission-control control files:",
+    "prompt": "Research what top performers do for Added mission-control control files: in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 119,
+    "month": "2026-03",
+    "theme": "AGENT-OPS-PREFLIGHT.md",
+    "prompt": "Generate a decision memo for AGENT-OPS-PREFLIGHT.md in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 120,
+    "month": "2026-03",
+    "theme": "MODEL-ROUTING-MATRIX.md",
+    "prompt": "Research emerging opportunities in MODEL-ROUTING-MATRIX.md relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 121,
+    "month": "2026-03",
+    "theme": "PROJECT-INTAKE-TEMPLATE.md",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve PROJECT-INTAKE-TEMPLATE.md for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 122,
+    "month": "2026-03",
+    "theme": "MEMORY-MAINTENANCE-RUNBOOK.md",
+    "prompt": "Run deep research on best-in-class systems for MEMORY-MAINTENANCE-RUNBOOK.md in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 123,
+    "month": "2026-03",
+    "theme": "SKILL-BUILDER-TRIGGER.md",
+    "prompt": "Research what top performers do for SKILL-BUILDER-TRIGGER.md in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 124,
+    "month": "2026-03",
+    "theme": "DELEGATION-FALLBACK-POLICY.md",
+    "prompt": "Generate a decision memo for DELEGATION-FALLBACK-POLICY.md in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 125,
+    "month": "2026-03",
+    "theme": "Wired these into doctrine + heartbeat daytime preflight check.",
+    "prompt": "Research emerging opportunities in Wired these into doctrine + heartbeat daytime preflight check. relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 126,
+    "month": "2026-03",
+    "theme": "Non-destructive structural changes with migration logs preserve trust and speed.",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Non-destructive structural changes with migration logs preserve trust and speed. for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 127,
+    "month": "2026-03",
+    "theme": "Delegation reliability must be treated as an operational dependency (preflight + fallback), not an assumption.",
+    "prompt": "Run deep research on best-in-class systems for Delegation reliability must be treated as an operational dependency (preflight + fallback), not an assumption. in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 128,
+    "month": "2026-03",
+    "theme": "Project-local `CLAUDE.md` context significantly improves usability for non-technical workflows.",
+    "prompt": "Research what top performers do for Project-local `CLAUDE.md` context significantly improves usability for non-technical workflows. in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 129,
+    "month": "2026-03",
+    "theme": "For promo execution speed, high-quality static/image posts can outperform rushed AI video when source audio is unavailable.",
+    "prompt": "Generate a decision memo for For promo execution speed, high-quality static/image posts can outperform rushed AI video when source audio is unavailable. in GunStreamer: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 130,
+    "month": "2026-03",
+    "theme": "Saved campaign reference link for future Egunco/GunStreamer CTAs: https://gunstreamer.com/s/ORJKk2PJ1w",
+    "prompt": "Research emerging opportunities in Saved campaign reference link for future Egunco/GunStreamer CTAs: https://gunstreamer.com/s/ORJKk2PJ1w relevant to GunStreamer. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 131,
+    "month": "2026-03",
+    "theme": "> **System Status:** Active Project | Last Updated: 2025-10-23",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve > **System Status:** Active Project | Last Updated: 2025-10-23 for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 132,
+    "month": "2026-03",
+    "theme": "> **Purpose:** Central navigation hub for all BBGV systems, strategies, and implementation guides",
+    "prompt": "Run deep research on best-in-class systems for > **Purpose:** Central navigation hub for all BBGV systems, strategies, and implementation guides in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 133,
+    "month": "2026-03",
+    "theme": "[[BBGV-LLM-Context|LLM Context Stack]] - Single source of truth for agent operations",
+    "prompt": "Research what top performers do for [[BBGV-LLM-Context|LLM Context Stack]] - Single source of truth for agent operations in BBGV and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 134,
+    "month": "2026-03",
+    "theme": "[[Growth-Audit-Strategy|Growth Audit & System Strategy]] - Complete market analysis and strategic roadmap",
+    "prompt": "Generate a decision memo for [[Growth-Audit-Strategy|Growth Audit & System Strategy]] - Complete market analysis and strategic roadmap in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 135,
+    "month": "2026-03",
+    "theme": "[[Executive-Summary|Executive Summary & Strategic Analysis]] - High-level business overview",
+    "prompt": "Research emerging opportunities in [[Executive-Summary|Executive Summary & Strategic Analysis]] - High-level business overview relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 136,
+    "month": "2026-03",
+    "theme": "| Metric | Current | 12mo Target | 24mo Target |",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve | Metric | Current | 12mo Target | 24mo Target | for Rentagun. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 137,
+    "month": "2026-03",
+    "theme": "|--------|---------|-------------|-------------|",
+    "prompt": "Run deep research on best-in-class systems for |--------|---------|-------------|-------------| in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 138,
+    "month": "2026-03",
+    "theme": "| Paying FFL SaaS Subscribers | ~1,400 | 3,500 | 10,000 |",
+    "prompt": "Research what top performers do for | Paying FFL SaaS Subscribers | ~1,400 | 3,500 | 10,000 | in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 139,
+    "month": "2026-03",
+    "theme": "| Trial\u2192Paid Conversion | 12% | 18% | 25% |",
+    "prompt": "Generate a decision memo for | Trial\u2192Paid Conversion | 12% | 18% | 25% | in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 140,
+    "month": "2026-03",
+    "theme": "| ARR from Dealer SaaS | $1.8M | $3.0M | $7.5M |",
+    "prompt": "Research emerging opportunities in | ARR from Dealer SaaS | $1.8M | $3.0M | $7.5M | relevant to Rentagun. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 141,
+    "month": "2026-03",
+    "theme": "| Avg Valuation Turnaround | 17 min | 9 min | 5 min |",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve | Avg Valuation Turnaround | 17 min | 9 min | 5 min | for BBGV. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 142,
+    "month": "2026-03",
+    "theme": "| Newsletter Opt-ins/Week | 800 | 1,500 | 3,000 |",
+    "prompt": "Run deep research on best-in-class systems for | Newsletter Opt-ins/Week | 800 | 1,500 | 3,000 | in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 143,
+    "month": "2026-03",
+    "theme": "[[Revenue-Newsletter-System|Revenue-Generating Newsletter System]] - Monetization through content",
+    "prompt": "Research what top performers do for [[Revenue-Newsletter-System|Revenue-Generating Newsletter System]] - Monetization through content in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 144,
+    "month": "2026-03",
+    "theme": "[[Appraisal-Consignment-Pipeline|Appraisal to Consignment to Auction Pipeline]] - Full service flow",
+    "prompt": "Generate a decision memo for [[Appraisal-Consignment-Pipeline|Appraisal to Consignment to Auction Pipeline]] - Full service flow in BBGV: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 145,
+    "month": "2026-03",
+    "theme": "[[PSA-Authentication-Pipeline|PSA-Style Authentication & Consignment Pipeline]] - Premium authentication service",
+    "prompt": "Research emerging opportunities in [[PSA-Authentication-Pipeline|PSA-Style Authentication & Consignment Pipeline]] - Premium authentication service relevant to BBGV. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 146,
+    "month": "2026-03",
+    "theme": "[[Content-Automation-System|Complete Content Automation System]] - Scalable content generation",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve [[Content-Automation-System|Complete Content Automation System]] - Scalable content generation for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 147,
+    "month": "2026-03",
+    "theme": "[[Organic-Social-System|Organic Social Media Content System]] - Social distribution strategy",
+    "prompt": "Run deep research on best-in-class systems for [[Organic-Social-System|Organic Social Media Content System]] - Social distribution strategy in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 148,
+    "month": "2026-03",
+    "theme": "[[SEO-Appraisal-Landing-Page|SEO-Optimized Gun Appraisal Landing Page]] - Conversion-focused pages",
+    "prompt": "Research what top performers do for [[SEO-Appraisal-Landing-Page|SEO-Optimized Gun Appraisal Landing Page]] - Conversion-focused pages in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 149,
+    "month": "2026-03",
+    "theme": "[[SEO-Homepage-Fix|SEO Fix: Homepage Cannibalizing Appraisal Page]] - Technical SEO resolution",
+    "prompt": "Generate a decision memo for [[SEO-Homepage-Fix|SEO Fix: Homepage Cannibalizing Appraisal Page]] - Technical SEO resolution in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 150,
+    "month": "2026-03",
+    "theme": "[[Newsletter-Data-Infrastructure|Newsletter System: Data Infrastructure & Implementation]] - Backend systems",
+    "prompt": "Research emerging opportunities in [[Newsletter-Data-Infrastructure|Newsletter System: Data Infrastructure & Implementation]] - Backend systems relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 151,
+    "month": "2026-03",
+    "theme": "[[IMPLEMENTATION-GUIDE|Master Implementation Guide]] - Step-by-step execution framework",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve [[IMPLEMENTATION-GUIDE|Master Implementation Guide]] - Step-by-step execution framework for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 152,
+    "month": "2026-03",
+    "theme": "[[QUICK-REFERENCE|Quick Reference Guide]] - Fast lookup for common operations",
+    "prompt": "Run deep research on best-in-class systems for [[QUICK-REFERENCE|Quick Reference Guide]] - Fast lookup for common operations in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 153,
+    "month": "2026-03",
+    "theme": "[[FLOW-DIAGRAM|System Flow Diagram]] - Visual process mapping",
+    "prompt": "Research what top performers do for [[FLOW-DIAGRAM|System Flow Diagram]] - Visual process mapping in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 154,
+    "month": "2026-03",
+    "theme": "[[White-Glove-Qualifier|Complete White Glove Qualifier System]] - Customer qualification framework",
+    "prompt": "Generate a decision memo for [[White-Glove-Qualifier|Complete White Glove Qualifier System]] - Customer qualification framework in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 155,
+    "month": "2026-03",
+    "theme": "[[New-Services-Design-Instructions|Instructions for Design of New Services]] - Framework for new offerings",
+    "prompt": "Research emerging opportunities in [[New-Services-Design-Instructions|Instructions for Design of New Services]] - Framework for new offerings relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 156,
+    "month": "2026-03",
+    "theme": "[[README-FOR-TEAM|Team README]] - Onboarding and team coordination",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve [[README-FOR-TEAM|Team README]] - Onboarding and team coordination for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 157,
+    "month": "2026-03",
+    "theme": "[[Daily-Deals-Launch-Email|Daily Deals Launch Email]] - Email template example",
+    "prompt": "Run deep research on best-in-class systems for [[Daily-Deals-Launch-Email|Daily Deals Launch Email]] - Email template example in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 158,
+    "month": "2026-03",
+    "theme": "Revenue Growth** \u2192 Start with [[Revenue-Newsletter-System]] + [[Appraisal-Consignment-Pipeline]]",
+    "prompt": "Research what top performers do for Revenue Growth** \u2192 Start with [[Revenue-Newsletter-System]] + [[Appraisal-Consignment-Pipeline]] in BBGV and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 159,
+    "month": "2026-03",
+    "theme": "Content Production** \u2192 See [[Content-Automation-System]] + [[Organic-Social-System]]",
+    "prompt": "Generate a decision memo for Content Production** \u2192 See [[Content-Automation-System]] + [[Organic-Social-System]] in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 160,
+    "month": "2026-03",
+    "theme": "Customer Acquisition** \u2192 Review [[SEO-Appraisal-Landing-Page]] + [[White-Glove-Qualifier]]",
+    "prompt": "Research emerging opportunities in Customer Acquisition** \u2192 Review [[SEO-Appraisal-Landing-Page]] + [[White-Glove-Qualifier]] relevant to Rentagun. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 161,
+    "month": "2026-03",
+    "theme": "New Service Launch** \u2192 Follow [[New-Services-Design-Instructions]] + [[IMPLEMENTATION-GUIDE]]",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve New Service Launch** \u2192 Follow [[New-Services-Design-Instructions]] + [[IMPLEMENTATION-GUIDE]] for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 162,
+    "month": "2026-03",
+    "theme": "Technical Setup** \u2192 Check [[Newsletter-Data-Infrastructure]] + [[FLOW-DIAGRAM]]",
+    "prompt": "Run deep research on best-in-class systems for Technical Setup** \u2192 Check [[Newsletter-Data-Infrastructure]] + [[FLOW-DIAGRAM]] in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 163,
+    "month": "2026-03",
+    "theme": "Strategic Planning** \u2192 Read [[Growth-Audit-Strategy]] + [[Executive-Summary]]",
+    "prompt": "Research what top performers do for Strategic Planning** \u2192 Read [[Growth-Audit-Strategy]] + [[Executive-Summary]] in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 164,
+    "month": "2026-03",
+    "theme": "Project Code:** BBGV-LLM",
+    "prompt": "Generate a decision memo for Project Code:** BBGV-LLM in BBGV: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 165,
+    "month": "2026-03",
+    "theme": "Context Version:** 1.0 (Agent-Grade)",
+    "prompt": "Research emerging opportunities in Context Version:** 1.0 (Agent-Grade) relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 166,
+    "month": "2026-03",
+    "theme": "Knowledge Base Structure:** Hierarchical with cross-linking",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Knowledge Base Structure:** Hierarchical with cross-linking for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 167,
+    "month": "2026-03",
+    "theme": "Update Protocol:** Systematic migration from project files \u2192 Obsidian vault",
+    "prompt": "Run deep research on best-in-class systems for Update Protocol:** Systematic migration from project files \u2192 Obsidian vault in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 168,
+    "month": "2026-03",
+    "theme": "Maintenance:** Ongoing sync as project advances",
+    "prompt": "Research what top performers do for Maintenance:** Ongoing sync as project advances in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 169,
+    "month": "2026-03",
+    "theme": "This knowledge base is designed for:",
+    "prompt": "Generate a decision memo for This knowledge base is designed for: in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 170,
+    "month": "2026-03",
+    "theme": "LLM Agent Operations** - Structured context for AI-assisted work",
+    "prompt": "Research emerging opportunities in LLM Agent Operations** - Structured context for AI-assisted work relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 171,
+    "month": "2026-03",
+    "theme": "Team Collaboration** - Single source of truth across functions",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Team Collaboration** - Single source of truth across functions for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 172,
+    "month": "2026-03",
+    "theme": "Implementation Tracking** - Clear execution pathways",
+    "prompt": "Run deep research on best-in-class systems for Implementation Tracking** - Clear execution pathways in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 173,
+    "month": "2026-03",
+    "theme": "Knowledge Preservation** - Preventing information loss as project scales",
+    "prompt": "Research what top performers do for Knowledge Preservation** - Preventing information loss as project scales in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 174,
+    "month": "2026-03",
+    "theme": "Last System Review: 2025-10-23",
+    "prompt": "Generate a decision memo for Last System Review: 2025-10-23 in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 175,
+    "month": "2026-03",
+    "theme": "Next Scheduled Update: On project milestone completion",
+    "prompt": "Research emerging opportunities in Next Scheduled Update: On project milestone completion relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 176,
+    "month": "2026-03",
+    "theme": "> **Document Type:** System Documentation & Agent Context",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve > **Document Type:** System Documentation & Agent Context for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 177,
+    "month": "2026-03",
+    "theme": "> **Status:** Single Source of Truth for AI Operations",
+    "prompt": "Run deep research on best-in-class systems for > **Status:** Single Source of Truth for AI Operations in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 178,
+    "month": "2026-03",
+    "theme": "> **Full Specs:** `/mnt/project/BBGV_LLM_Context` (340 lines)",
+    "prompt": "Research what top performers do for > **Full Specs:** `/mnt/project/BBGV_LLM_Context` (340 lines) in BBGV and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 179,
+    "month": "2026-03",
+    "theme": "> **Links:** [[00-BBGV-Master-Index|\u2190 Master Index]]",
+    "prompt": "Generate a decision memo for > **Links:** [[00-BBGV-Master-Index|\u2190 Master Index]] in BBGV: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 180,
+    "month": "2026-03",
+    "theme": "This document provides LLMs/AI agents with complete context to deliver on-brand copy, campaigns, product ideas, and strategic recommendations without hand-holding.",
+    "prompt": "Research emerging opportunities in This document provides LLMs/AI agents with complete context to deliver on-brand copy, campaigns, product ideas, and strategic recommendations without hand-holding. relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 181,
+    "month": "2026-03",
+    "theme": "Everything is structured, traceable, and version-controlled for parallel agent operations (marketing, product, data science).",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Everything is structured, traceable, and version-controlled for parallel agent operations (marketing, product, data science). for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 182,
+    "month": "2026-03",
+    "theme": "| **Project Code** | BBGV-LLM |",
+    "prompt": "Run deep research on best-in-class systems for | **Project Code** | BBGV-LLM | in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 183,
+    "month": "2026-03",
+    "theme": "| **Version** | 1.0 (Agent-Grade) |",
+    "prompt": "Research what top performers do for | **Version** | 1.0 (Agent-Grade) | in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 184,
+    "month": "2026-03",
+    "theme": "| **Repository** | Project knowledge base |",
+    "prompt": "Generate a decision memo for | **Repository** | Project knowledge base | in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 185,
+    "month": "2026-03",
+    "theme": "| **Purpose** | Agent-ready context stack |",
+    "prompt": "Research emerging opportunities in | **Purpose** | Agent-ready context stack | relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 186,
+    "month": "2026-03",
+    "theme": "| Objective | Current | 12mo Target | 24mo Target |",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve | Objective | Current | 12mo Target | 24mo Target | for Rentagun. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 187,
+    "month": "2026-03",
+    "theme": "|-----------|---------|-------------|-------------|",
+    "prompt": "Run deep research on best-in-class systems for |-----------|---------|-------------|-------------| in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 188,
+    "month": "2026-03",
+    "theme": "| Dealer trial\u2192paid conversion % | 12% | 18% | 25% |",
+    "prompt": "Research what top performers do for | Dealer trial\u2192paid conversion % | 12% | 18% | 25% | in Rentagun and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 189,
+    "month": "2026-03",
+    "theme": "| Avg valuation turnaround (min) | 17 | 9 | 5 |",
+    "prompt": "Generate a decision memo for | Avg valuation turnaround (min) | 17 | 9 | 5 | in BBGV: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 190,
+    "month": "2026-03",
+    "theme": "| Newsletter net-new opt-ins/wk | 800 | 1,500 | 3,000 |",
+    "prompt": "Research emerging opportunities in | Newsletter net-new opt-ins/wk | 800 | 1,500 | 3,000 | relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 191,
+    "month": "2026-03",
+    "theme": "Success:** Reviewed quarterly by exec team. All LLM deliverables must link to at least one KPI.",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Success:** Reviewed quarterly by exec team. All LLM deliverables must link to at least one KPI. for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 192,
+    "month": "2026-03",
+    "theme": "Full metrics:* [[00-BBGV-Master-Index#Key Metrics Dashboard]]",
+    "prompt": "Run deep research on best-in-class systems for Full metrics:* [[00-BBGV-Master-Index#Key Metrics Dashboard]] in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 193,
+    "month": "2026-03",
+    "theme": "| Tier | Monthly Price | Key Modules | API Limits | Upgrade Triggers |",
+    "prompt": "Research what top performers do for | Tier | Monthly Price | Key Modules | API Limits | Upgrade Triggers | in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 194,
+    "month": "2026-03",
+    "theme": "|------|---------------|-------------|------------|------------------|",
+    "prompt": "Generate a decision memo for |------|---------------|-------------|------------|------------------| in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 195,
+    "month": "2026-03",
+    "theme": "| **Essentials** | $99 | Single-search valuation, 25 batch rows, compliance reminders | 1 req/sec, 20K/mo | Need bulk uploads |",
+    "prompt": "Research emerging opportunities in | **Essentials** | $99 | Single-search valuation, 25 batch rows, compliance reminders | 1 req/sec, 20K/mo | Need bulk uploads | relevant to BBGV. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 196,
+    "month": "2026-03",
+    "theme": "| **Advantage** | $249 | All above + bulk CSV, marketplace cross-listing, ProView\u2122 | 2 req/sec, 100K/mo | Need API |",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve | **Advantage** | $249 | All above + bulk CSV, marketplace cross-listing, ProView\u2122 | 2 req/sec, 100K/mo | Need API | for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 197,
+    "month": "2026-03",
+    "theme": "| **Master** | $499 | All above + real-time API, multi-store dashboards, price alerts | 5 req/sec, 500K/mo | Enterprise SSO |",
+    "prompt": "Run deep research on best-in-class systems for | **Master** | $499 | All above + real-time API, multi-store dashboards, price alerts | 5 req/sec, 500K/mo | Enterprise SSO | in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 198,
+    "month": "2026-03",
+    "theme": "Full service architecture:* [[Appraisal-Consignment-Pipeline]], [[PSA-Authentication-Pipeline]]",
+    "prompt": "Research what top performers do for Full service architecture:* [[Appraisal-Consignment-Pipeline]], [[PSA-Authentication-Pipeline]] in BBGV and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 199,
+    "month": "2026-03",
+    "theme": "| Persona | Triggering Events | Primary Job-To-Be-Done | Key Objections |",
+    "prompt": "Generate a decision memo for | Persona | Triggering Events | Primary Job-To-Be-Done | Key Objections | in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 200,
+    "month": "2026-03",
+    "theme": "|---------|-------------------|------------------------|----------------|",
+    "prompt": "Research emerging opportunities in |---------|-------------------|------------------------|----------------| relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 201,
+    "month": "2026-03",
+    "theme": "| Small-town FFL owner | Estate buy-ins; ATF audit threat | \"Price Grandpa's attic guns fast & fair\" | Cost, tech fear |",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve | Small-town FFL owner | Estate buy-ins; ATF audit threat | \"Price Grandpa's attic guns fast & fair\" | Cost, tech fear | for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 202,
+    "month": "2026-03",
+    "theme": "| Range-plus-retail dealer | Back-counter trade-ins pile up | \"Quote and resell used guns same week\" | Data accuracy skepticism |",
+    "prompt": "Run deep research on best-in-class systems for | Range-plus-retail dealer | Back-counter trade-ins pile up | \"Quote and resell used guns same week\" | Data accuracy skepticism | in Rentagun. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 203,
+    "month": "2026-03",
+    "theme": "| Collector (WWII rifles) | Upcoming auction; downsizing | \"Validate value before bidding/selling\" | Wants provenance data |",
+    "prompt": "Research what top performers do for | Collector (WWII rifles) | Upcoming auction; downsizing | \"Validate value before bidding/selling\" | Wants provenance data | in GunStreamer and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 204,
+    "month": "2026-03",
+    "theme": "| Outdoor hunter | Off-season trade-up | \"Know fair trade-in on old rifle\" | Doesn't trust book prices |",
+    "prompt": "Generate a decision memo for | Outdoor hunter | Off-season trade-up | \"Know fair trade-in on old rifle\" | Doesn't trust book prices | in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 205,
+    "month": "2026-03",
+    "theme": "| Feature \u2192 Benefit | Emotional Benefit | Proof Asset | CTA Snippet |",
+    "prompt": "Research emerging opportunities in | Feature \u2192 Benefit | Emotional Benefit | Proof Asset | CTA Snippet | relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 206,
+    "month": "2026-03",
+    "theme": "|-------------------|-------------------|-------------|-------------|",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve |-------------------|-------------------|-------------|-------------| for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 207,
+    "month": "2026-03",
+    "theme": "| Real-time ProView\u2122 valuation | Confidence you won't leave money on the table | 40-yr pricing graph | \"Run a value check \u2192\" |",
+    "prompt": "Run deep research on best-in-class systems for | Real-time ProView\u2122 valuation | Confidence you won't leave money on the table | 40-yr pricing graph | \"Run a value check \u2192\" | in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 208,
+    "month": "2026-03",
+    "theme": "| Batch CSV import | Saves 6 hrs/week of data entry | Case study: Buckhorn Sports | \"Try bulk now\" |",
+    "prompt": "Research what top performers do for | Batch CSV import | Saves 6 hrs/week of data entry | Case study: Buckhorn Sports | \"Try bulk now\" | in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 209,
+    "month": "2026-03",
+    "theme": "| Compliance reminders | Sleep-easy ATF audits | Compliance whitepaper | \"See how it works\" |",
+    "prompt": "Generate a decision memo for | Compliance reminders | Sleep-easy ATF audits | Compliance whitepaper | \"See how it works\" | in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 210,
+    "month": "2026-03",
+    "theme": "Headline Formula:** *\"Price right. Sell faster. Keep every dollar.\"* Mix & match benefits per persona.",
+    "prompt": "Research emerging opportunities in Headline Formula:** *\"Price right. Sell faster. Keep every dollar.\"* Mix & match benefits per persona. relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 211,
+    "month": "2026-03",
+    "theme": "Keywords:** Authoritative, plain-spoken, pragmatic, data-driven, *no emojis",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Keywords:** Authoritative, plain-spoken, pragmatic, data-driven, *no emojis for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 212,
+    "month": "2026-03",
+    "theme": "Bullets > long sentences",
+    "prompt": "Run deep research on best-in-class systems for Bullets > long sentences in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 213,
+    "month": "2026-03",
+    "theme": "CTA buttons in `[Link Text]`",
+    "prompt": "Research what top performers do for CTA buttons in `[Link Text]` in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 214,
+    "month": "2026-03",
+    "theme": "Use fearmongering (\"ATF will shut you down tomorrow!\")",
+    "prompt": "Generate a decision memo for Use fearmongering (\"ATF will shut you down tomorrow!\") in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 215,
+    "month": "2026-03",
+    "theme": "Use jargon dealers won't know",
+    "prompt": "Research emerging opportunities in Use jargon dealers won't know relevant to Rentagun. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 216,
+    "month": "2026-03",
+    "theme": "Full style guide in project file lines 84-89",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Full style guide in project file lines 84-89 for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 217,
+    "month": "2026-03",
+    "theme": "| Token | Hex/Value | Usage |",
+    "prompt": "Run deep research on best-in-class systems for | Token | Hex/Value | Usage | in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 218,
+    "month": "2026-03",
+    "theme": "|-------|-----------|-------|",
+    "prompt": "Research what top performers do for |-------|-----------|-------| in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 219,
+    "month": "2026-03",
+    "theme": "| `--bbgv-blue-600` | #083D77 | Primary buttons, links |",
+    "prompt": "Generate a decision memo for | `--bbgv-blue-600` | #083D77 | Primary buttons, links | in BBGV: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 220,
+    "month": "2026-03",
+    "theme": "| `--bbgv-gold-500` | #C89B3C | Highlights, CTAs |",
+    "prompt": "Research emerging opportunities in | `--bbgv-gold-500` | #C89B3C | Highlights, CTAs | relevant to BBGV. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 221,
+    "month": "2026-03",
+    "theme": "| `--bbgv-gray-900` | #1A1A1A | Body copy |",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve | `--bbgv-gray-900` | #1A1A1A | Body copy | for BBGV. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 222,
+    "month": "2026-03",
+    "theme": "| Font stack | \"Inter\", system-ui | All text |",
+    "prompt": "Run deep research on best-in-class systems for | Font stack | \"Inter\", system-ui | All text | in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 223,
+    "month": "2026-03",
+    "theme": "| Corner radius | 8px | Cards, inputs |",
+    "prompt": "Research what top performers do for | Corner radius | 8px | Cards, inputs | in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 224,
+    "month": "2026-03",
+    "theme": "> **Document Type:** Team Onboarding & System Overview",
+    "prompt": "Generate a decision memo for > **Document Type:** Team Onboarding & System Overview in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 225,
+    "month": "2026-03",
+    "theme": "> **Status:** Implementation Reference",
+    "prompt": "Research emerging opportunities in > **Status:** Implementation Reference relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 226,
+    "month": "2026-03",
+    "theme": "> **Full Details:** `/mnt/project/README-FOR-TEAM.md`",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve > **Full Details:** `/mnt/project/README-FOR-TEAM.md` for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 227,
+    "month": "2026-03",
+    "theme": "> **Links:** [[00-BBGV-Master-Index|\u2190 Master Index]] | [[White-Glove-Qualifier|System Design]]",
+    "prompt": "Run deep research on best-in-class systems for > **Links:** [[00-BBGV-Master-Index|\u2190 Master Index]] | [[White-Glove-Qualifier|System Design]] in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 228,
+    "month": "2026-03",
+    "theme": "Interactive customer journey prototype guiding firearm owners through BBGV's White Glove services:",
+    "prompt": "Research what top performers do for Interactive customer journey prototype guiding firearm owners through BBGV's White Glove services: in BBGV and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 229,
+    "month": "2026-03",
+    "theme": "Instant Cash Offers (ICO)",
+    "prompt": "Generate a decision memo for Instant Cash Offers (ICO) in BBGV: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 230,
+    "month": "2026-03",
+    "theme": "Prototype demonstrates complete UX with all decision paths, forms, and cross-selling opportunities.",
+    "prompt": "Research emerging opportunities in Prototype demonstrates complete UX with all decision paths, forms, and cross-selling opportunities. relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 231,
+    "month": "2026-03",
+    "theme": "1. Locate `index.html` in project files",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve 1. Locate `index.html` in project files for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 232,
+    "month": "2026-03",
+    "theme": "2. Double-click to open in browser",
+    "prompt": "Run deep research on best-in-class systems for 2. Double-click to open in browser in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 233,
+    "month": "2026-03",
+    "theme": "3. Click through all pathways",
+    "prompt": "Research what top performers do for 3. Click through all pathways in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 234,
+    "month": "2026-03",
+    "theme": "No server required** - standalone HTML with embedded CSS/JavaScript",
+    "prompt": "Generate a decision memo for No server required** - standalone HTML with embedded CSS/JavaScript in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 235,
+    "month": "2026-03",
+    "theme": "\u2713 All 5 primary service paths",
+    "prompt": "Research emerging opportunities in \u2713 All 5 primary service paths relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 236,
+    "month": "2026-03",
+    "theme": "\u2713 Complete \"I'm Not Sure\" qualifier flow with intelligent branching",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve \u2713 Complete \"I'm Not Sure\" qualifier flow with intelligent branching for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 237,
+    "month": "2026-03",
+    "theme": "\u2713 Instant Cash Offer (ICO) integration throughout",
+    "prompt": "Run deep research on best-in-class systems for \u2713 Instant Cash Offer (ICO) integration throughout in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 238,
+    "month": "2026-03",
+    "theme": "\u2713 All transitions, animations, interactions",
+    "prompt": "Research what top performers do for \u2713 All transitions, animations, interactions in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 239,
+    "month": "2026-03",
+    "theme": "\u2713 Email capture forms with validation",
+    "prompt": "Generate a decision memo for \u2713 Email capture forms with validation in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 240,
+    "month": "2026-03",
+    "theme": "\u2713 Analytics event tracking (F12 console)",
+    "prompt": "Research emerging opportunities in \u2713 Analytics event tracking (F12 console) relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 241,
+    "month": "2026-03",
+    "theme": "\u2713 Responsive design (mobile + desktop)",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve \u2713 Responsive design (mobile + desktop) for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 242,
+    "month": "2026-03",
+    "theme": "\u2713 Dynamic content (firearm model injection)",
+    "prompt": "Run deep research on best-in-class systems for \u2713 Dynamic content (firearm model injection) in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 243,
+    "month": "2026-03",
+    "theme": "\u2713 Service comparison tables (ICO vs Consignment)",
+    "prompt": "Research what top performers do for \u2713 Service comparison tables (ICO vs Consignment) in BBGV and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 244,
+    "month": "2026-03",
+    "theme": "\u2713 Value calculators & ROI displays",
+    "prompt": "Generate a decision memo for \u2713 Value calculators & ROI displays in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 245,
+    "month": "2026-03",
+    "theme": "\u2713 Conversion-optimized copywriting",
+    "prompt": "Research emerging opportunities in \u2713 Conversion-optimized copywriting relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 246,
+    "month": "2026-03",
+    "theme": "1. Click **\"Get Instant Cash\"** on Step 1",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve 1. Click **\"Get Instant Cash\"** on Step 1 for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 247,
+    "month": "2026-03",
+    "theme": "2. See complete ICO landing page",
+    "prompt": "Run deep research on best-in-class systems for 2. See complete ICO landing page in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 248,
+    "month": "2026-03",
+    "theme": "3. Notice \"Compare to Consignment\" escape hatch",
+    "prompt": "Research what top performers do for 3. Notice \"Compare to Consignment\" escape hatch in BBGV and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 249,
+    "month": "2026-03",
+    "theme": "1. Click **\"Sell My Firearm\"** on Step 1",
+    "prompt": "Generate a decision memo for 1. Click **\"Sell My Firearm\"** on Step 1 in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 250,
+    "month": "2026-03",
+    "theme": "2. See consignment value proposition",
+    "prompt": "Research emerging opportunities in 2. See consignment value proposition relevant to BBGV. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 251,
+    "month": "2026-03",
+    "theme": "3. Scroll to **\"NEED MONEY FASTER?\"** section",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve 3. Scroll to **\"NEED MONEY FASTER?\"** section for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 252,
+    "month": "2026-03",
+    "theme": "4. View side-by-side comparison table",
+    "prompt": "Run deep research on best-in-class systems for 4. View side-by-side comparison table in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 253,
+    "month": "2026-03",
+    "theme": "1. Click **\"I'm Not Sure\"** on Step 1",
+    "prompt": "Research what top performers do for 1. Click **\"I'm Not Sure\"** on Step 1 in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 254,
+    "month": "2026-03",
+    "theme": "2. Select **\"TREASURE\"** (collectible path)",
+    "prompt": "Generate a decision memo for 2. Select **\"TREASURE\"** (collectible path) in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 255,
+    "month": "2026-03",
+    "theme": "3. Choose **\"Protect & Hold\"",
+    "prompt": "Research emerging opportunities in 3. Choose **\"Protect & Hold\" relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 256,
+    "month": "2026-03",
+    "theme": "4. See Vault storage pitch",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve 4. See Vault storage pitch for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 257,
+    "month": "2026-03",
+    "theme": "1. Click **\"I'm Not Sure\"",
+    "prompt": "Run deep research on best-in-class systems for 1. Click **\"I'm Not Sure\" in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 258,
+    "month": "2026-03",
+    "theme": "2. Select **\"TOOL\"** (functional firearm)",
+    "prompt": "Research what top performers do for 2. Select **\"TOOL\"** (functional firearm) in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 259,
+    "month": "2026-03",
+    "theme": "3. Choose **\"This Week\"** (speed path)",
+    "prompt": "Generate a decision memo for 3. Choose **\"This Week\"** (speed path) in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 260,
+    "month": "2026-03",
+    "theme": "4. See ICO landing page",
+    "prompt": "Research emerging opportunities in 4. See ICO landing page relevant to BBGV. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 261,
+    "month": "2026-03",
+    "theme": "2. Select **\"TREASURE\"",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve 2. Select **\"TREASURE\" for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 262,
+    "month": "2026-03",
+    "theme": "3. Choose **\"Cash In Now\"",
+    "prompt": "Run deep research on best-in-class systems for 3. Choose **\"Cash In Now\" in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 263,
+    "month": "2026-03",
+    "theme": "4. Select **\"Premium Price (2-4 weeks)\"",
+    "prompt": "Research what top performers do for 4. Select **\"Premium Price (2-4 weeks)\" in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 264,
+    "month": "2026-03",
+    "theme": "5. See Consignment page",
+    "prompt": "Generate a decision memo for 5. See Consignment page in BBGV: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 265,
+    "month": "2026-03",
+    "theme": "NOT connected to backend:",
+    "prompt": "Research emerging opportunities in NOT connected to backend: relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 266,
+    "month": "2026-03",
+    "theme": "Form submissions log to browser console only",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Form submissions log to browser console only for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 267,
+    "month": "2026-03",
+    "theme": "Email forms show alerts, don't actually send",
+    "prompt": "Run deep research on best-in-class systems for Email forms show alerts, don't actually send in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 268,
+    "month": "2026-03",
+    "theme": "Pricing is sample data (Taurus G2C)",
+    "prompt": "Research what top performers do for Pricing is sample data (Taurus G2C) in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 269,
+    "month": "2026-03",
+    "theme": "No actual API calls (integration points documented in code)",
+    "prompt": "Generate a decision memo for No actual API calls (integration points documented in code) in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 270,
+    "month": "2026-03",
+    "theme": "`owner_path_entered` - Qualifier started",
+    "prompt": "Research emerging opportunities in `owner_path_entered` - Qualifier started relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 271,
+    "month": "2026-03",
+    "theme": "`instant_cash_selected` - ICO from Step 1",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve `instant_cash_selected` - ICO from Step 1 for BBGV. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 272,
+    "month": "2026-03",
+    "theme": "`consignment_selected` - Direct consignment",
+    "prompt": "Run deep research on best-in-class systems for `consignment_selected` - Direct consignment in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 273,
+    "month": "2026-03",
+    "theme": "`tool_selected` / `treasure_selected` - Qualifier branching",
+    "prompt": "Research what top performers do for `tool_selected` / `treasure_selected` - Qualifier branching in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 274,
+    "month": "2026-03",
+    "theme": "`ico_speed_chosen` - ICO from Tool path",
+    "prompt": "Generate a decision memo for `ico_speed_chosen` - ICO from Tool path in BBGV: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 275,
+    "month": "2026-03",
+    "theme": "`ico_timeline_chosen` - ICO from Cash In path",
+    "prompt": "Research emerging opportunities in `ico_timeline_chosen` - ICO from Cash In path relevant to BBGV. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 276,
+    "month": "2026-03",
+    "theme": "`appraisal_started` - Consignment form submitted",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve `appraisal_started` - Consignment form submitted for BBGV. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 277,
+    "month": "2026-03",
+    "theme": "`ico_offer_requested` - ICO form submitted",
+    "prompt": "Run deep research on best-in-class systems for `ico_offer_requested` - ICO form submitted in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 278,
+    "month": "2026-03",
+    "theme": "`vault_eligibility_checked` - Vault form submitted",
+    "prompt": "Research what top performers do for `vault_eligibility_checked` - Vault form submitted in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 279,
+    "month": "2026-03",
+    "theme": "`grading_submitted` - Grading form submitted",
+    "prompt": "Generate a decision memo for `grading_submitted` - Grading form submitted in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 280,
+    "month": "2026-03",
+    "theme": "Tool path** asks about speed (This Week vs This Month)",
+    "prompt": "Research emerging opportunities in Tool path** asks about speed (This Week vs This Month) relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 281,
+    "month": "2026-03",
+    "theme": "Treasure path** asks about investment strategy",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Treasure path** asks about investment strategy for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 282,
+    "month": "2026-03",
+    "theme": "All paths can lead to ICO or Consignment based on user needs",
+    "prompt": "Run deep research on best-in-class systems for All paths can lead to ICO or Consignment based on user needs in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 283,
+    "month": "2026-03",
+    "theme": "Consignment page shows ICO comparison table",
+    "prompt": "Research what top performers do for Consignment page shows ICO comparison table in BBGV and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 284,
+    "month": "2026-03",
+    "theme": "ICO page shows \"Compare to Consignment\" button",
+    "prompt": "Generate a decision memo for ICO page shows \"Compare to Consignment\" button in BBGV: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 285,
+    "month": "2026-03",
+    "theme": "All paths maintain firearm model context",
+    "prompt": "Research emerging opportunities in All paths maintain firearm model context relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 286,
+    "month": "2026-03",
+    "theme": "Email validation on all forms",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Email validation on all forms for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 287,
+    "month": "2026-03",
+    "theme": "Required fields for ICO submission (serial, photos)",
+    "prompt": "Run deep research on best-in-class systems for Required fields for ICO submission (serial, photos) in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 288,
+    "month": "2026-03",
+    "theme": "Helpful microcopy explaining next steps",
+    "prompt": "Research what top performers do for Helpful microcopy explaining next steps in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 289,
+    "month": "2026-03",
+    "theme": "BBGV blue (#2563EB) and orange (#F59E0B) branding",
+    "prompt": "Generate a decision memo for BBGV blue (#2563EB) and orange (#F59E0B) branding in BBGV: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 290,
+    "month": "2026-03",
+    "theme": "Smooth animations and transitions",
+    "prompt": "Research emerging opportunities in Smooth animations and transitions relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 291,
+    "month": "2026-03",
+    "theme": "Mobile-responsive grid layouts",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Mobile-responsive grid layouts for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 292,
+    "month": "2026-03",
+    "theme": "Professional shadow and spacing",
+    "prompt": "Run deep research on best-in-class systems for Professional shadow and spacing in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 293,
+    "month": "2026-03",
+    "theme": "See:** [[IMPLEMENTATION-GUIDE]]",
+    "prompt": "Research what top performers do for See:** [[IMPLEMENTATION-GUIDE]] in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 294,
+    "month": "2026-03",
+    "theme": "Frontend integration options (Vanilla JS, Alpine.js, Vue 3)",
+    "prompt": "Generate a decision memo for Frontend integration options (Vanilla JS, Alpine.js, Vue 3) in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 295,
+    "month": "2026-03",
+    "theme": "Maximize both ICO and Consignment volume.",
+    "prompt": "Research emerging opportunities in Maximize both ICO and Consignment volume. relevant to BBGV. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 296,
+    "month": "2026-03",
+    "theme": "ICO:** speed / cash-now users (better unit economics)",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve ICO:** speed / cash-now users (better unit economics) for BBGV. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 297,
+    "month": "2026-03",
+    "theme": "Consignment:** wait-for-max-value users (lower margin, higher fit for patient sellers)",
+    "prompt": "Run deep research on best-in-class systems for Consignment:** wait-for-max-value users (lower margin, higher fit for patient sellers) in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 298,
+    "month": "2026-03",
+    "theme": "Capacity: processing capacity is good; key need is to dial in ICO journey.",
+    "prompt": "Research what top performers do for Capacity: processing capacity is good; key need is to dial in ICO journey. in BBGV and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 299,
+    "month": "2026-03",
+    "theme": "Geography: accept nationwide.",
+    "prompt": "Generate a decision memo for Geography: accept nationwide. in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 300,
+    "month": "2026-03",
+    "theme": "Valuation pricing: phased transition to free once ICO/consignment inbound is reliably strong.",
+    "prompt": "Research emerging opportunities in Valuation pricing: phased transition to free once ICO/consignment inbound is reliably strong. relevant to BBGV. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 301,
+    "month": "2026-03",
+    "theme": "Revenue replacement target: maintain/replace ~$60k/mo currently from subscriptions.",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Revenue replacement target: maintain/replace ~$60k/mo currently from subscriptions. for Rentagun. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 302,
+    "month": "2026-03",
+    "theme": "No major hard constraints identified right now.",
+    "prompt": "Run deep research on best-in-class systems for No major hard constraints identified right now. in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 303,
+    "month": "2026-03",
+    "theme": "Make valuation the top-of-funnel trust engine, then route every high-intent user into the right monetization lane.",
+    "prompt": "Research what top performers do for Make valuation the top-of-funnel trust engine, then route every high-intent user into the right monetization lane. in BBGV and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 304,
+    "month": "2026-03",
+    "theme": "1. Instant Cash Offer conversion",
+    "prompt": "Generate a decision memo for 1. Instant Cash Offer conversion in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 305,
+    "month": "2026-03",
+    "theme": "2. Consignment conversion",
+    "prompt": "Research emerging opportunities in 2. Consignment conversion relevant to BBGV. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 306,
+    "month": "2026-03",
+    "theme": "3. Follow-up revival (not-ready users)",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve 3. Follow-up revival (not-ready users) for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 307,
+    "month": "2026-03",
+    "theme": "Need money fast -> ICO lane",
+    "prompt": "Run deep research on best-in-class systems for Need money fast -> ICO lane in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 308,
+    "month": "2026-03",
+    "theme": "Want max value / can wait -> Consignment lane",
+    "prompt": "Research what top performers do for Want max value / can wait -> Consignment lane in BBGV and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 309,
+    "month": "2026-03",
+    "theme": "Unsure -> nurture + decision support lane",
+    "prompt": "Generate a decision memo for Unsure -> nurture + decision support lane in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 310,
+    "month": "2026-03",
+    "theme": "Implement trigger events and funnel tracking end-to-end:",
+    "prompt": "Research emerging opportunities in Implement trigger events and funnel tracking end-to-end: relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 311,
+    "month": "2026-03",
+    "theme": "ICO started/submitted/accepted",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve ICO started/submitted/accepted for BBGV. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 312,
+    "month": "2026-03",
+    "theme": "consignment started/submitted/approved/closed",
+    "prompt": "Run deep research on best-in-class systems for consignment started/submitted/approved/closed in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 313,
+    "month": "2026-03",
+    "theme": "Build post-valuation decision screen with two clear paths:",
+    "prompt": "Research what top performers do for Build post-valuation decision screen with two clear paths: in BBGV and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 314,
+    "month": "2026-03",
+    "theme": "\"Maximize With Consignment\"",
+    "prompt": "Generate a decision memo for \"Maximize With Consignment\" in BBGV: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 315,
+    "month": "2026-03",
+    "theme": "Launch lifecycle emails:",
+    "prompt": "Research emerging opportunities in Launch lifecycle emails: relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 316,
+    "month": "2026-03",
+    "theme": "ICO-started-not-finished",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve ICO-started-not-finished for BBGV. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 317,
+    "month": "2026-03",
+    "theme": "consignment-started-not-finished",
+    "prompt": "Run deep research on best-in-class systems for consignment-started-not-finished in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 318,
+    "month": "2026-03",
+    "theme": "Optimize ICO journey:",
+    "prompt": "Research what top performers do for Optimize ICO journey: in BBGV and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 319,
+    "month": "2026-03",
+    "theme": "connect to pricing/API layer for instant ICO generation where possible",
+    "prompt": "Generate a decision memo for connect to pricing/API layer for instant ICO generation where possible in BBGV: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 320,
+    "month": "2026-03",
+    "theme": "fallback to morning review workflow when instant confidence is low",
+    "prompt": "Research emerging opportunities in fallback to morning review workflow when instant confidence is low relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 321,
+    "month": "2026-03",
+    "theme": "friction handling for docs/photos",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve friction handling for docs/photos for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 322,
+    "month": "2026-03",
+    "theme": "Standardize nationwide consignment intake:",
+    "prompt": "Run deep research on best-in-class systems for Standardize nationwide consignment intake: in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 323,
+    "month": "2026-03",
+    "theme": "qualification checklist",
+    "prompt": "Research what top performers do for qualification checklist in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 324,
+    "month": "2026-03",
+    "theme": "intake status pipeline",
+    "prompt": "Generate a decision memo for intake status pipeline in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 325,
+    "month": "2026-03",
+    "theme": "communication cadence",
+    "prompt": "Research emerging opportunities in communication cadence relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 326,
+    "month": "2026-03",
+    "theme": "Weekly funnel review and A/B tests for CTA and step copy.",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Weekly funnel review and A/B tests for CTA and step copy. for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 327,
+    "month": "2026-03",
+    "theme": "Flip valuation access toward free in phases:",
+    "prompt": "Run deep research on best-in-class systems for Flip valuation access toward free in phases: in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 328,
+    "month": "2026-03",
+    "theme": "phase gate based on inbound quality + close rates",
+    "prompt": "Research what top performers do for phase gate based on inbound quality + close rates in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 329,
+    "month": "2026-03",
+    "theme": "Expand follow-up automation by intent segment.",
+    "prompt": "Generate a decision memo for Expand follow-up automation by intent segment. in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 330,
+    "month": "2026-03",
+    "theme": "Tune routing by predicted close probability.",
+    "prompt": "Research emerging opportunities in Tune routing by predicted close probability. relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 331,
+    "month": "2026-03",
+    "theme": "Valuation -> sell-intent rate",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Valuation -> sell-intent rate for BBGV. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 332,
+    "month": "2026-03",
+    "theme": "Sell-intent -> ICO start rate",
+    "prompt": "Run deep research on best-in-class systems for Sell-intent -> ICO start rate in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 333,
+    "month": "2026-03",
+    "theme": "ICO start -> submitted rate",
+    "prompt": "Research what top performers do for ICO start -> submitted rate in BBGV and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 334,
+    "month": "2026-03",
+    "theme": "ICO submitted -> accepted rate",
+    "prompt": "Generate a decision memo for ICO submitted -> accepted rate in BBGV: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 335,
+    "month": "2026-03",
+    "theme": "Sell-intent -> consignment start rate",
+    "prompt": "Research emerging opportunities in Sell-intent -> consignment start rate relevant to BBGV. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 336,
+    "month": "2026-03",
+    "theme": "Consignment start -> closed sale rate",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Consignment start -> closed sale rate for BBGV. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 337,
+    "month": "2026-03",
+    "theme": "Revenue per 100 valuations",
+    "prompt": "Run deep research on best-in-class systems for Revenue per 100 valuations in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 338,
+    "month": "2026-03",
+    "theme": "1. Finalize ICO journey UX and step logic.",
+    "prompt": "Research what top performers do for 1. Finalize ICO journey UX and step logic. in BBGV and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 339,
+    "month": "2026-03",
+    "theme": "2. Implement/verify all lifecycle triggers on website.",
+    "prompt": "Generate a decision memo for 2. Implement/verify all lifecycle triggers on website. in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 340,
+    "month": "2026-03",
+    "theme": "3. Launch valuation-complete routing + email follow-ups.",
+    "prompt": "Research emerging opportunities in 3. Launch valuation-complete routing + email follow-ups. relevant to BBGV. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 341,
+    "month": "2026-03",
+    "theme": "4. Stand up nationwide consignment intake workflow.",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve 4. Stand up nationwide consignment intake workflow. for BBGV. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 342,
+    "month": "2026-03",
+    "theme": "5. Create weekly funnel dashboard (ICO + Consignment lanes).",
+    "prompt": "Run deep research on best-in-class systems for 5. Create weekly funnel dashboard (ICO + Consignment lanes). in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 343,
+    "month": "2026-03",
+    "theme": "1. **Valuation-free phase gate:** tie to revenue replacement progress against ~$60k/mo subscription baseline. (Exact percentage gate TBD after first 2-4 weeks of funnel data.)",
+    "prompt": "Research what top performers do for 1. **Valuation-free phase gate:** tie to revenue replacement progress against ~$60k/mo subscription baseline. (Exact percentage gate TBD after first 2-4 weeks of funnel data.) in BBGV and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 344,
+    "month": "2026-03",
+    "theme": "2. **ICO response target:** immediate via API where confidence allows; morning-review fallback for exceptions.",
+    "prompt": "Generate a decision memo for 2. **ICO response target:** immediate via API where confidence allows; morning-review fallback for exceptions. in BBGV: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 345,
+    "month": "2026-03",
+    "theme": "3. **Consignment qualification threshold (locked v1):** minimum expected BBGV revenue contribution of **$100** per consignment deal at **15% commission**.",
+    "prompt": "Research emerging opportunities in 3. **Consignment qualification threshold (locked v1):** minimum expected BBGV revenue contribution of **$100** per consignment deal at **15% commission**. relevant to BBGV. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 346,
+    "month": "2026-03",
+    "theme": "> **Document Type:** Executive Strategic Blueprint",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve > **Document Type:** Executive Strategic Blueprint for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 347,
+    "month": "2026-03",
+    "theme": "> **Status:** Active System Design",
+    "prompt": "Run deep research on best-in-class systems for > **Status:** Active System Design in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 348,
+    "month": "2026-03",
+    "theme": "> **Links:** [[00-BBGV-Master-Index|\u2190 Master Index]] | [[Growth-Audit-Strategy|Growth Audit]] | [[Content-Automation-System|Full Implementation \u2192]]",
+    "prompt": "Research what top performers do for > **Links:** [[00-BBGV-Master-Index|\u2190 Master Index]] | [[Growth-Audit-Strategy|Growth Audit]] | [[Content-Automation-System|Full Implementation \u2192]] in BBGV and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 349,
+    "month": "2026-03",
+    "theme": "Core Concept:** Transform every customer interaction (appraisal) into 50+ pieces of self-generating content that drives more appraisals, creating a perpetual growth loop.",
+    "prompt": "Generate a decision memo for Core Concept:** Transform every customer interaction (appraisal) into 50+ pieces of self-generating content that drives more appraisals, creating a perpetual growth loop. in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 350,
+    "month": "2026-03",
+    "theme": "The Multiplication Formula:",
+    "prompt": "Research emerging opportunities in The Multiplication Formula: relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 351,
+    "month": "2026-03",
+    "theme": "1 Appraisal \u2192 50 Content Pieces \u2192 100 New Leads \u2192 10 Appraisals \u2192 500 Content Pieces \u2192 \u221e",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve 1 Appraisal \u2192 50 Content Pieces \u2192 100 New Leads \u2192 10 Appraisals \u2192 500 Content Pieces \u2192 \u221e for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 352,
+    "month": "2026-03",
+    "theme": "| Metric | Current | System State | Multiple |",
+    "prompt": "Run deep research on best-in-class systems for | Metric | Current | System State | Multiple | in Rentagun. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 353,
+    "month": "2026-03",
+    "theme": "|--------|---------|--------------|----------|",
+    "prompt": "Research what top performers do for |--------|---------|--------------|----------| in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 354,
+    "month": "2026-03",
+    "theme": "| MRR | $100K | $1M+ | 10x |",
+    "prompt": "Generate a decision memo for | MRR | $100K | $1M+ | 10x | in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 355,
+    "month": "2026-03",
+    "theme": "| ARPU | $10 | $100+ | 10x |",
+    "prompt": "Research emerging opportunities in | ARPU | $10 | $100+ | 10x | relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 356,
+    "month": "2026-03",
+    "theme": "| Content Creation Time | 40 hrs/week | 2 hrs/week | 95% reduction |",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve | Content Creation Time | 40 hrs/week | 2 hrs/week | 95% reduction | for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 357,
+    "month": "2026-03",
+    "theme": "| Cost Per Acquisition | $50+ | <$25 | 50% reduction |",
+    "prompt": "Run deep research on best-in-class systems for | Cost Per Acquisition | $50+ | <$25 | 50% reduction | in Rentagun. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 358,
+    "month": "2026-03",
+    "theme": "| Content Output | 10 pieces/week | 350 pieces/week | 35x |",
+    "prompt": "Research what top performers do for | Content Output | 10 pieces/week | 350 pieces/week | 35x | in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 359,
+    "month": "2026-03",
+    "theme": "High-Volume Platforms (3+ posts/day)",
+    "prompt": "Generate a decision memo for High-Volume Platforms (3+ posts/day) in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 360,
+    "month": "2026-03",
+    "theme": "TikTok:** Shock reveals, authentication challenges",
+    "prompt": "Research emerging opportunities in TikTok:** Shock reveals, authentication challenges relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 361,
+    "month": "2026-03",
+    "theme": "Instagram Reels:** Before/after transformations",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Instagram Reels:** Before/after transformations for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 362,
+    "month": "2026-03",
+    "theme": "YouTube Shorts:** Quick valuations",
+    "prompt": "Run deep research on best-in-class systems for YouTube Shorts:** Quick valuations in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 363,
+    "month": "2026-03",
+    "theme": "Authority Platforms (1-2 posts/day)",
+    "prompt": "Research what top performers do for Authority Platforms (1-2 posts/day) in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 364,
+    "month": "2026-03",
+    "theme": "YouTube Long-form:** Deep dives, market analysis",
+    "prompt": "Generate a decision memo for YouTube Long-form:** Deep dives, market analysis in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 365,
+    "month": "2026-03",
+    "theme": "LinkedIn:** B2B dealer education",
+    "prompt": "Research emerging opportunities in LinkedIn:** B2B dealer education relevant to Rentagun. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 366,
+    "month": "2026-03",
+    "theme": "Blog:** SEO-optimized guides",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Blog:** SEO-optimized guides for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 367,
+    "month": "2026-03",
+    "theme": "Revenue Platforms (Daily)",
+    "prompt": "Run deep research on best-in-class systems for Revenue Platforms (Daily) in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 368,
+    "month": "2026-03",
+    "theme": "Email:** Segmented campaigns (see: [[Revenue-Newsletter-System]])",
+    "prompt": "Research what top performers do for Email:** Segmented campaigns (see: [[Revenue-Newsletter-System]]) in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 369,
+    "month": "2026-03",
+    "theme": "Website:** Dynamic landing pages (see: [[SEO-Appraisal-Landing-Page]])",
+    "prompt": "Generate a decision memo for Website:** Dynamic landing pages (see: [[SEO-Appraisal-Landing-Page]]) in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 370,
+    "month": "2026-03",
+    "theme": "Week 1: Authentication Focus",
+    "prompt": "Research emerging opportunities in Week 1: Authentication Focus relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 371,
+    "month": "2026-03",
+    "theme": "Fake vs. real comparisons",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Fake vs. real comparisons for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 372,
+    "month": "2026-03",
+    "theme": "Expert authentication tips (see: [[PSA-Authentication-Pipeline]])",
+    "prompt": "Run deep research on best-in-class systems for Expert authentication tips (see: [[PSA-Authentication-Pipeline]]) in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 373,
+    "month": "2026-03",
+    "theme": "Week 2: Market Intelligence",
+    "prompt": "Research what top performers do for Week 2: Market Intelligence in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 374,
+    "month": "2026-03",
+    "theme": "Price movement alerts",
+    "prompt": "Generate a decision memo for Price movement alerts in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 375,
+    "month": "2026-03",
+    "theme": "Investment opportunities",
+    "prompt": "Research emerging opportunities in Investment opportunities relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 376,
+    "month": "2026-03",
+    "theme": "Week 3: Discovery Stories",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Week 3: Discovery Stories for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 377,
+    "month": "2026-03",
+    "theme": "Inheritance surprises",
+    "prompt": "Run deep research on best-in-class systems for Inheritance surprises in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 378,
+    "month": "2026-03",
+    "theme": "Week 4: Education & Authority",
+    "prompt": "Research what top performers do for Week 4: Education & Authority in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 379,
+    "month": "2026-03",
+    "theme": "Historical deep dives",
+    "prompt": "Generate a decision memo for Historical deep dives in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 380,
+    "month": "2026-03",
+    "theme": "| Time | Platform | Content Type | Purpose |",
+    "prompt": "Research emerging opportunities in | Time | Platform | Content Type | Purpose | relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 381,
+    "month": "2026-03",
+    "theme": "|------|----------|--------------|---------|",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve |------|----------|--------------|---------| for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 382,
+    "month": "2026-03",
+    "theme": "| 6:00 AM | TikTok/Reels/Shorts | Shock Reveal | Maximum reach |",
+    "prompt": "Run deep research on best-in-class systems for | 6:00 AM | TikTok/Reels/Shorts | Shock Reveal | Maximum reach | in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 383,
+    "month": "2026-03",
+    "theme": "| 9:00 AM | Email | Market Alert | Direct revenue |",
+    "prompt": "Research what top performers do for | 9:00 AM | Email | Market Alert | Direct revenue | in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 384,
+    "month": "2026-03",
+    "theme": "| 12:00 PM | LinkedIn | B2B Education | Dealer acquisition |",
+    "prompt": "Generate a decision memo for | 12:00 PM | LinkedIn | B2B Education | Dealer acquisition | in Rentagun: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 385,
+    "month": "2026-03",
+    "theme": "| 3:00 PM | YouTube | Long-form | Authority building |",
+    "prompt": "Research emerging opportunities in | 3:00 PM | YouTube | Long-form | Authority building | relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 386,
+    "month": "2026-03",
+    "theme": "| 6:00 PM | Instagram | User Stories | Social proof |",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve | 6:00 PM | Instagram | User Stories | Social proof | for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 387,
+    "month": "2026-03",
+    "theme": "| 9:00 PM | All Platforms | Viral Attempt | Audience growth |",
+    "prompt": "Run deep research on best-in-class systems for | 9:00 PM | All Platforms | Viral Attempt | Audience growth | in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 388,
+    "month": "2026-03",
+    "theme": "350 total pieces** across all platforms",
+    "prompt": "Research what top performers do for 350 total pieces** across all platforms in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 389,
+    "month": "2026-03",
+    "theme": "50 unique appraisal stories** transformed",
+    "prompt": "Generate a decision memo for 50 unique appraisal stories** transformed in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 390,
+    "month": "2026-03",
+    "theme": "7 long-form authority pieces",
+    "prompt": "Research emerging opportunities in 7 long-form authority pieces relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 391,
+    "month": "2026-03",
+    "theme": "28 email segments** deployed",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve 28 email segments** deployed for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 392,
+    "month": "2026-03",
+    "theme": "100+ user engagements** responded to",
+    "prompt": "Run deep research on best-in-class systems for 100+ user engagements** responded to in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 393,
+    "month": "2026-03",
+    "theme": "1. Database Infrastructure** (Week 1)",
+    "prompt": "Research what top performers do for 1. Database Infrastructure** (Week 1) in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 394,
+    "month": "2026-03",
+    "theme": "Appraisal tracking system",
+    "prompt": "Generate a decision memo for Appraisal tracking system in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 395,
+    "month": "2026-03",
+    "theme": "Content queue management",
+    "prompt": "Research emerging opportunities in Content queue management relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 396,
+    "month": "2026-03",
+    "theme": "Performance analytics",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Performance analytics for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 397,
+    "month": "2026-03",
+    "theme": "See: [[Newsletter-Data-Infrastructure]]",
+    "prompt": "Run deep research on best-in-class systems for See: [[Newsletter-Data-Infrastructure]] in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 398,
+    "month": "2026-03",
+    "theme": "2. Automation Stack** ($140-500/month)",
+    "prompt": "Research what top performers do for 2. Automation Stack** ($140-500/month) in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 399,
+    "month": "2026-03",
+    "theme": "AI tools (ChatGPT, Runway)",
+    "prompt": "Generate a decision memo for AI tools (ChatGPT, Runway) in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 400,
+    "month": "2026-03",
+    "theme": "3. Human Resources** (1-3 people)",
+    "prompt": "Research emerging opportunities in 3. Human Resources** (1-3 people) relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 401,
+    "month": "2026-03",
+    "theme": "Content Operations Manager",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Content Operations Manager for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 402,
+    "month": "2026-03",
+    "theme": "100 content pieces live",
+    "prompt": "Run deep research on best-in-class systems for 100 content pieces live in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 403,
+    "month": "2026-03",
+    "theme": "1,000 appraisals generated",
+    "prompt": "Research what top performers do for 1,000 appraisals generated in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 404,
+    "month": "2026-03",
+    "theme": "$49K additional revenue",
+    "prompt": "Generate a decision memo for $49K additional revenue in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 405,
+    "month": "2026-03",
+    "theme": "5,000 new email subscribers",
+    "prompt": "Research emerging opportunities in 5,000 new email subscribers relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 406,
+    "month": "2026-03",
+    "theme": "600 pieces continuously working",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve 600 pieces continuously working for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 407,
+    "month": "2026-03",
+    "theme": "6,000 appraisals/month",
+    "prompt": "Run deep research on best-in-class systems for 6,000 appraisals/month in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 408,
+    "month": "2026-03",
+    "theme": "$294K monthly revenue",
+    "prompt": "Research what top performers do for $294K monthly revenue in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 409,
+    "month": "2026-03",
+    "theme": "30,000 email subscribers added",
+    "prompt": "Generate a decision memo for 30,000 email subscribers added in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 410,
+    "month": "2026-03",
+    "theme": "1,200+ evergreen pieces",
+    "prompt": "Research emerging opportunities in 1,200+ evergreen pieces relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 411,
+    "month": "2026-03",
+    "theme": "12,000 appraisals/month",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve 12,000 appraisals/month for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 412,
+    "month": "2026-03",
+    "theme": "$788K monthly revenue",
+    "prompt": "Run deep research on best-in-class systems for $788K monthly revenue in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 413,
+    "month": "2026-03",
+    "theme": "60,000+ email list growth",
+    "prompt": "Research what top performers do for 60,000+ email list growth in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 414,
+    "month": "2026-03",
+    "theme": "1. Surprise Factor Formula",
+    "prompt": "Generate a decision memo for 1. Surprise Factor Formula in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 415,
+    "month": "2026-03",
+    "theme": "Expected Value \u00f7 Actual Value > 2.0 = Viral Content",
+    "prompt": "Research emerging opportunities in Expected Value \u00f7 Actual Value > 2.0 = Viral Content relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 416,
+    "month": "2026-03",
+    "theme": "\"Thought it was $500, actually worth $15,000\"",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve \"Thought it was $500, actually worth $15,000\" for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 417,
+    "month": "2026-03",
+    "theme": "2. Authentication Drama",
+    "prompt": "Run deep research on best-in-class systems for 2. Authentication Drama in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 418,
+    "month": "2026-03",
+    "theme": "Real vs. Fake challenges",
+    "prompt": "Research what top performers do for Real vs. Fake challenges in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 419,
+    "month": "2026-03",
+    "theme": "Scam prevention stories",
+    "prompt": "Generate a decision memo for Scam prevention stories in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 420,
+    "month": "2026-03",
+    "theme": "Expert revelation moment",
+    "prompt": "Research emerging opportunities in Expert revelation moment relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 421,
+    "month": "2026-03",
+    "theme": "> **Document Type:** Strategic Analysis & Market Intelligence",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve > **Document Type:** Strategic Analysis & Market Intelligence for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 422,
+    "month": "2026-03",
+    "theme": "> **Status:** Foundation Document",
+    "prompt": "Run deep research on best-in-class systems for > **Status:** Foundation Document in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 423,
+    "month": "2026-03",
+    "theme": "> **Links:** [[00-BBGV-Master-Index|\u2190 Back to Master Index]] | [[Executive-Summary|Executive Summary \u2192]]",
+    "prompt": "Research what top performers do for > **Links:** [[00-BBGV-Master-Index|\u2190 Back to Master Index]] | [[Executive-Summary|Executive Summary \u2192]] in BBGV and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 424,
+    "month": "2026-03",
+    "theme": "10,000 paying users @ $10/month avg = **$100K MRR** ($1.2M ARR)",
+    "prompt": "Generate a decision memo for 10,000 paying users @ $10/month avg = **$100K MRR** ($1.2M ARR) in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 425,
+    "month": "2026-03",
+    "theme": "180,000 email list (5.5% conversion rate)",
+    "prompt": "Research emerging opportunities in 180,000 email list (5.5% conversion rate) relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 426,
+    "month": "2026-03",
+    "theme": "4.2M organic clicks** over 487 days (8,700/day avg)",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve 4.2M organic clicks** over 487 days (8,700/day avg) for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 427,
+    "month": "2026-03",
+    "theme": "86.5M impressions** with 4.90% CTR",
+    "prompt": "Run deep research on best-in-class systems for 86.5M impressions** with 4.90% CTR in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 428,
+    "month": "2026-03",
+    "theme": "Primary Insight:** Massive traffic dominance with severe monetization gap. Currently capturing $10/user when market supports $99-499 premium tiers.",
+    "prompt": "Research what top performers do for Primary Insight:** Massive traffic dominance with severe monetization gap. Currently capturing $10/user when market supports $99-499 premium tiers. in Rentagun and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 429,
+    "month": "2026-03",
+    "theme": "10,000 paying users at $10/month average = **$100K MRR** ($1.2M ARR)",
+    "prompt": "Generate a decision memo for 10,000 paying users at $10/month average = **$100K MRR** ($1.2M ARR) in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 430,
+    "month": "2026-03",
+    "theme": "180,000 email list (mix of users and leads)",
+    "prompt": "Research emerging opportunities in 180,000 email list (mix of users and leads) relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 431,
+    "month": "2026-03",
+    "theme": "Conversion rate from list: ~5.5% (10K/180K)",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Conversion rate from list: ~5.5% (10K/180K) for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 432,
+    "month": "2026-03",
+    "theme": "4.2M organic clicks** over 487 days (8,700 clicks/day average)",
+    "prompt": "Run deep research on best-in-class systems for 4.2M organic clicks** over 487 days (8,700 clicks/day average) in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 433,
+    "month": "2026-03",
+    "theme": "86.5M impressions** (massive visibility)",
+    "prompt": "Research what top performers do for 86.5M impressions** (massive visibility) in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 434,
+    "month": "2026-03",
+    "theme": "4.90% overall CTR** (optimization opportunity)",
+    "prompt": "Generate a decision memo for 4.90% overall CTR** (optimization opportunity) in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 435,
+    "month": "2026-03",
+    "theme": "10,843 clicks/day** (last 30 days - trending up)",
+    "prompt": "Research emerging opportunities in 10,843 clicks/day** (last 30 days - trending up) relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 436,
+    "month": "2026-03",
+    "theme": "1. **Branded search dominance** - 76%+ CTR on \"blue book\" terms",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve 1. **Branded search dominance** - 76%+ CTR on \"blue book\" terms for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 437,
+    "month": "2026-03",
+    "theme": "2. **#1 for valuation intent** - \"gun values\", \"how much is my gun worth\"",
+    "prompt": "Run deep research on best-in-class systems for 2. **#1 for valuation intent** - \"gun values\", \"how much is my gun worth\" in BBGV. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 438,
+    "month": "2026-03",
+    "theme": "3. **Massive mobile traffic** - 75% mobile (3.1M clicks vs 966K desktop)",
+    "prompt": "Research what top performers do for 3. **Massive mobile traffic** - 75% mobile (3.1M clicks vs 966K desktop) in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 439,
+    "month": "2026-03",
+    "theme": "4. **US market lock** - 94% of traffic from United States",
+    "prompt": "Generate a decision memo for 4. **US market lock** - 94% of traffic from United States in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 440,
+    "month": "2026-03",
+    "theme": "Critical Revenue Gaps:",
+    "prompt": "Research emerging opportunities in Critical Revenue Gaps: relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 441,
+    "month": "2026-03",
+    "theme": "Low monetization** - Only $10/user vs potential $99-499",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Low monetization** - Only $10/user vs potential $99-499 for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 442,
+    "month": "2026-03",
+    "theme": "Missing marketplace queries** - Ranking 6-8 for \"for sale\" terms",
+    "prompt": "Run deep research on best-in-class systems for Missing marketplace queries** - Ranking 6-8 for \"for sale\" terms in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 443,
+    "month": "2026-03",
+    "theme": "No appraisal/authentication revenue** - Despite ranking #1.21 for \"gun appraisal\"",
+    "prompt": "Research what top performers do for No appraisal/authentication revenue** - Despite ranking #1.21 for \"gun appraisal\" in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 444,
+    "month": "2026-03",
+    "theme": "Search data reveals users actively seeking:",
+    "prompt": "Generate a decision memo for Search data reveals users actively seeking: in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 445,
+    "month": "2026-03",
+    "theme": "1. **\"For Sale\" marketplace** - 2,575 clicks for \"M1 Garand for sale\" alone",
+    "prompt": "Research emerging opportunities in 1. **\"For Sale\" marketplace** - 2,575 clicks for \"M1 Garand for sale\" alone relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 446,
+    "month": "2026-03",
+    "theme": "2. **Appraisal services** - 2,190 clicks on \"gun appraisal\"",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve 2. **Appraisal services** - 2,190 clicks on \"gun appraisal\" for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 447,
+    "month": "2026-03",
+    "theme": "3. **Authentication/Provenance** - High-value collectors searching specific models",
+    "prompt": "Run deep research on best-in-class systems for 3. **Authentication/Provenance** - High-value collectors searching specific models in GunStreamer. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 448,
+    "month": "2026-03",
+    "theme": "4. **Consignment services** - Users searching values before selling",
+    "prompt": "Research what top performers do for 4. **Consignment services** - Users searching values before selling in BBGV and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 449,
+    "month": "2026-03",
+    "theme": "\"Today's Trending Gun\"** (Auto-generated from search data)",
+    "prompt": "Generate a decision memo for \"Today's Trending Gun\"** (Auto-generated from search data) in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 450,
+    "month": "2026-03",
+    "theme": "Pull top rising query from GSC API",
+    "prompt": "Research emerging opportunities in Pull top rising query from GSC API relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 451,
+    "month": "2026-03",
+    "theme": "Auto-generate valuation range",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Auto-generate valuation range for BBGV. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 452,
+    "month": "2026-03",
+    "theme": "Create social cards with price history",
+    "prompt": "Run deep research on best-in-class systems for Create social cards with price history in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 453,
+    "month": "2026-03",
+    "theme": "Cross-post to all platforms",
+    "prompt": "Research what top performers do for Cross-post to all platforms in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 454,
+    "month": "2026-03",
+    "theme": "\"Price Alert\"** (Database triggers)",
+    "prompt": "Generate a decision memo for \"Price Alert\"** (Database triggers) in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 455,
+    "month": "2026-03",
+    "theme": "Monitor significant price movements",
+    "prompt": "Research emerging opportunities in Monitor significant price movements relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 456,
+    "month": "2026-03",
+    "theme": "Auto-tweet/post when gun values spike/drop",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Auto-tweet/post when gun values spike/drop for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 457,
+    "month": "2026-03",
+    "theme": "Include % change and historical context",
+    "prompt": "Run deep research on best-in-class systems for Include % change and historical context in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 458,
+    "month": "2026-03",
+    "theme": "\"Appraisal of the Day\"** (User-submitted)",
+    "prompt": "Research what top performers do for \"Appraisal of the Day\"** (User-submitted) in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 459,
+    "month": "2026-03",
+    "theme": "Feature one user submission",
+    "prompt": "Generate a decision memo for Feature one user submission in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 460,
+    "month": "2026-03",
+    "theme": "Show condition grading process",
+    "prompt": "Research emerging opportunities in Show condition grading process relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 461,
+    "month": "2026-03",
+    "theme": "Reveal value with dramatic effect",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Reveal value with dramatic effect for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 462,
+    "month": "2026-03",
+    "theme": "Drive traffic to PSA-style service (see: [[PSA-Authentication-Pipeline]])",
+    "prompt": "Run deep research on best-in-class systems for Drive traffic to PSA-style service (see: [[PSA-Authentication-Pipeline]]) in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 463,
+    "month": "2026-03",
+    "theme": "\"Market Report Monday\"",
+    "prompt": "Research what top performers do for \"Market Report Monday\" in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 464,
+    "month": "2026-03",
+    "theme": "Auto-generate from 10K user searches",
+    "prompt": "Generate a decision memo for Auto-generate from 10K user searches in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 465,
+    "month": "2026-03",
+    "theme": "Show top searched guns",
+    "prompt": "Research emerging opportunities in Show top searched guns relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 466,
+    "month": "2026-03",
+    "theme": "Price movement heat map",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Price movement heat map for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 467,
+    "month": "2026-03",
+    "theme": "\"What's It Worth Wednesday\"",
+    "prompt": "Run deep research on best-in-class systems for \"What's It Worth Wednesday\" in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 468,
+    "month": "2026-03",
+    "theme": "Live appraisal show (WHATNOT concept)",
+    "prompt": "Research what top performers do for Live appraisal show (WHATNOT concept) in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 469,
+    "month": "2026-03",
+    "theme": "Stream across YouTube/TikTok/Instagram",
+    "prompt": "Generate a decision memo for Stream across YouTube/TikTok/Instagram in GunStreamer: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 470,
+    "month": "2026-03",
+    "theme": "Drive to consignment service (see: [[Appraisal-Consignment-Pipeline]])",
+    "prompt": "Research emerging opportunities in Drive to consignment service (see: [[Appraisal-Consignment-Pipeline]]) relevant to BBGV. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 471,
+    "month": "2026-03",
+    "theme": "\"Find or Fake Friday\"",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve \"Find or Fake Friday\" for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 472,
+    "month": "2026-03",
+    "theme": "Authentication challenges",
+    "prompt": "Run deep research on best-in-class systems for Authentication challenges in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 473,
+    "month": "2026-03",
+    "theme": "Spot the reproduction",
+    "prompt": "Research what top performers do for Spot the reproduction in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 474,
+    "month": "2026-03",
+    "theme": "Educational positioning",
+    "prompt": "Generate a decision memo for Educational positioning in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 475,
+    "month": "2026-03",
+    "theme": "Lead to authentication service",
+    "prompt": "Research emerging opportunities in Lead to authentication service relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 476,
+    "month": "2026-03",
+    "theme": "YouTube (Long-form Authority)",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve YouTube (Long-form Authority) for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 477,
+    "month": "2026-03",
+    "theme": "\"Gun Values Live\" - 30-min market analysis",
+    "prompt": "Run deep research on best-in-class systems for \"Gun Values Live\" - 30-min market analysis in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 478,
+    "month": "2026-03",
+    "theme": "\"Collector's Corner\" - Interview series",
+    "prompt": "Research what top performers do for \"Collector's Corner\" - Interview series in GunStreamer and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 479,
+    "month": "2026-03",
+    "theme": "\"Authentication Academy\" - Educational series",
+    "prompt": "Generate a decision memo for \"Authentication Academy\" - Educational series in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 480,
+    "month": "2026-03",
+    "theme": "\"Estate Sale Finds\" - Valuation reveals",
+    "prompt": "Research emerging opportunities in \"Estate Sale Finds\" - Valuation reveals relevant to BBGV. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 481,
+    "month": "2026-03",
+    "theme": "TikTok/Shorts (Viral Moments)",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve TikTok/Shorts (Viral Moments) for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 482,
+    "month": "2026-03",
+    "theme": "\"Guess the Value\" (15-sec reveals)",
+    "prompt": "Run deep research on best-in-class systems for \"Guess the Value\" (15-sec reveals) in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 483,
+    "month": "2026-03",
+    "theme": "\"Real or Fake\" challenges",
+    "prompt": "Research what top performers do for \"Real or Fake\" challenges in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 484,
+    "month": "2026-03",
+    "theme": "\"Grandpa's Attic\" discoveries",
+    "prompt": "Generate a decision memo for \"Grandpa's Attic\" discoveries in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 485,
+    "month": "2026-03",
+    "theme": "\"Before/After Restoration\" values",
+    "prompt": "Research emerging opportunities in \"Before/After Restoration\" values relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 486,
+    "month": "2026-03",
+    "theme": "Instagram (Visual Authority)",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Instagram (Visual Authority) for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 487,
+    "month": "2026-03",
+    "theme": "Feed: High-quality gun photography + infographics",
+    "prompt": "Run deep research on best-in-class systems for Feed: High-quality gun photography + infographics in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 488,
+    "month": "2026-03",
+    "theme": "Stories: Behind-the-scenes appraisals",
+    "prompt": "Research what top performers do for Stories: Behind-the-scenes appraisals in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 489,
+    "month": "2026-03",
+    "theme": "Reels: Quick value reveals",
+    "prompt": "Generate a decision memo for Reels: Quick value reveals in GTM: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 490,
+    "month": "2026-03",
+    "theme": "Twitter/X (Real-time Data)",
+    "prompt": "Research emerging opportunities in Twitter/X (Real-time Data) relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 491,
+    "month": "2026-03",
+    "theme": "Live market movements",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Live market movements for GTM. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 492,
+    "month": "2026-03",
+    "theme": "> **Document Type:** Revenue System Architecture",
+    "prompt": "Run deep research on best-in-class systems for > **Document Type:** Revenue System Architecture in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 493,
+    "month": "2026-03",
+    "theme": "> **Status:** Core monetization infrastructure",
+    "prompt": "Research what top performers do for > **Status:** Core monetization infrastructure in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 494,
+    "month": "2026-03",
+    "theme": "> **Links:** [[00-BBGV-Master-Index|\u2190 Master Index]] | [[Revenue-Newsletter-System|Newsletter Integration]] | [[White-Glove-Qualifier|Customer Qualification \u2192]]",
+    "prompt": "Generate a decision memo for > **Links:** [[00-BBGV-Master-Index|\u2190 Master Index]] | [[Revenue-Newsletter-System|Newsletter Integration]] | [[White-Glove-Qualifier|Customer Qualification \u2192]] in BBGV: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 495,
+    "month": "2026-03",
+    "theme": "The Value Ladder:** Transform free curiosity into high-ticket transactions through progressive trust-building and service upgrades.",
+    "prompt": "Research emerging opportunities in The Value Ladder:** Transform free curiosity into high-ticket transactions through progressive trust-building and service upgrades. relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  },
+  {
+    "id": 496,
+    "month": "2026-03",
+    "theme": "Free Appraisal \u2192 $49 Certified \u2192 $99 Consignment Prep \u2192 15-20% Commission",
+    "prompt": "Act as a principal strategy researcher. Build an evidence-backed plan to improve Free Appraisal \u2192 $49 Certified \u2192 $99 Consignment Prep \u2192 15-20% Commission for BBGV. Include benchmarks, competitor patterns, implementation risks, and a 14-day execution checklist.",
+    "status": "todo"
+  },
+  {
+    "id": 497,
+    "month": "2026-03",
+    "theme": "Revenue Per 1,000 Free Appraisals:** $15,112",
+    "prompt": "Run deep research on best-in-class systems for Revenue Per 1,000 Free Appraisals:** $15,112 in GTM. Output a practical SOP, tools stack, KPI tree, and weekly cadence.",
+    "status": "todo"
+  },
+  {
+    "id": 498,
+    "month": "2026-03",
+    "theme": "150 certified appraisals: $7,350",
+    "prompt": "Research what top performers do for 150 certified appraisals: $7,350 in GTM and what they avoid. Provide a gap analysis against our current approach and prioritized fixes.",
+    "status": "todo"
+  },
+  {
+    "id": 499,
+    "month": "2026-03",
+    "theme": "38 consignment preps: $3,762",
+    "prompt": "Generate a decision memo for 38 consignment preps: $3,762 in BBGV: options, tradeoffs, expected ROI, confidence levels, and next 3 experiments.",
+    "status": "todo"
+  },
+  {
+    "id": 500,
+    "month": "2026-03",
+    "theme": "16 marketplace sales: $4,000",
+    "prompt": "Research emerging opportunities in 16 marketplace sales: $4,000 relevant to GTM. Provide 10 high-leverage actions ranked by speed-to-value and revenue impact.",
+    "status": "todo"
+  }
+]
