@@ -2662,3 +2662,9 @@ To https://github.com/whatusernameshouldiuse/troy-os.git
 To https://github.com/whatusernameshouldiuse/troy-os.git
    731846d..39c43e9  main -> main
 [2026-02-22 10:48:00] synced: branch=main
+[main bbf0562] chore(autosync): workspace update 2026-02-22 10:50:01
+ 3 files changed, 65 insertions(+), 1 deletion(-)
+ create mode 100644 mission-control/AGENT-ACCOUNTS-SETUP-CHECKLIST.md
+To https://github.com/whatusernameshouldiuse/troy-os.git
+   39c43e9..bbf0562  main -> main
+[2026-02-22 10:50:01] synced: branch=main
