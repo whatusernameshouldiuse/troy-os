@@ -37,6 +37,16 @@ Last Updated: 2026-02-23
 - **Email:** Klaviyo
 - **Status:** Active — post SHOT Show 2026
 
+### OutdoorInfluencers.io
+- **Website:** outdoorinfluencers.io (domain status unknown)
+- **What:** Marketplace + mastermind connecting outdoor creators (hunting/fishing/shooting, 1K–50K followers) with brands
+- **Anchor brands:** BBGV, Rentagun, GunStreamer (Troy's own ecosystem)
+- **Revenue model:** Free → Pro ($29-49/mo) → Mastermind ($97-197/mo) + 10-15% transaction fee
+- **Core promise:** Creator earns first $500 in 14 days (via stacked flat fees: BBGV $500 + Rentagun $300 + GunStreamer $200)
+- **Status:** Phase 1 Foundation — landing page HTML ready, email sequence written, campaign briefs complete
+- **Files:** iCloud vault at `Library/Mobile Documents/iCloud~md~obsidian/Documents/Work/Projects/Outdoor Influencers/`
+- **Started in:** Claude co-work session, now integrating with J
+
 ### GunStreamer
 - **Website:** gunstreamer.com
 - **What:** Live commerce platform for firearms ("Whatnot for guns")
