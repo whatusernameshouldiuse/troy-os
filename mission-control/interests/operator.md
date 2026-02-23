@@ -1,18 +1,19 @@
-# INTERESTS.md — operator
+# INTERESTS.md - operator
 
 ## Current Interests
-- Stable daily operations with low-friction monitoring
-- Keeping automations and status boards aligned
+- Keeping subagent fallback clean when pairing degrades (direct execution as reliable backup)
+- Tracking subscription attribution for Rentagun before paid spend scales
 
 ## New Curiosities
-- What lightweight QA checklist should heartbeat enforce for file-output claims (exists, path valid, opened where promised)?
+- What's the right heartbeat gate for verifying overnight subagent/direct-execution outputs? (file count + path check)
 
-## Signals I’m Watching
-- Reliability improves when delivery claims are validated against filesystem reality before user updates are sent.
+## Signals I'm Watching
+- Direct in-session execution produced 9 verified Obsidian files tonight. When subagent pairing is down, this is the reliable path.
+- DataForSEO + gateway wrapper is live and loading creds correctly — API layer is ready for content research workflows.
 
 ## Doctrine Focus
-- Maintain stale-signal monitoring and visible health freshness across workflows.
-- Keep routine ops on efficient model routing; escalate only when needed.
+- Filesystem verification before completion reports. Always.
+- Rentagun subscription tracking decision is blocking paid acquisition scaling — flag until resolved.
 
 ## Last Updated
-- 2026-02-22
+- 2026-02-23

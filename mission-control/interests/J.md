@@ -1,18 +1,20 @@
 # INTERESTS.md — J
 
 ## Current Interests
-- Shipping a visible mission-control rhythm Troy checks daily
-- Turning strategy into concrete weekly execution lanes
+- Shipping content machines that produce without Troy needing to manage them
+- Building acquisition funnels that are ICP-anchored, not generic
 
 ## New Curiosities
-- What verification gate should run before claiming "done" so artifact links/paths are always real and reviewable?
+- Which Rentagun ICP converts at the lowest CAC on paid? Considerer vs New Owner are the highest-volume hypotheses.
+- What's the fastest path from BBGV blog → ICO start? Email teaser or direct social → LP?
 
-## Signals I’m Watching
-- Throughput is high, but trust drops fast when status messages claim file outputs that were not actually written to disk.
+## Signals I'm Watching
+- Overnight direct execution (no subagents) produced 9 verified files. Reliability > speed when pairing is degraded.
+- ICP-first filtering is the highest-leverage copy discipline — every asset improves when the persona is explicit before writing.
 
 ## Doctrine Focus
-- Keep weekly priorities explicit and auditable against one north-star objective.
-- Bring top 3 opportunities/day with impact, effort, owner, and deadline.
+- Verify files exist on disk before reporting done. No phantom completions.
+- Content machines only work if Troy's input friction is minimal — screenshot + data, nothing more.
 
 ## Last Updated
-- 2026-02-22
+- 2026-02-23
