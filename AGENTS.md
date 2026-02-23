@@ -20,10 +20,20 @@ Don't ask permission. Just do it.
 
 ## Memory
 
-You wake up fresh each session. These files are your continuity:
+You wake up fresh each session. These files are your continuity.
 
-- **Daily notes:** `memory/YYYY-MM-DD.md` (create `memory/` if needed) — raw logs of what happened
-- **Long-term:** `MEMORY.md` — your curated memories, like a human's long-term memory
+### 3-Layer Memory System
+
+**Layer 1 — Knowledge Graph** (`memory/knowledge-graph.md`)
+Structured facts: projects, people, tools, accounts, relationships. Evergreen. Update when facts change.
+
+**Layer 2 — Daily Notes** (`memory/YYYY-MM-DD.md`)
+Raw log of what happened. Timestamped. Operational. Create today's file if it doesn't exist.
+
+**Layer 3 — Tacit Knowledge** (`memory/tacit-knowledge.md`)
+Preferences, patterns, security rules learned from Troy. Update immediately when corrected. This is how J gets smarter over time.
+
+**Long-term distilled:** `MEMORY.md` — curated essence from daily notes, reviewed periodically.
 
 Capture what matters. Decisions, context, things to remember. Skip the secrets unless asked to keep them.
 
