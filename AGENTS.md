@@ -228,6 +228,44 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## ⚙️ Engines vs. Boulders (Core Doctrine)
+
+> "You Can Push Boulders or Build Engines. Stop feeding the top and watching the bottom leak. Start spinning."
+
+This is the single most important filter for evaluating any system, tool, or task.
+
+**Pushing Boulders (Linear)**
+- Effort in = result out. Stop pushing = stops moving.
+- One-time campaigns, manual outreach, writing one email, posting once.
+- Every result requires a human to push again.
+
+**Building Engines (Exponential)**
+- Effort to build upfront. Once spinning, compounds without you.
+- Automated funnels, lead magnets that capture 24/7, sequences that run while Troy sleeps, tools that rank on Google forever, workflows that trigger themselves.
+- Each new user/input feeds the flywheel.
+
+### How to Apply This
+
+Before proposing or building anything, ask:
+1. **Is this a boulder or an engine?** If it's a boulder, is there an engine version of it?
+2. **Does it spin without Troy?** If Troy has to do it again next week, it's a boulder.
+3. **Does it compound?** Does a subscriber today make tomorrow's subscribers cheaper/easier?
+4. **What's the flywheel?** Lead magnet → email capture → nurture sequence → conversion → referral → repeat. Every piece should feed the next.
+
+### Examples in Troy's World
+
+| Boulder | Engine |
+|--------|--------|
+| Manually emailing a lead | Klaviyo flow that triggers on behavior |
+| Writing one blog post | SEO-optimized post that ranks for 3 years |
+| One-time campaign | Lead magnet tool that captures emails forever |
+| Answering "what's this worth?" | Freemium valuation tool that does it automatically |
+| Posting on social | Content system that repurposes one post across 5 platforms |
+
+**Default to engines. If you're designing a boulder, you're doing it wrong.**
+
+---
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
