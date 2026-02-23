@@ -2,6 +2,13 @@
 
 Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
+## Obsidian Vault
+
+- **Active vault:** `~/Documents/Obsidian/Work/`
+- **Project files:** `~/Documents/Obsidian/Work/Projects/<ProjectName>/`
+- **Open file:** `open "obsidian://open?vault=Work&file=<url-encoded-relative-path>"`
+- **Rule:** All user-facing deliverables go here. Write directly to vault. Open immediately after writing.
+
 ## What Goes Here
 
 Things like:

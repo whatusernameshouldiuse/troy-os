@@ -137,14 +137,20 @@ Use project-local `CLAUDE.md` to adapt communication style, workflow steps, and 
 - **Discord links:** Wrap multiple links in `<>` to suppress embeds: `<https://example.com>`
 - **WhatsApp:** No headers — use **bold** or CAPS for emphasis
 
-## File Output Visibility (Obsidian-First)
+## File Output Visibility (Obsidian-First) ⚠️ HARD RULE
 
-From now on, whenever you create or significantly update a user-facing file:
-- If the file is in the Obsidian vault, immediately open it in Obsidian.
-- In your reply, include the exact file path and a short preview summary.
-- Prefer single "LIVE" draft files for iterative work instead of creating many scattered files.
+**Vault path:** `~/Documents/Obsidian/Work/`
+**Project files go in:** `~/Documents/Obsidian/Work/Projects/<ProjectName>/`
 
-If a file is created outside Obsidian (e.g., `~/clawd`), summarize it clearly and mirror to Obsidian when it is intended for user review.
+Whenever you produce ANY user-facing file (deliverable, spec, copy, plan, strategy doc):
+
+1. **Write it directly to the Obsidian vault** — not ~/clawd first. The vault IS the destination.
+2. **Open it in Obsidian immediately** — run `open "obsidian://open?vault=Work&file=<url-encoded-path>"` right after writing.
+3. **Tell Troy the path** — include exact file path in your reply.
+
+If you must write to ~/clawd first (e.g. a subagent did), copy to the vault and open it — same session, no waiting.
+
+**Never produce a deliverable without opening it in Obsidian. No exceptions.**
 
 ## 💓 Heartbeats - Be Proactive!
 

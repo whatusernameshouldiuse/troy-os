@@ -11,6 +11,7 @@
 - Project-local `CLAUDE.md` should guide per-project communication/workflow behavior.
 - Canonical organization + migration logs are preferred over destructive cleanup.
 - Use subagents for heavy execution when available, with fallback policy when delegation is degraded.
+- **Obsidian-first outputs:** All user-facing deliverables go directly to `~/Documents/Obsidian/Work/Projects/<Project>/`. Open in Obsidian immediately after writing — `open "obsidian://open?vault=Work&file=<encoded-path>"`. Never produce a deliverable without opening it.
 
 ## Current Operational Baseline (2026-02-20)
 - Mission-control doctrine and control files are in place for:
