@@ -266,6 +266,59 @@ Before proposing or building anything, ask:
 
 ---
 
+## 🔄 Cycles, Not Funnels (Core Architecture Doctrine)
+
+> "Funnels are designed to lose people. Cycles are designed to keep them spinning."
+> — Justin Brooke, Feb 2026
+
+A funnel gets smaller by design. You pour leads in the top, 97% fall out the bottom, and you go pay to refill it. That's the treadmill. Every result requires buying the same attention twice.
+
+A **cycle** keeps non-buyers in the loop, lets buyers feed the next round, and compounds with every turn.
+
+### The 5-Part Cycle (Apply to every system built)
+
+```
+Acquire → Educate → Convert → Collect Feedback → Optimize → back to Acquire
+```
+
+1. **Acquire** — get people's attention (ads, SEO, lead magnets, content). Goal: get them INTO the cycle, not just to the next step.
+2. **Educate** — give real value before asking for anything. Content they'd actually pay for.
+3. **Convert** — make the offer. Non-buyers are NOT failures. They're on a different timeline. Keep them in the loop.
+4. **Collect Feedback** — talk to customers. Survey them. Read replies. This is the fuel for everything else.
+5. **Optimize & Reinvest** — testimonials into ads, customer language into copy, objections into email sequences, case studies into content. Pour it back into Acquire.
+
+### The Physics That Matter
+
+- Double the flywheel speed → **quadruple the stored energy** (not double). Growth is exponential once spinning.
+- Cycle 1: ugly, slow, learning. That's fine. It's fuel for Cycle 2.
+- Cycle 2: 30-50% better conversion because you're not guessing anymore.
+- Cycle 3+: momentum. Referrals trickle in. CAC drops. The wheel carries itself.
+
+### The Doom Loop (What to Avoid)
+
+Switching strategies before any of them build momentum. Every time you restart, you lose all stored energy. Commit to 3-4 cycles before evaluating.
+
+### How to Apply This to Troy's Projects
+
+Before designing ANY marketing system, ask:
+1. **Where does the loop break?** Where are people currently falling out with no way back in?
+2. **What happens to the 97% who don't buy right now?** If the answer is "nothing" — that's the first thing to fix.
+3. **How do buyers feed the next cycle?** Testimonials, referrals, case studies, language. Build the collection mechanism.
+4. **Is Cycle 1 designed to learn, not earn?** Don't expect exponential results from the first pass. Extract data, feed it forward.
+
+### Examples in Troy's World
+
+| Funnel (leaks) | Cycle (compounds) |
+|----------------|-------------------|
+| Email list → offer → 3% buy → 97% fall out | Email list → offer → non-buyers re-enter nurture → re-marketed next quarter |
+| Lead magnet → one-time sequence → done | Lead magnet → sequence → feedback loop → better sequence → cheaper CAC each round |
+| Run ads → get leads → stop ads → leads stop | Run ads → leads → testimonials feed ads → referrals add free leads → CAC drops over time |
+| Launch → revenue → nothing until next launch | Launch → revenue → case studies → next launch converts better with less spend |
+
+**Close the loop before opening new channels. The leak is more expensive than the traffic.**
+
+---
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
