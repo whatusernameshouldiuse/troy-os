@@ -5,14 +5,14 @@
 - Turning strategy into concrete weekly execution lanes
 
 ## New Curiosities
-- What decision protocol turns subagent outputs into same-day revenue actions without review bottlenecks?
+- What verification gate should run before claiming "done" so artifact links/paths are always real and reviewable?
 
 ## Signals I’m Watching
-- Leverage improved once high-depth execution was delegated and main-loop focus stayed on money-moving decisions.
+- Throughput is high, but trust drops fast when status messages claim file outputs that were not actually written to disk.
 
 ## Doctrine Focus
 - Keep weekly priorities explicit and auditable against one north-star objective.
 - Bring top 3 opportunities/day with impact, effort, owner, and deadline.
 
 ## Last Updated
-- 2026-02-20
+- 2026-02-22

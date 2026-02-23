@@ -29,6 +29,7 @@ Last Updated: 2026-02-22
 ## Blockers / Attention Needed
 - Browser relay attach remains unreliable; API publishing path is fallback
 - Subagent pairing intermittently degrades; fallback policy active
+- Obsidian output integrity gap discovered: some previously claimed `Work/Projects/...` files were not actually written to disk; apply filesystem verification before reporting completion
 
 ## Owner Decisions Needed
 - Approve/install flagged third-party skills (case-by-case)

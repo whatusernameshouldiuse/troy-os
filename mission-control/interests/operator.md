@@ -5,14 +5,14 @@
 - Keeping automations and status boards aligned
 
 ## New Curiosities
-- What completion-check routine should run when multiple high-priority subagents are active simultaneously?
+- What lightweight QA checklist should heartbeat enforce for file-output claims (exists, path valid, opened where promised)?
 
 ## Signals I’m Watching
-- System throughput increases when orchestration separates $200/hr judgment work from delegated production execution.
+- Reliability improves when delivery claims are validated against filesystem reality before user updates are sent.
 
 ## Doctrine Focus
 - Maintain stale-signal monitoring and visible health freshness across workflows.
 - Keep routine ops on efficient model routing; escalate only when needed.
 
 ## Last Updated
-- 2026-02-20
+- 2026-02-22
