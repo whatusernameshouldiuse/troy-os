@@ -85,6 +85,8 @@ Last Updated: 2026-02-23 (EOD)
 - **Slack workspace:** Rentagun (team workspace)
 - **WhatsApp sender_id:** +12565954802
 - **WhatsApp chat_id:** +12565954802 (direct, same as sender)
+- **Email (J):** clawj79@gmail.com
+- **Slack #openclaw-email inbound address:** openclaw-email-aaaatdyhm3ycn3yed5zhjaxxua@rentaguncom.slack.com
 
 ### Team (Rentagun Slack)
 - Michael Puente: U08TVLAR6LF
