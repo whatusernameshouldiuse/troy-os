@@ -79,7 +79,19 @@ Last Updated: 2026-02-23 (EOD)
 
 ## Key Relationships / People
 
-*(Add as known)*
+### Troy VanMaanen
+- **Slack user ID:** U08U4STRPCK
+- **Slack DM channel:** D0AAVF48ARY
+- **Slack workspace:** Rentagun (team workspace)
+
+### Team (Rentagun Slack)
+- Michael Puente: U08TVLAR6LF
+- Forrest Jones: U08UE0HR4G2
+- Matt Longley: U08UM20SPPB
+- Rex McClanahan: U08UM2TEG6M
+- Vincent Jamero: U08UMUZ5KGR
+- Aron Quiray: U09SNFDNCHF
+- Jaylin McClanahan: U08TVKRCLLF
 
 ---
 
