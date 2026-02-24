@@ -2,9 +2,11 @@
 
 Live operating state. This is the short-term command board.
 
-Last Updated: 2026-02-22
+Last Updated: 2026-02-23
 
 ## Active Projects
+- OutdoorInfluencers cold outreach system launch — In Progress
+  - Next: receive Snov.io creds + sending domain + OI Instagram, then launch outreach engine
 - Rentagun CRO audit + quiz build — Awaiting Troy answers on 4 questions before proceeding
   - Next: RevenueHunt failure reason + quiz output type + platform + subscribe flow path
 - BBGV email/lifecycle + deliverability recovery — In Progress
