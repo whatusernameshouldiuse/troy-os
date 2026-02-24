@@ -12,6 +12,13 @@ Last Updated: 2026-02-24
 - **Next:** Receive Snov.io creds + sending domain + OI Instagram account → launch outreach engine + start email warm-up
 - **Gating:** Boss approval on OI.io concept needed before touching creators
 
+### BBGV — Email Deliverability (ACTIVE ISSUE 🔴)
+- **Root cause confirmed:** Paid Subscribers list (9,856) has 7,159 NOT ENGAGED profiles (72%). Was included in multiple sends. Tanked sender rep.
+- **Klaviyo support built unengaged segment:** https://www.klaviyo.com/list/WBbtVg
+- **Immediate rule:** Do NOT send to Paid Subscribers list. Send only to Engaged-30 or Engaged-90 for next 30 days.
+- **Next action:** Suppress the 7,159 unengaged profiles (not just exclude). Troy to approve.
+- **Recovery timeline:** 30–60 days of clean sends to repair inbox placement
+
 ### BBGV — Lead Magnet Engine
 - **Status:** Architecture + copy + tech spec complete (3 sub-agent deliverables in Obsidian)
 - **Lead magnet:** "What's This Gun Worth Right Now?" — free two-sided valuation tool, email gate, InstaCash offer for sellers
