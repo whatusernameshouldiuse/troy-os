@@ -5,6 +5,8 @@ Live operating state. This is the short-term command board.
 Last Updated: 2026-02-22
 
 ## Active Projects
+- Rentagun CRO audit + quiz build — Awaiting Troy answers on 4 questions before proceeding
+  - Next: RevenueHunt failure reason + quiz output type + platform + subscribe flow path
 - BBGV email/lifecycle + deliverability recovery — In Progress
   - Next: triage spam placement root cause in Klaviyo and send to engaged-only segment
 - BBGV subscription-free transition (ICO + consignment) — In Progress
@@ -27,7 +29,7 @@ Last Updated: 2026-02-22
   - ops-automation-bottomline
 
 ## Blockers / Attention Needed
-- Browser relay attach remains unreliable; API publishing path is fallback
+- Browser relay (Chrome extension) intentionally disabled 2026-02-23; replaced with agent-browser CLI (vercel-labs/agent-browser) — fully operational
 - Subagent pairing restored 2026-02-23 08:08 AM (gateway plist repaired + device re-approved)
 - Obsidian output integrity gap discovered: some previously claimed `Work/Projects/...` files were not actually written to disk; apply filesystem verification before reporting completion
 
