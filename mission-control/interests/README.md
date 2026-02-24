@@ -14,6 +14,7 @@ Files:
 - operator.md
 
 ## Recent Notes
+- 2026-02-24: Slack channel path is now live in OpenClaw (`Slack ON · OK`), unlocking team-native multi-project routing alongside WhatsApp.
 - 2026-02-24: Overnight signal — two TikTok experiment systems shipped (brands + OI.io), creating a repeatable hooks→scripts→approval→results loop ready for daily testing.
 - 2026-02-23: 7:41 AM preflight detected active delegation degradation (`gateway closed (1008): pairing required` on spawn test retry); fallback policy remains in force until pairing restores.
 - 2026-02-23: Overnight build complete — 9 verified Obsidian files written (4 Rentagun ICP landing pages, 5-email drip, 40-hook ad library, subscription framing, Rentagun README, BBGV 30-day roadmap). Subagent pairing was down; direct execution was the reliable fallback. ICP-anchored copy discipline applied throughout.
