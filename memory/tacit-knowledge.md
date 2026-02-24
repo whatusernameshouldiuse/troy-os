@@ -25,6 +25,7 @@ Last Updated: 2026-02-23
 3. Does it move money now or compound toward money soon?
 
 ## Product Knowledge (Corrections Received)
+- **BBGV is NOT an affiliate/anchor brand for OutdoorInfluencers sprint** (2026-02-23). Removed from campaign briefs. Sprint anchors = Rentagun + GunStreamer only. Sprint earnings = $500+ (not $1,000+).
 
 - **BBGV valuations ARE the product** — don't suggest giving them away as a lead magnet.
 - **BBGV already has a collection estimator** in the backend — don't build what already exists.
