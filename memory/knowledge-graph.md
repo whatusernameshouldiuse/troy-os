@@ -55,9 +55,14 @@ Last Updated: 2026-02-23 (EOD)
 ### GunStreamer
 - **Website:** gunstreamer.com
 - **What:** Live commerce platform for firearms ("Whatnot for guns")
-- **Model:** SaaS for FFLs + 3% transaction fee
-- **Status:** Pre-launch — marketing focus only, needs BUYERS more than FFLs right now
-- **OI.io Sprint:** Dropped from Cohort 1 — platform not live, promising creator revenue before launch is a credibility landmine. Re-add when platform launches.
+- **Model:** Commission-only for FFLs (12% Launch / 9-10% Growth / 6-8% Elite) — no monthly fees
+- **Pages live:** gunstreamer.com (homepage — blank app embed, needs redesign), /dealercontact (full FFL landing page), /forbuyers (buyer landing page)
+- **Status:** ✅ LIVE — platform is operational, streams happening
+- **Email list:** ~120K contacts in Klaviyo (14 wave/batch lists, zero emails sent to most of them)
+- **Homepage problem:** Home shows blank app embed. All marketing is at /dealercontact. Homepage redesign brief written: `Projects/GunStreamer/Homepage-Redesign-Brief-2026-02-24.md`
+- **Branding:** Deep navy bg, red/coral accent (#e84444), circular crosshair logo, bold uppercase headlines
+- **Key pages to build:** VSL page (/about), redesigned homepage with live stream widget
+- **OI.io Sprint:** Can re-add to Cohort 1 now that platform is live. Creator anchor offer: $200+ minimum commission per sprint.
 
 ---
 

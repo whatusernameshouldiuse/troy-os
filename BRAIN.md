@@ -2,7 +2,7 @@
 
 Live operating state. This is the short-term command board.
 
-Last Updated: 2026-02-23
+Last Updated: 2026-02-24
 
 ## Active Projects
 
@@ -29,6 +29,14 @@ Last Updated: 2026-02-23
   2. Where does "Get Basic Access" actually lead?
   3. Quiz output: specific gun recommendations OR subscription tier recommendation?
   4. Build platform: WordPress shortcode, Typeform embed, or Next.js on Vercel?
+
+### GunStreamer — NOW LIVE
+- **Status:** ✅ Platform is live. Streams are happening. No longer pre-launch.
+- **Homepage:** Blank app embed — redesign brief written at `Projects/GunStreamer/Homepage-Redesign-Brief-2026-02-24.md`. Live stream widget + dual audience (buyers/dealers) architecture designed.
+- **Email:** ~120K contacts in Klaviyo across 14 lists. Zero emails sent to most. Massive untapped asset.
+- **Next:** Develop social media strategy to showcase streams + build hype. 120K email wave. Homepage dev handoff.
+- **VSL page:** Needs Troy on camera — /about page concept in redesign brief.
+- **OI.io:** Re-add GunStreamer to Sprint Cohort 1 now that platform is live.
 
 ### GTM/CMO Audit System
 - **Status:** In Progress
