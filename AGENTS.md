@@ -335,6 +335,57 @@ Before designing ANY marketing system, ask:
 
 ---
 
+## 🛠️ Marketing Skills Dispatch
+
+Troy works across four projects (BBGV, Rentagun, GunStreamer, OutdoorInfluencers.io). All Corey Haines marketing skills are installed at `~/clawd/skills/`. **When Troy raises a marketing topic, select the matching skill and load its SKILL.md before responding.**
+
+### Signal → Skill Mapping
+
+| Troy says / topic | Skill to load |
+|-------------------|---------------|
+| "write copy", "landing page", "homepage copy", "rewrite this" | `copywriting` |
+| "edit this copy", "review my copy", "make this better" | `copy-editing` |
+| "social media", "LinkedIn post", "TikTok content", "Twitter", "Instagram", "content calendar" | `social-content` |
+| "email sequence", "drip campaign", "onboarding emails", "welcome series", "nurture" | `email-sequence` |
+| "email deliverability", "list health", "open rates", "segmentation", "Klaviyo" | `email-marketing` |
+| "cold email", "outreach", "prospecting", "SDR" | `cold-email` |
+| "CRO", "conversion rate", "this page isn't converting", "improve conversions" | `page-cro` |
+| "signup flow", "registration", "reduce signup dropoff" | `signup-flow-cro` |
+| "onboarding", "activation", "first-run", "aha moment" | `onboarding-cro` |
+| "popup", "modal", "exit intent", "lead capture overlay" | `popup-cro` |
+| "form optimization", "lead form", "contact form" | `form-cro` |
+| "paywall", "upgrade screen", "upsell modal", "freemium conversion" | `paywall-upgrade-cro` |
+| "churn", "cancel flow", "retention", "dunning", "failed payment" | `churn-prevention` |
+| "SEO audit", "why am I not ranking", "technical SEO", "on-page SEO" | `seo-audit` |
+| "programmatic SEO", "pages at scale", "location pages", "template pages" | `programmatic-seo` |
+| "schema markup", "structured data", "JSON-LD", "rich snippets" | `schema-markup` |
+| "AI SEO", "optimize for ChatGPT", "AI Overviews", "Perplexity" | `ai-seo` |
+| "competitor comparison", "vs page", "alternative page" | `competitor-alternatives` |
+| "content strategy", "what should I write about", "blog strategy", "topic clusters" | `content-strategy` |
+| "A/B test", "split test", "experiment", "variant" | `ab-test-setup` |
+| "analytics", "GA4", "tracking", "GTM", "UTM", "conversion tracking" | `analytics-tracking` |
+| "referral program", "affiliate", "word of mouth", "refer a friend" | `referral-program` |
+| "paid ads", "Google Ads", "Meta ads", "Facebook ads", "PPC", "ROAS" | `paid-ads` |
+| "ad creative", "headlines", "ad copy variations", "RSA" | `ad-creative` |
+| "pricing", "tiers", "freemium", "value metric", "packaging", "willingness to pay" | `pricing-strategy` |
+| "launch", "Product Hunt", "go-to-market", "announcement", "waitlist" | `launch-strategy` |
+| "free tool", "calculator", "lead gen tool", "engineering as marketing" | `free-tool-strategy` |
+| "marketing ideas", "growth ideas", "how to market", "ways to promote" | `marketing-ideas` |
+| "psychology", "persuasion", "cognitive bias", "why people buy" | `marketing-psychology` |
+| "flywheel", "growth loop", "cycle-based marketing", "close the loop" | `marketing-flywheel` *(in openclaw skills)* |
+| "product context", "positioning", "set up context" | `product-marketing-context` |
+| "UX copy", "button labels", "error messages", "tooltips" | `copywriter` |
+| "build UI", "landing page component", "frontend", "web design" | `frontend-design` |
+| "deep research prompts", "DRR", "research batch" | `drr-researcher` |
+
+### Rules
+1. **One skill per task** — pick the most specific match, not multiple.
+2. **Load it before generating output** — read the SKILL.md first, then follow its framework.
+3. **product-marketing-context is the foundation** — if Troy hasn't set up a context doc for a project, suggest it before doing deep marketing work.
+4. **Combine skills for compound work** — e.g. social + email + launch-strategy all feed the same campaign.
+
+---
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
