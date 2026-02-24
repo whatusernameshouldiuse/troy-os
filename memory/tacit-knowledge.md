@@ -1,6 +1,6 @@
 # Tacit Knowledge
 **Layer 3 Memory — Preferences, patterns, security rules learned from Troy**
-Last Updated: 2026-02-23
+Last Updated: 2026-02-23 (EOD)
 
 ---
 
@@ -23,6 +23,13 @@ Last Updated: 2026-02-23
 1. Is this an engine or a boulder? Default to engine.
 2. Does the loop close? Non-buyers must re-enter, not fall out.
 3. Does it move money now or compound toward money soon?
+4. What does Cycle 3 look like? If you can't describe it, the system isn't built right.
+
+## Gating Rules (Hard Stops)
+
+- **OI.io outreach:** Boss approval on concept required before any creator is contacted. Do not proceed on outreach without explicit sign-off.
+- **OI.io Email 4:** Proof data is fabricated. Must be labeled "projected" OR held until Cohort 1 real data exists. FTC risk if sent as-is.
+- **GunStreamer income claims:** Do NOT include GunStreamer as a revenue source for creators until platform is live. Credibility landmine.
 
 ## Product Knowledge (Corrections Received)
 - **BBGV is NOT an affiliate/anchor brand for OutdoorInfluencers sprint** (2026-02-23). Removed from campaign briefs. Sprint anchors = Rentagun + GunStreamer only. Sprint earnings = $500+ (not $1,000+).

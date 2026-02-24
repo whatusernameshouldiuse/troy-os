@@ -1,6 +1,6 @@
 # Knowledge Graph
 **Layer 1 Memory — Structured facts about Troy's world**
-Last Updated: 2026-02-23
+Last Updated: 2026-02-23 (EOD)
 
 ---
 
@@ -38,22 +38,26 @@ Last Updated: 2026-02-23
 - **Status:** Active — post SHOT Show 2026
 
 ### OutdoorInfluencers.io
-- **Website:** outdoorinfluencers.io (domain status unknown)
+- **Website:** outdoorinfluencers.io (landing page HTML ready to deploy)
 - **What:** Marketplace + mastermind connecting outdoor creators (hunting/fishing/shooting, 1K–50K followers) with brands
-- **Anchor brands:** BBGV, Rentagun, GunStreamer (Troy's own ecosystem)
-- **Revenue model:** Free → Pro ($29-49/mo) → Mastermind ($97-197/mo) + 10-15% transaction fee
+- **Anchor brands:** Rentagun + GunStreamer (BBGV removed from sprint 2026-02-23 — different product, not affiliate model)
+- **Revenue model (current):** Free → Pro ($29-49/mo) → Mastermind ($97-197/mo) + 10-15% transaction fee
+- **Revenue model (J recommended, pending Troy review):** Pro $49/mo committed, Mastermind $149/mo w/ results guarantee, brand fees $299/$399/$599, transaction fee 10% flat
 - **Core promise:** Creator earns $500+ in 14 days (Rentagun $300 + GunStreamer $200 = $500 minimum)
-- **BBGV removed from sprint** (2026-02-23) — not an affiliate/anchor brand for OI.io. Sprint is Rentagun + GunStreamer only.
-- **Status:** Phase 1 Foundation — landing page HTML ready, email sequence written, campaign briefs complete, cold outreach system built
-- **Cold outreach system:** 5-file package in `Projects/OutdoorInfluencers/Cold-Outreach-System/` — stack: Snov.io + n8n (have) + Resend + Airtable. Needs Snov.io creds + sending domain + Instagram account to launch.
-- **Files:** iCloud vault at `Library/Mobile Documents/iCloud~md~obsidian/Documents/Work/Projects/Outdoor Influencers/`
-- **Started in:** Claude co-work session, now integrating with J
+- **Status:** Phase 0+1 Foundation complete — marketing psychology, pricing, 125 ideas, launch strategy, free tool, website copy, content strategy all done
+- **Cold outreach system:** 5-file package in `Projects/OutdoorInfluencers/Cold-Outreach-System/` — stack: Snov.io + n8n (have) + Resend + Airtable. J operates full pipeline. Needs Snov.io creds + sending domain + Instagram account.
+- **Email warm-up:** Must start immediately once sending domain confirmed — 14-day lead before cold emails fire. DM outreach can start now.
+- **Must-fix before creator outreach:** Email 4 proof data is fabricated (FTC risk) — label as projected OR hold until Cohort 1 real data. Also: GunStreamer pre-launch, drop from Sprint Cohort 1.
+- **Files (iCloud vault):** `Library/Mobile Documents/iCloud~md~obsidian/Documents/Work/Projects/Outdoor Influencers/`
+- **Files (Obsidian):** `Projects/OutdoorInfluencers/` and `Projects/Outdoor Influencers/Phase-0-Foundation/` + `Phase-1-PreLaunch/`
+- **Started in:** Claude co-work session, now integrated with J
 
 ### GunStreamer
 - **Website:** gunstreamer.com
 - **What:** Live commerce platform for firearms ("Whatnot for guns")
 - **Model:** SaaS for FFLs + 3% transaction fee
 - **Status:** Pre-launch — marketing focus only, needs BUYERS more than FFLs right now
+- **OI.io Sprint:** Dropped from Cohort 1 — platform not live, promising creator revenue before launch is a credibility landmine. Re-add when platform launches.
 
 ---
 

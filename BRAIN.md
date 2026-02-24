@@ -5,36 +5,75 @@ Live operating state. This is the short-term command board.
 Last Updated: 2026-02-23
 
 ## Active Projects
-- OutdoorInfluencers cold outreach system launch — In Progress
-  - Next: receive Snov.io creds + sending domain + OI Instagram, then launch outreach engine
-- Rentagun CRO audit + quiz build — Awaiting Troy answers on 4 questions before proceeding
-  - Next: RevenueHunt failure reason + quiz output type + platform + subscribe flow path
-- BBGV email/lifecycle + deliverability recovery — In Progress
-  - Next: triage spam placement root cause in Klaviyo and send to engaged-only segment
-- BBGV subscription-free transition (ICO + consignment) — In Progress
-  - Next: implement website triggers + route users into ICO vs consignment paths
-- GTM/CMO Audit System — In Progress
-  - Next: fill first-pass scorecard and produce top-10 bottleneck task list
+
+### OutdoorInfluencers.io
+- **Status:** Phase 0+1 Foundation complete. Outreach system built and ready to fire.
+- **Phase 0+1 deliverables done:** Marketing Psychology, Pricing Strategy, 125 Marketing Ideas, Launch Strategy, Free Tool Strategy, Website Copy, Content Strategy, Cold Outreach System (5 files)
+- **Next:** Receive Snov.io creds + sending domain + OI Instagram account → launch outreach engine + start email warm-up
+- **Gating:** Boss approval on OI.io concept needed before touching creators
+
+### BBGV — Lead Magnet Engine
+- **Status:** Architecture + copy + tech spec complete (3 sub-agent deliverables in Obsidian)
+- **Lead magnet:** "What's This Gun Worth Right Now?" — free two-sided valuation tool, email gate, InstaCash offer for sellers
+- **Next:** Await Klaviyo API key + list ID + valuation API endpoint confirmation + subdomain decision
+- **Also active:** Email/lifecycle deliverability recovery — triage spam placement root cause in Klaviyo, send to engaged-only segment first
+
+### BBGV — Subscription-Free Transition (ICO + Consignment)
+- **Status:** In Progress
+- **Next:** Implement website triggers + route users into ICO vs consignment paths → dev handoff
+
+### Rentagun — CRO Audit + Quiz
+- **Status:** Audit complete. Quiz build blocked on Troy's answers to 4 questions.
+- **4 questions outstanding:**
+  1. What broke with RevenueHunt? (Technical / low completion / completed but didn't convert?)
+  2. Where does "Get Basic Access" actually lead?
+  3. Quiz output: specific gun recommendations OR subscription tier recommendation?
+  4. Build platform: WordPress shortcode, Typeform embed, or Next.js on Vercel?
+
+### GTM/CMO Audit System
+- **Status:** In Progress
+- **Next:** Fill first-pass scorecard and produce top-10 bottleneck task list
+
+---
+
+## Owner Decisions Needed (Blockers)
+
+| Item | Project | Notes |
+|------|---------|-------|
+| Snov.io client_id + client_secret | OI.io | snov.io/integration/api |
+| Cold outreach sending domain | OI.io | Separate from outdoorinfluencers.io |
+| OI.io Instagram account | OI.io | For DM sequences |
+| Boss approval on OI.io concept | OI.io | Gate before creator outreach |
+| Klaviyo API key + list ID | BBGV | For lead magnet build |
+| BBGV valuation API endpoint | BBGV | Exists in backend, or build lookup layer? |
+| Subdomain for lead magnet tool | BBGV | e.g. value.bluebookofgunvalues.com |
+| Rentagun quiz 4 questions | Rentagun | See above |
+| OI.io pricing decisions | OI.io | J's recommendations pending Troy review |
+| OI.io Email 4 proof data | OI.io | Must fix before outreach (FTC risk) |
+| J's own accounts (X, GitHub, email) | Infra | Troy to set up |
+| Telegram per-project groups | Infra | Troy to decide vs. WhatsApp |
+
+---
 
 ## Immediate Actions
-- Pull Klaviyo campaign metrics (complaint, bounce, unsub, domain performance) and diagnose
-- Send BBGV trigger handoff to dev + confirm implementation ETA
-- Review incoming subagent deliverables and convert to owner-assigned launch tasks
 
-## Background Tasks
-- Vault/workspace normalization completed
-- Ops hardening docs installed and wired into doctrine
-- Skills registry centralized (`skills-hub/SKILLS-CANONICAL.md` + inventory)
-- Active subagents:
-  - bbgv-content-machine-v1
-  - rentagun-acq-system-v1
-  - ops-automation-bottomline
+- Deploy `OutdoorInfluencers-LandingPage.html` to outdoorinfluencers.io (ready now)
+- Start OI.io email warm-up immediately once sending domain is confirmed (14-day lead time)
+- Klaviyo deliverability: pull campaign metrics + diagnose spam placement for BBGV
+- Dev handoff: BBGV website trigger implementation for ICO/consignment routing
 
-## Blockers / Attention Needed
-- Browser relay (Chrome extension) intentionally disabled 2026-02-23; replaced with agent-browser CLI (vercel-labs/agent-browser) — fully operational
-- Subagent pairing restored 2026-02-23 08:08 AM (gateway plist repaired + device re-approved)
-- Obsidian output integrity gap discovered: some previously claimed `Work/Projects/...` files were not actually written to disk; apply filesystem verification before reporting completion
+---
 
-## Owner Decisions Needed
-- Approve/install flagged third-party skills (case-by-case)
-- Confirm scope for Gmail/X agent-account ingestion rollout
+## Background Tasks / Infrastructure
+
+- Vault/workspace normalization: ✅ complete
+- Ops hardening + preflight checks: ✅ active (hourly)
+- Skills registry centralized: ✅ `skills-hub/SKILLS-CANONICAL.md`
+- Marketing OS: ✅ CLAUDE.md written for all 4 projects, 35 skills installed
+- agent-browser CLI: ✅ operational (Chrome relay intentionally disabled)
+- 3-layer memory system: ✅ in place (knowledge-graph / daily notes / tacit-knowledge)
+- **openclaw update available:** v2026.2.22-2 — run `openclaw update` when convenient
+- Obsidian output integrity: always filesystem-verify before reporting completion
+
+## Notes on Active Sub-agents
+- bbgv-content-machine-v1, rentagun-acq-system-v1, ops-automation-bottomline — verify these are still running/relevant; may be stale from prior sessions
