@@ -43,5 +43,65 @@
 
 ## Critical Flags
 
-- GunStreamer is PRE-LAUNCH — do NOT promise sprint creators they can earn from GunStreamer streaming in 14 days until platform is live. Use BBGV + Rentagun for Sprint Cohort 1 only.
+- GunStreamer is PRE-LAUNCH — frame as "beta access" not guaranteed live sales income. Sprint = Rentagun ($300) + GunStreamer ($200 beta). BBGV removed from sprint structure.
 - Email 4 ([Creator A] $520 etc.) must be updated with real data before sending — currently placeholder
+- Sprint promise is $500 (Rentagun $300 + GunStreamer $200), NOT $1,000. Update sprint copy accordingly.
+
+---
+
+## Skills Pipeline — Chain of Inputs
+
+**BEFORE running any skill, read these in order:**
+
+1. `.claude/product-marketing-context.md` — base context (ICP, brand voice, ecosystem)
+2. `_pipeline/pipeline-manifest.md` — ALL prior key decisions, in dependency order
+3. `_pipeline/skill-inputs/<this-skill>-inputs.md` — if it exists, read it before touching a file
+
+**Skills build on previous outputs. Never run a skill cold.**
+
+The pipeline exists at:
+`~/Library/Mobile Documents/iCloud~md~obsidian/Documents/Work/Projects/Outdoor Influencers/_pipeline/`
+
+### Current Pipeline State
+
+```
+product-marketing-context ✅ (ICP.md + Brand-Voice.md)
+    ↓
+marketing-psychology ✅ (Phase-0-Foundation/Marketing-Psychology-Analysis.md)
+    ↓
+pricing-strategy ✅ (Phase-0-Foundation/Pricing-Strategy.md)
+    ↓
+marketing-ideas ✅ (Phase-0-Foundation/Marketing-Ideas-100.md)
+    ↓
+launch-strategy ✅ (Phase-1-PreLaunch/Launch-Strategy.md)
+    ↓
+content-strategy ✅ (Phase-1-PreLaunch/Content-Strategy.md)
+    ↓
+copywriting ✅ (Phase-1-PreLaunch/Website-Copy.md)
+    ↓
+free-tool-strategy ✅ (Phase-1-PreLaunch/Free-Tool-Strategy.md)
+    ↓
+cold-email ✅ (Email-Sequences.md — post-playbook-download nurture)
+    ↓
+email-sequences-klaviyo ✅ (Phase-2-Launch/Email-Sequences-Klaviyo.md)
+    ↓
+referral-program 🔲 (inputs: _pipeline/skill-inputs/referral-program-inputs.md)
+    ↓
+page-cro 🔲 (inputs: _pipeline/skill-inputs/page-cro-inputs.md)
+    ↓
+signup-flow-cro 🔲 (inputs: _pipeline/skill-inputs/signup-flow-cro-inputs.md)
+    ↓
+social-content 🔲 (inputs: _pipeline/skill-inputs/social-content-inputs.md)
+```
+
+### Skill Input Templates Location
+Each queued skill has a pre-built input template listing exactly which files to read and which decisions to apply. Use them.
+
+### Key Pipeline Rules
+- **Identity language:** Creators are "outdoor creators" or "hunting/fishing/shooting creators" — never "influencers" in creator-facing copy
+- **Pricing:** Pro $49/mo | Mastermind $149/mo | Transaction fees: Free 15% / Pro 10% / Mastermind 5%
+- **Sprint:** Rentagun ($300) + GunStreamer ($200 beta) = $500 total. BBGV removed from sprint.
+- **Anchoring:** Always lead with total before parts. "$500" → then explain the stack.
+- **Psychology rule:** Pain opens. Aspiration closes. Never reverse.
+- **1 CTA per email. Always.**
+- **Social proof specificity:** Include follower count, niche, dollar amount, time frame. Never round numbers.
