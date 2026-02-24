@@ -7,8 +7,8 @@ Last Updated: 2026-02-23
 ## Active Projects
 
 ### OutdoorInfluencers.io
-- **Status:** Phase 0+1 Foundation complete. Outreach system built and ready to fire.
-- **Phase 0+1 deliverables done:** Marketing Psychology, Pricing Strategy, 125 Marketing Ideas, Launch Strategy, Free Tool Strategy, Website Copy, Content Strategy, Cold Outreach System (5 files)
+- **Status:** Phase 0+1 Foundation complete. Outreach + TikTok systems built and ready to fire.
+- **Phase 0+1 deliverables done:** Marketing Psychology, Pricing Strategy, 125 Marketing Ideas, Launch Strategy, Free Tool Strategy, Website Copy, Content Strategy, Cold Outreach System (5 files), TikTok System (5 files)
 - **Next:** Receive Snov.io creds + sending domain + OI Instagram account → launch outreach engine + start email warm-up
 - **Gating:** Boss approval on OI.io concept needed before touching creators
 
@@ -76,4 +76,6 @@ Last Updated: 2026-02-23
 - Obsidian output integrity: always filesystem-verify before reporting completion
 
 ## Notes on Active Sub-agents
-- bbgv-content-machine-v1, rentagun-acq-system-v1, ops-automation-bottomline — verify these are still running/relevant; may be stale from prior sessions
+- tiktok-brands-system: ✅ completed (files delivered to `Projects/TikTok-Experiment-System/`)
+- tiktok-oi-system: ✅ completed (files delivered to `Projects/OutdoorInfluencers/TikTok-System/`)
+- Legacy list (`bbgv-content-machine-v1`, `rentagun-acq-system-v1`, `ops-automation-bottomline`) may be stale — verify relevance next daytime ops pass
