@@ -14,6 +14,7 @@ Files:
 - operator.md
 
 ## Recent Notes
+- 2026-02-24: Preflight caught and fixed a config regression (`channels.slack` unsupported keys); gateway restarted and channel health restored (WhatsApp + Slack both OK).
 - 2026-02-24: Slack channel path is now live in OpenClaw (`Slack ON · OK`), unlocking team-native multi-project routing alongside WhatsApp.
 - 2026-02-24: Overnight signal — two TikTok experiment systems shipped (brands + OI.io), creating a repeatable hooks→scripts→approval→results loop ready for daily testing.
 - 2026-02-23: 7:41 AM preflight detected active delegation degradation (`gateway closed (1008): pairing required` on spawn test retry); fallback policy remains in force until pairing restores.
