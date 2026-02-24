@@ -38,6 +38,15 @@ Last Updated: 2026-02-24
 - **VSL page:** Needs Troy on camera — /about page concept in redesign brief.
 - **OI.io:** Re-add GunStreamer to Sprint Cohort 1 now that platform is live.
 
+### ND Brick Pavers — New Commission Project
+- **Status:** Intake. Waiting on assets from Troy.
+- **Deal:** Troy earns commission per closed lead referred
+- **Migration:** GoHighLevel → Vercel (Next.js + programmatic SEO)
+- **Goal:** Lead gen machine — GA4, GSC, FB Pixel, FB ads, social content
+- **Blockers:** Need GoHighLevel URL/export, GA4 ID, FB page URL, branding assets, business context for product-marketing-context.md
+- **Coordination:** #openclaw-seo in Slack
+- **Obsidian:** `Projects/NDBrickPavers/`
+
 ### GTM/CMO Audit System
 - **Status:** In Progress
 - **Next:** Fill first-pass scorecard and produce top-10 bottleneck task list
