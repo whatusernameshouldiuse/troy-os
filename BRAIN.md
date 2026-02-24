@@ -73,10 +73,14 @@ Last Updated: 2026-02-24
 
 ## Immediate Actions
 
+- **GunStreamer Email 1** — blocked on 3 Troy answers: (1) what can users do on gunstreamer.com now? (2) were 120K opted-in or imported? (3) primary CTA — buyer signups, waitlist, or hype?
+- **Content Pillar System** — approved for implementation this week across all 5 brands; architecture doc at `Projects/TrafficChannels/content-pillar-architecture.md`
+- **ND Brick Pavers intake** — blocked, send assets to #openclaw-seo in Slack
+- **BBGV send** — last email Jan 29 (25+ days). List cooling. Send to engaged segment first while deliverability is being diagnosed.
 - Deploy `OutdoorInfluencers-LandingPage.html` to outdoorinfluencers.io (ready now)
 - Start OI.io email warm-up immediately once sending domain is confirmed (14-day lead time)
-- Klaviyo deliverability: pull campaign metrics + diagnose spam placement for BBGV
 - Dev handoff: BBGV website trigger implementation for ICO/consignment routing
+- Slack `groupPolicy` → allowlist (security critical — confirm allowed channels with Troy)
 
 ---
 
@@ -92,6 +96,7 @@ Last Updated: 2026-02-24
 - Obsidian output integrity: always filesystem-verify before reporting completion
 
 ## Notes on Active Sub-agents
+- content-pillar-architecture: ✅ completed — `Projects/TrafficChannels/content-pillar-architecture.md` in Obsidian
 - tiktok-brands-system: ✅ completed (files delivered to `Projects/TikTok-Experiment-System/`)
 - tiktok-oi-system: ✅ completed (files delivered to `Projects/OutdoorInfluencers/TikTok-System/`)
 - Legacy list (`bbgv-content-machine-v1`, `rentagun-acq-system-v1`, `ops-automation-bottomline`) may be stale — verify relevance next daytime ops pass
