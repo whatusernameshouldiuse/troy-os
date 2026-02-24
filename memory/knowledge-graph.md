@@ -83,6 +83,8 @@ Last Updated: 2026-02-23 (EOD)
 - **Slack user ID:** U08U4STRPCK
 - **Slack DM channel:** D0AAVF48ARY
 - **Slack workspace:** Rentagun (team workspace)
+- **WhatsApp sender_id:** +12565954802
+- **WhatsApp chat_id:** +12565954802 (direct, same as sender)
 
 ### Team (Rentagun Slack)
 - Michael Puente: U08TVLAR6LF
