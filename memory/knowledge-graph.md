@@ -42,7 +42,8 @@ Last Updated: 2026-02-23
 - **What:** Marketplace + mastermind connecting outdoor creators (hunting/fishing/shooting, 1K–50K followers) with brands
 - **Anchor brands:** BBGV, Rentagun, GunStreamer (Troy's own ecosystem)
 - **Revenue model:** Free → Pro ($29-49/mo) → Mastermind ($97-197/mo) + 10-15% transaction fee
-- **Core promise:** Creator earns first $500 in 14 days (via stacked flat fees: BBGV $500 + Rentagun $300 + GunStreamer $200)
+- **Core promise:** Creator earns $500+ in 14 days (Rentagun $300 + GunStreamer $200 = $500 minimum)
+- **BBGV removed from sprint** (2026-02-23) — not an affiliate/anchor brand for OI.io. Sprint is Rentagun + GunStreamer only.
 - **Status:** Phase 1 Foundation — landing page HTML ready, email sequence written, campaign briefs complete, cold outreach system built
 - **Cold outreach system:** 5-file package in `Projects/OutdoorInfluencers/Cold-Outreach-System/` — stack: Snov.io + n8n (have) + Resend + Airtable. Needs Snov.io creds + sending domain + Instagram account to launch.
 - **Files:** iCloud vault at `Library/Mobile Documents/iCloud~md~obsidian/Documents/Work/Projects/Outdoor Influencers/`
