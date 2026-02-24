@@ -44,7 +44,7 @@ Last Updated: 2026-02-23
 - **Revenue model:** Free → Pro ($29-49/mo) → Mastermind ($97-197/mo) + 10-15% transaction fee
 - **Core promise:** Creator earns first $500 in 14 days (via stacked flat fees: BBGV $500 + Rentagun $300 + GunStreamer $200)
 - **Status:** Phase 1 Foundation — landing page HTML ready, email sequence written, campaign briefs complete, cold outreach system built
-- **Cold outreach system:** 5-file package in `Projects/OutdoorInfluencers/Cold-Outreach-System/` — needs Instantly.ai + sending domain + Hunter.io to launch
+- **Cold outreach system:** 5-file package in `Projects/OutdoorInfluencers/Cold-Outreach-System/` — stack: Snov.io + n8n (have) + Resend + Airtable. Needs Snov.io creds + sending domain + Instagram account to launch.
 - **Files:** iCloud vault at `Library/Mobile Documents/iCloud~md~obsidian/Documents/Work/Projects/Outdoor Influencers/`
 - **Started in:** Claude co-work session, now integrating with J
 
