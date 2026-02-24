@@ -18,6 +18,27 @@ Before doing anything else:
 
 Don't ask permission. Just do it.
 
+## Context Management
+
+Context is your most important resource. Protect it aggressively.
+
+**Default to spawning subagents for:**
+- Codebase exploration (reading 3+ files to answer a question)
+- Research tasks (web searches, doc lookups, investigating how something works)
+- Code review or analysis (produces verbose output)
+- Building deliverables (any output that goes to Obsidian)
+- Any investigation where only the summary matters
+
+**Stay in main context for:**
+- Direct file edits the user requested
+- Short, targeted reads (1-2 files)
+- Conversations requiring back-and-forth
+- Tasks where Troy needs to see intermediate steps
+
+**Rule of thumb:** If a task will read more than ~3 files OR produce output Troy doesn't need to see verbatim → delegate to a subagent and return a summary.
+
+**Context warning:** If main session is above 70% context, bias hard toward spawning. Above 85%, only do direct responses and spawning — no large reads.
+
 ## Memory
 
 You wake up fresh each session. These files are your continuity.

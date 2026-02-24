@@ -15,7 +15,7 @@ Last Updated: 2026-02-24
 ### BBGV — Lead Magnet Engine
 - **Status:** Architecture + copy + tech spec complete (3 sub-agent deliverables in Obsidian)
 - **Lead magnet:** "What's This Gun Worth Right Now?" — free two-sided valuation tool, email gate, InstaCash offer for sellers
-- **Next:** Await Klaviyo API key + list ID + valuation API endpoint confirmation + subdomain decision
+- **Next:** Confirm valuation API endpoint (exists in backend?) + subdomain decision (e.g. value.bluebookofgunvalues.com) → build lead magnet tool
 - **Also active:** Email/lifecycle deliverability recovery — triage spam placement root cause in Klaviyo, send to engaged-only segment first
 
 ### BBGV — Subscription-Free Transition (ICO + Consignment)
@@ -61,9 +61,8 @@ Last Updated: 2026-02-24
 | Cold outreach sending domain | OI.io | Separate from outdoorinfluencers.io |
 | OI.io Instagram account | OI.io | For DM sequences |
 | Boss approval on OI.io concept | OI.io | Gate before creator outreach |
-| Klaviyo API key + list ID | BBGV | For lead magnet build |
-| BBGV valuation API endpoint | BBGV | Exists in backend, or build lookup layer? |
-| Subdomain for lead magnet tool | BBGV | e.g. value.bluebookofgunvalues.com |
+| BBGV valuation API endpoint | BBGV | Does it exist in backend, or build lookup layer? |
+| Subdomain for lead magnet | BBGV | e.g. value.bluebookofgunvalues.com |
 | Rentagun quiz 4 questions | Rentagun | See above |
 | OI.io pricing decisions | OI.io | J's recommendations pending Troy review |
 | OI.io Email 4 proof data | OI.io | Must fix before outreach (FTC risk) |
