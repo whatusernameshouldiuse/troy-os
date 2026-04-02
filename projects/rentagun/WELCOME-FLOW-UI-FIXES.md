@@ -121,9 +121,57 @@ Ready when you are.
 
 ---
 
-## Other Emails in This Flow (No Changes Needed)
+---
 
-| Email | Subject | Status |
-|-------|---------|--------|
-| Email 3 (Day 6) | "The $400 mistake that started RentAGun" | Good — no changes needed |
-| Email 4 (Day 10) | "Start here (most popular first rentals)" | Good — no changes needed |
+## Email 3 — Day 6 About Us
+
+**Flow message:** "About us" (`Tb9usM`)  
+**Template:** `X98x4c`  
+**Path:** Flows → Email Welcome Series with Discount → third email → Edit
+
+### Change 1 — Reply-to email
+- Current: (empty)
+- Change to: support@rentagun.com
+
+### Change 2 — Fix [First Name] placeholder (non-Klaviyo syntax)
+- Current: `Hi [First Name],`
+- Change to: `Hi {{ first_name|default:"there" }},`
+
+### Change 3 — Remove emoji checkmarks from the "Why we built it" benefits block
+Current text block:
+```
+✅ No more guessing - Feel the actual trigger, grip, and weight before you buy
+
+✅ No more buyer's remorse - Know exactly what works for YOU, not some YouTuber
+
+✅ No more vault collecting - Try everything without needing storage for guns you don't love
+
+✅ No more expensive mistakes - Spend $90-200 to rent instead of $600+ to gamble
+
+✅ No more settling - Find your perfect match instead of 'good enough'
+```
+
+Replace with:
+```
+— No more guessing: Feel the actual trigger, grip, and weight before you buy
+
+— No more buyer's remorse: Know exactly what works for you, not some YouTuber
+
+— No more vault collecting: Try everything without needing storage for guns you don't love
+
+— No more expensive mistakes: Spend $90–200 to rent instead of $600+ to gamble
+
+— No more settling: Find your perfect match instead of "good enough"
+```
+
+---
+
+## Email 4 — Day 10 Best Sellers
+
+**Flow message:** "Best sellers email" (`WKZftK`)  
+**Template:** `TtDvFQ`  
+**Path:** Flows → Email Welcome Series with Discount → fourth email → Edit
+
+### Change 1 — Reply-to email
+- Current: (empty)
+- Change to: support@rentagun.com
