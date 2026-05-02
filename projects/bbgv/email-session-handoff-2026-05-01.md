@@ -8,12 +8,13 @@
 
 ## TL;DR
 
-We started with "audit Klaviyo, build flows, re-engage 150K." We ended with a hard pivot:
+We started with "audit Klaviyo, build flows, re-engage 150K." We ended with three corrections:
 
 1. **Klaviyo is healthy** (67% open / 4.8% click on engaged 16K). Don't break it.
-2. **The 150K isn't suppressed in Klaviyo** — it's 103K Laravel app users who were never imported. Including **11,438 paid subscribers, only 1 of which is in Klaviyo.**
-3. **Council unanimously rejected the original 6-week / 5-phase plan.** Risk asymmetry is bad: incremental upside, channel-ending downside. 5/5 blind reviewers independently flagged the legal/consent-provenance layer as the actual gating constraint.
-4. **New plan: 14-day single-track sprint.** Consent audit → Phase 0 hygiene → Welcome flow → 1 wave of 407 high-intent profiles → measure → decide.
+2. **The leads.csv "orphan" count was wrong by ~10x.** Sample-checking against Klaviyo shows: 100% of Newsletter (8,966), 100% of Cart (1,106), and 86% of paid (9,829 of 11,438) are already in Klaviyo. They were bulk-imported Sept 2024 + Feb 2026. The real orphan pool is **~310 paid customers who signed up post-Feb-18 (+ ~31/week ongoing)** — caused by broken Laravel→Klaviyo sync for NEW signups.
+3. **Council rejected the original 6-week / 5-phase plan** (built on the wrong "22K cold import" framing). Most of those 22K aren't cold — they're already in Klaviyo. Real plan is much smaller: import the 310, audit which segments existing profiles sit in, send a one-time campaign to the Cart cohort, ship the Welcome flow, fix the sync.
+
+**Council's core caution still applies:** kill-switch instrumentation on any send, consent-provenance check on the 310 import (and any re-activation of currently-suppressed profiles), Welcome flow on Day 1.
 
 ---
 
@@ -27,14 +28,30 @@ We started with "audit Klaviyo, build flows, re-engage 150K." We ended with a ha
 - Abandoned Cart flow (live since Apr 29) — **75 sends, 0% click rate.** Trigger working, copy/links broken. Only catches POST-Apr-29 abandons; the 1,106 in CSV are historical pre-flow.
 - April 29 incident proves what happens with cold contamination: 1,294 FFL Dealers added to Signal → 70%→53% open, tripled bounces.
 
-### About the leads.csv reveal
-- 103,141 BBGV Laravel app profiles. **Only 58 synced to Klaviyo.**
-- 11,438 paid subscribers (gun_values_monthly, bluebook_premium_monthly, bluebook_pro_monthly, yearly variants). **Only 1 synced.**
-- 8,966 explicit Newsletter opt-ins. None in Klaviyo.
-- 1,106 abandoned checkouts. 178 SubmitOffer. 229 ChatWithSeller. 1,343 self-ID FFL dealers.
-- 41K self-ID "single-gun-value" / 27K "enthusiast" / 1,343 "ffl-dealer" / 3,260 "other" — **the gun they care about is potentially in `questionnaire_answers` JSON.**
-- Only 400 of 103K have verified emails.
-- Recency: 14,453 created in last 4 months; 36K in H1 2025; 15K from 2024 or earlier.
+### About the leads.csv reveal (CORRECTED 2026-05-02)
+
+**Initial misread:** The CSV's `klaviyo_id` field is empty for almost all rows. I read this as "not in Klaviyo." Wrong — Klaviyo identifies by email, not by Laravel's klaviyo_id field. Troy bulk-imported the paid list around Feb 3-18, 2026 and the Newsletter list around Sept 2024. The empty klaviyo_id is just a sync-direction issue (Klaviyo→Laravel write-back was never wired).
+
+**Sample-check results (10 emails per cohort, 2026-05-02):**
+
+| Cohort | CSV count | In Klaviyo (sample) | Coverage |
+|---|---:|---:|---|
+| Newsletter | 8,966 | 10/10 | 100% — bulk-imported Sept 2024 |
+| Cart abandons | 1,106 | 10/10 | 100% — synced individually 2025+ |
+| Paid pre-Feb-18 | 11,128 | 6/10 (combined sample) | ~86% — bulk-imported Feb 3-18 |
+| Paid post-Feb-18 | 310 | **0/10** | **0% — these are the real orphans** |
+| GetStarted (no plan) | 69,922 | 6/10 | ~60% — Feb 2026 wave caught some |
+
+**The structural issue:** Laravel→Klaviyo sync is broken for NEW signups. After the Feb 18 bulk import, every new paid customer (~31/week) becomes an orphan. If unfixed, the orphan pool grows by ~1,600/year.
+
+**Free-tier breakdown (still in CSV):**
+- 11,438 total paid (gun_values_monthly, bluebook_premium_monthly, bluebook_pro_monthly + yearly variants)
+- 8,966 explicit Newsletter opt-ins
+- 1,106 abandoned checkouts
+- 178 SubmitOffer / 229 ChatWithSeller / 1,343 self-ID FFL dealers
+- Self-ID tags: 41K single-gun-value / 27K enthusiast / 3,260 other
+- Recency: 14,453 created last 4 months; 36K H1 2025; 15K 2024 or earlier
+- Verified emails: only 400 of 103K (verification step is broken or skipped)
 
 ### Two parallel BBGV ecosystems
 - **BigCommerce → Klaviyo Paid list** — 9,829 profiles, working but Placed Order events not firing back
@@ -53,25 +70,28 @@ We started with "audit Klaviyo, build flows, re-engage 150K." We ended with a ha
 
 **Peer review unanimously surfaced (no advisor saw):** Legal/consent provenance is the gating constraint, not deliverability. CAN-SPAM, state privacy laws (CA/CO/CT firearms sensitivity), Klaviyo's documented firearms-vertical deplatform history, Meta/Google gun-retargeting shadow-bans, ~22%/year email decay (11,438 paid → ~3,400 reachable mathematically).
 
-### Corrected 14-day sprint
+### Corrected 14-day sprint (REVISED with locked-in numbers)
 
 | Day | Action | Owner | Blocker |
 |---|---|---|---|
-| **Mon May 4** | Pull consent records (timestamp + source-of-capture) for the 22K "warm" cohort from Laravel | BBGV dev / Troy | None — single SQL query |
+| **Mon May 4** | **Bulk-import the 310 post-Feb-18 paid orphans** to Paid Subscribers list (`YjVgTd`) — single CSV upload | Troy + Claude | None |
+| Mon May 4 | Audit which Klaviyo segment the 8,966 Newsletter and 1,106 Cart cohorts currently sit in (engaged vs sunset vs suppressed) | Claude via MCP | None |
 | Tue May 5 | Freeze Klaviyo baseline CSV (export profiles + suppressions) | Claude via MCP | None |
-| Tue May 5 | Update `BBGV-FLOWS-ROADMAP.md` and `email-roadmap.md` to reflect council verdict | Claude | None |
-| Wed May 6 | Decide: NeverBounce ($200) or Klaviyo built-in hygiene for the 22K | Troy | Budget |
-| Wed May 6 | Audit Abandoned Cart flow links/copy (NOT the trigger — that works) | Claude via MCP | None |
-| Thu May 7 | Welcome Series (5 emails) — copy from existing drafts → Klaviyo flow build | Claude + Troy | Welcome flow review |
-| Fri May 8 | Write "we're back" email body for Wave 1 — 3 subject-line A/B variants | Claude + Troy | None |
-| Fri May 8 | Instrument per-wave kill-switch (Klaviyo report polling: bounce >2% or complaint >0.1% halts) | Claude | None |
-| **Mon May 11** | **Wave 1: send to 407 high-intent profiles only.** SubmitOffer (178) + ChatWithSeller (229) — these are the warmest most-recent cohort | Troy approves, Claude executes | All above |
+| Tue May 5 | Audit Abandoned Cart flow links/copy (trigger works; copy doesn't) | Claude via MCP | None |
+| Wed May 6 | Welcome Series (5 emails) — copy from existing drafts → Klaviyo flow build | Claude + Troy | Welcome flow draft review |
+| Thu May 7 | Write Cart recovery campaign body — one-time send to the 1,106 historical cart cohort | Claude + Troy | None |
+| Fri May 8 | Instrument per-wave kill-switch (bounce >2% or complaint >0.1% halts) | Claude | None |
+| **Mon May 11** | **Wave 1: Cart recovery campaign — 1,106 cart cohort.** They explicitly entered emails at checkout, fresh-ish 2025 signups, lowest deliverability risk. | Troy approves, Claude executes | All above |
 | Mon-Wed May 11-13 | Monitor 24h → 48h → 72h. Halt if kill-switch trips. | Claude (auto via daily audit) | — |
-| Thu May 14 | **Decision gate:** if Wave 1 metrics hold (>30% open, <2% bounce, <0.1% complaint, >5% click), proceed to Wave 2 of the most-recent 2,000 paid customers. Otherwise stop and re-audit. | Troy | Wave 1 results |
+| Thu May 14 | **Decision gate:** if Wave 1 metrics hold (>30% open, <2% bounce, <0.1% complaint, >2% click), proceed to Wave 2: Newsletter cohort campaign. Otherwise stop and re-audit. | Troy | Wave 1 results |
 
-**Phases 2 (80K re-permission) and 3 (paid acquisition $4,400) are BLOCKED pending evidence from Wave 1.** They are not on the calendar. They become conditional on Phase 1 producing measurable revenue lift.
+**Smaller scope, lower risk than the original plan because:**
+- We're not "importing 22K cold" — almost everyone is already in Klaviyo
+- Cart cohort (1,106) is the safest first wave: explicit checkout intent + recent signup
+- The 310 paid-orphan import is plumbing, not a marketing send
+- Phase 4 (fix sync) is still the only compounding work — the 310 orphan grows ~31/week without it
 
-**Phase 4 (fix Laravel→Klaviyo sync) is not in this 14-day sprint — but it's the only phase that compounds. Troy needs to decide whether to relax the "email-only" constraint for this single item.**
+**Out of scope this sprint:** the 80K GetStarted (mostly low-value dropouts), the 60K cold cohort, the $4,400 paid acquisition program. All conditional on this sprint producing evidence.
 
 ---
 
