@@ -6,7 +6,7 @@
 
 ---
 
-## Current state — 2026-05-01
+## Current state — 2026-05-04
 
 **Account:** Blue Book Publications (Klaviyo `SMvTcV`) | **Sender:** troy@email.bluebookofgunvalues.com | **Reply-to:** troy@bluebookinc.com
 
@@ -100,6 +100,70 @@ _Nothing shipped yet. Coach will move tasks here as they complete._
 ## Weekly Reviews
 
 _Appended by coach agent every Monday. Newest first._
+
+### Week of 2026-05-04 — Coach Review #2
+
+**Account confirmed:** Blue Book Publications `SMvTcV` ✓
+
+#### KPIs vs Baseline (Apr 2026, last 30 days)
+
+Main sends: "The Signal — S&W Model 10-6" (`01KQD274`, 3,995 rcpt, Apr 29) and "2026 Price Guide Launch v5" (`01KQFX8F`, 3,296 rcpt, Apr 30). **No new sends May 1–4.** Weighted averages across 7,291 recipients.
+
+| Metric | Baseline | This Week | Δ | Note |
+|---|---:|---:|---|---|
+| Open rate | 64.3% | 57.5% | **-6.8pp** | Still below 67% recovery target; up from 53.7% last week as late opens accumulate |
+| Click rate | 4.8% | 4.51% | -0.29pp | Stable |
+| CTOR | 7.5% | 7.85% | +0.35pp | Still far below 12–15% benchmark |
+| Unsub rate | 0.41% | 0.57% | **+0.16pp** | FFL cold list inflating Signal (0.61%) |
+| Bounce rate | 0.4% | 0.95% | **+0.55pp** | FFL driving Signal bounces (1.28%); Price Guide clean at 0.55% |
+| Spam rate | 0.05% | 0.03% | -0.02pp | Healthy |
+| Conversions | 0 | 0 | — | BigCommerce tracking still dead (Task H) |
+
+**Price Guide vs Signal split:** Price Guide (`01KQFX8F`) sent to clean engaged-only audiences hit 60.22% open / 7.80% CTOR. Signal (`01KQD274`) mixed FFL Dealers + 90-Day Engaged, hit 55.25% open / 7.89% CTOR. The 4.97pp open-rate gap is entirely the FFL cold-list contamination. Price Guide is the closest to the recovery target this account has sent in the window.
+
+**Live Auctions (4 sends this week, micro-list):**
+
+| Campaign | ID | Rcpt | Open | Unsub | Bounce |
+|---|---|---:|---:|---:|---:|
+| Mon Apr 27 | `01KQ80R4W8CXMR9P8Z5Z582193` | 61 | 50.0% | 0% | 1.64% |
+| Wed Apr 29 | `01KQD4WRB2VBTNRKZFTN439ZPM` | 13 | 8.33% | 0% | 7.69% |
+| Thu Apr 30 | `01KQFQYE72GNN0YSKHYBHW4VVA` | 63 | 43.55% | **1.61%** | 1.59% |
+
+Thu Apr 30 unsub rate 1.61% = 4× baseline. List grew to 93 (+5 vs 88 last week) because double-opt-in adds outpaced losses — but that margin is thin.
+
+#### Audience Snapshot vs Last Week
+
+| Audience | May 1 | May 4 | Δ | vs Apr Baseline |
+|---|---:|---:|---:|---:|
+| [RECOVERY] 30-Day Engaged | 3,138 | 3,161 | **+23** | +28 |
+| [RECOVERY] 60-Day Engaged | 3,638 | 3,649 | +11 | +16 |
+| [EXPANSION] 90-Day Engaged | 4,602 | 4,600 | -2 | +2 |
+| [EXPANSION] 120-Day Engaged | 5,106 | 5,117 | +11 | +14 |
+| Paid Subscribers | 9,829 | 9,827 | -2 | -2 |
+| BBGV FFL Dealers | 1,294 | 1,294 | flat | flat |
+| Blue Book Live Auctions | 88 | 93 | **+5** | +6 |
+
+30-Day Engaged growth accelerating (+23 this week vs +5 last week) — the warm pool is building. Paid Subscribers net -2; needs form audit (Task E) to reverse.
+
+#### Task Status Review
+
+Live flows confirmed (2, unchanged from last week): `SNbTjz` (Blue Book → GunStreamer Sequence) and `Wn6Uau` (Flow - Abandoned Cart Leads). No Welcome/Onboarding flow in live flows list — **Task A remains Pending.** Zero sends May 1–4; Tue/Thu/Sat cadence has not resumed — **Task B remains Pending.** Abandoned Cart `Wn6Uau` click rate 0% across all 75 emails (AV1 `SawPV6`: 26 sends, AV2 `RKJyd3`: 29 sends, AV3 `YqeN4s`: 20 sends), now entering week 2 — **Task C remains Pending.** No other task status changes.
+
+#### Tactical Optimizations
+
+**1. Send a clean Signal this week (May 6 Tue or May 8 Thu) to [RECOVERY] segments only — the 4-day gap is a reputation risk.**
+
+No sends since Apr 30 (4 days as of today). The 30-Day Engaged segment grew to 3,161 (+23 this week alone) — the warmest audience in the account is idle. The data is direct: Price Guide (`01KQFX8F`) sent to clean engaged segments only hit 60.22% open; Signal (`01KQD274`) mixed FFL cold list, hit 55.25%. The next Signal send should go to [RECOVERY] 30-Day (3,161) + [RECOVERY] 60-Day (3,649) only — exclude FFL, exclude 90-Day and 120-Day until bounce rate returns to baseline (0.4%). This audience is 6,810 warm profiles and would produce the cleanest open-rate signal to ISPs since the recovery began.
+
+**2. Thu Apr 30 Live Auctions (`01KQFQYE72GNN0YSKHYBHW4VVA`) hit 1.61% unsub; Mon Apr 27 hit 0% — collapse to Monday-only cadence immediately.**
+
+Comparable send sizes: Mon Apr 27 (61 rcpt, 0 unsubs), Thu Apr 30 (63 rcpt, 1.61% unsub). Monday sends to this same [LIVE AUCTIONS] segment produce zero unsub events; Thursday sends produce 1.61% = 4× baseline. At 1.61%/send × 4 sends/week, the 93-person list loses ~6 subscribers per week structurally. Monday sends have built-in immediacy (the auction is that day); Thursday sends don't. Task F already calls for 1×/week — execute it now using Monday as the slot. Do not send another Thursday Live Auction until the list exceeds 500.
+
+**3. Abandoned Cart 0% click rate across 75 emails is entering week 2 — run the 2-minute broken-link test before touching copy.**
+
+AV1 (`SawPV6`): 26 sends, 26.92% open rate, 0 clicks. AV2 (`RKJyd3`): 29 sends, 44.83% open, 0 clicks. AV3 (`YqeN4s`): 20 sends, 47.37% open, 0 clicks. Open rates are rising week-over-week (AV1 up from 23.1% to 26.9% as late opens accumulate), confirming people are reading the emails. Zero clicks across 75 opened emails rules out copy being the primary problem — a bad CTA still produces accidental clicks. The most probable cause is a broken redirect or dead BigCommerce destination link. Action: open each of the 3 flow messages in Klaviyo preview, click every CTA, verify the destination URL loads. If a link is dead, fix it — the flow becomes functional without any copy changes. This is Task C and is likely a 5-minute resolution.
+
+---
 
 ### Week of 2026-05-01 — Coach Review #1
 
