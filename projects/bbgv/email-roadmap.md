@@ -6,7 +6,7 @@
 
 ---
 
-## Current state — 2026-05-04
+## Current state — 2026-05-11
 
 **Account:** Blue Book Publications (Klaviyo `SMvTcV`) | **Sender:** troy@email.bluebookofgunvalues.com | **Reply-to:** troy@bluebookinc.com
 
@@ -100,6 +100,83 @@ _Nothing shipped yet. Coach will move tasks here as they complete._
 ## Weekly Reviews
 
 _Appended by coach agent every Monday. Newest first._
+
+### Week of 2026-05-11 — Coach Review #3
+
+**Account confirmed:** Blue Book Publications `SMvTcV` ✓
+
+#### KPIs vs Baseline (Apr 2026, last 30 days)
+
+Main send: "The Signal — Winchester Model 12 (20ga + polychoke) — May 5 2026" (`01KQWRZ82QDW3NY332SBWK84NQ`, 3,166 rcpt, May 5). FFL Dealers excluded — first clean Signal in recovery.
+
+| Metric | Baseline | This Week | Δ vs Baseline | Δ vs Wk Prior |
+|---|---:|---:|---|---|
+| Open rate | 64.3% | 57.6% | -6.7pp | +0.1pp |
+| Click rate | 4.8% | 4.7% | -0.1pp | +0.2pp |
+| CTOR | 7.5% | 8.2% | +0.7pp | +0.4pp |
+| Unsub rate | 0.41% | 0.29% | **-0.12pp ✓** | -0.28pp |
+| Bounce rate | 0.4% | 0.13% | **-0.27pp ✓** | -0.82pp |
+| Spam rate | 0.05% | 0% | improved | stable |
+| Conversions | 0 | 0 | — | — |
+
+Bounce and unsub both fell below the April baseline for the first time — direct result of excluding FFL cold list. Open rate still 9.4pp below the 67% recovery target.
+
+**Live Auctions (3 sends this week, list now 100):**
+
+| Campaign | ID | Rcpt | Open | Unsub | Bounce |
+|---|---|---:|---:|---:|---:|
+| Wed May 6 | `01KQZ5HDYVFWMWWKYW5J5DZZ0F` | 67 | 62.69% | 0% | 0% |
+| Thu May 7 | `01KR1SC55S0CAHEFCAFPNQN153` | 71 | 36.62% | 0% | 0% |
+| Fri May 8 | `01KR4PEZHAVY5BXPGQEPKDSTXA` | 72 | 55.56% | 0% | 0% |
+
+Thursday open rate 36.62% — 26pp below Wednesday and 19pp below Friday. Zero unsubs across all three (improvement from 1.61% Thu unsub last week); list grew +7 to 100.
+
+**Flows (last 7 days):**
+
+| Flow | ID | Rcpt | Open | Click | CTOR |
+|---|---|---:|---:|---:|---:|
+| Blue Book → GunStreamer | `SNbTjz` | 19 | 52.6% | 10.5% | 20.0% |
+| Abandoned Cart Leads | `Wn6Uau` | **0** | — | — | — |
+
+Abandoned Cart had 75+ sends the prior week; zero this week. Trigger likely dead (see optimizations).
+
+#### Audience Snapshot vs Last Week
+
+| Audience | May 4 | May 11 | Δ | vs Apr Baseline |
+|---|---:|---:|---:|---:|
+| [RECOVERY] 30-Day Engaged | 3,161 | 3,049 | **-112** | -84 |
+| [RECOVERY] 60-Day Engaged | 3,649 | 3,418 | **-231** | -215 |
+| [EXPANSION] 90-Day Engaged | 4,600 | 4,605 | +5 | +7 |
+| [EXPANSION] 120-Day Engaged | 5,117 | 5,133 | +16 | +30 |
+| Paid Subscribers | 9,827 | 9,821 | -6 | -8 |
+| BBGV FFL Dealers | 1,294 | 1,293 | -1 | -1 |
+| Blue Book Live Auctions | 93 | 100 | **+7** | +13 |
+
+30-Day and 60-Day both contracted — first week-over-week decline. One Signal at 57.6% open rate does not produce enough engagement volume to replenish rolling-window outflows at a 1×/week pace.
+
+#### Task Status Review
+
+Live flows confirmed (2, unchanged): `SNbTjz` (Blue Book → GunStreamer Sequence) and `Wn6Uau` (Flow - Abandoned Cart Leads). No Welcome/Onboarding flow in live list — **Task A remains Pending.** Signal sent Monday May 5 only; no Thu or Sat sends — **Task B remains Pending.** Abandoned Cart `Wn6Uau` shows 0 recipients this week (prior week had ongoing sends); trigger is likely dead — **Task C remains Pending, priority escalated: investigate trigger before fixing links.** Live Auctions ran 3× this week (Wed/Thu/Fri) — **Task F remains Pending.**
+
+#### Tactical Optimizations
+
+**1. [RECOVERY] 30-Day contracted -112 this week — 1 Signal/week cannot hold the rolling window. Send Tuesday and Thursday.**
+
+Winchester Model 12 (`01KQWRZ82QDW3NY332SBWK84NQ`) injected 1,820 unique opens on May 5. Despite that, 30-Day shrank 3,161 → 3,049 (-112) and 60-Day shrank 3,649 → 3,418 (-231). Profiles are aging out of the rolling window faster than a single weekly send replenishes them. Tue/Thu/Sat cadence is already approved in the Decisions Log but hasn't been executed. Send Tuesday May 12 to [RECOVERY] 30-Day + [RECOVERY] 60-Day only (6,467 combined, warmest profiles, cleanest ISP signal). Send Thursday May 14 to the same or expand to include [EXPANSION] 90-Day if Tuesday bounce holds. Two sends this week should push 30-Day back above 3,100 by May 18.
+
+**2. Winchester Model 12 bounce 0.126% is the first sub-baseline bounce in recovery — lock this exact audience formula as the Signal default.**
+
+Back-to-back Signal comparison, one variable changed (FFL inclusion):
+- S&W Model 10-6 (`01KQD274`, Apr 29): FFL included → 1.28% bounce (3.2× baseline), 55.25% open
+- Winchester Model 12 (`01KQWRZ82QDW3NY332SBWK84NQ`, May 5): FFL excluded → 0.126% bounce (0.3× baseline), 57.56% open
+
+Bounce dropped 90% and open rate rose +2.3pp from a single audience change. The working formula: [RECOVERY] 60-Day + Paid Subscribers + [EXPANSION] 90-Day, exclude [SUNSET] 60-Day Inactive, exclude FFL Dealers. Do not deviate from this for any Signal until Task I (FFL warming sequence) ships and FFL has its own clean sending track record.
+
+**3. Abandoned Cart (`Wn6Uau`) dropped from 75+ sends to 0 this week — the trigger is dead. Task H is now blocking Task C.**
+
+Prior review flagged 0% click rate and recommended a broken-link test. This week the flow received zero recipients — no cart/checkout events fired in 7 days. This is consistent with Task H (BigCommerce → Klaviyo Placed Order tracking dead): checkout metrics have likely also stopped firing. A broken-link fix on Task C has zero ROI if the trigger never fires. Action: Klaviyo → Analytics → Metrics → find the metric triggering `Wn6Uau` → check last event timestamp. If no events in 7+ days, BigCommerce end-to-end tracking is broken and Task H must be resolved before Task C. If events exist but the flow isn't sending, the trigger filter condition may have changed. Either way, this investigation takes 5 minutes and determines whether Task C is even actionable this week.
+
+---
 
 ### Week of 2026-05-04 — Coach Review #2
 
