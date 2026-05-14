@@ -23,7 +23,7 @@ We started with "audit Klaviyo, build flows, re-engage 150K." We ended with thre
 ### About the Klaviyo state
 - Account `SMvTcV` (Blue Book Publications), US/Eastern.
 - 67% open / 4.8% click / 7.5% CTOR (below 12-15% benchmark) / 0.41% unsub on engaged audience.
-- 0 attributed conversions across 30 days — **BigCommerce → Klaviyo Placed Order tracking is broken.**
+- 0 attributed conversions across 30 days — **Authorize.net → Klaviyo Placed Order tracking is broken.**
 - 2 of 14 planned flows live. Welcome flow stuck in DRAFT since 2024.
 - Abandoned Cart flow (live since Apr 29) — **75 sends, 0% click rate.** Trigger working, copy/links broken. Only catches POST-Apr-29 abandons; the 1,106 in CSV are historical pre-flow.
 - April 29 incident proves what happens with cold contamination: 1,294 FFL Dealers added to Signal → 70%→53% open, tripled bounces.
@@ -54,9 +54,9 @@ We started with "audit Klaviyo, build flows, re-engage 150K." We ended with thre
 - Verified emails: only 400 of 103K (verification step is broken or skipped)
 
 ### Two parallel BBGV ecosystems
-- **BigCommerce → Klaviyo Paid list** — 9,829 profiles, working but Placed Order events not firing back
+- **Authorize.net → Klaviyo Paid list** — 9,829 profiles, working but Placed Order events not firing back
 - **Laravel app → Klaviyo** — broken; 58 of 103K synced
-- These are different products / entry points. The 11,438 Laravel paid + 9,829 BigCommerce paid likely overlap somewhat but aren't the same list.
+- These are different products / entry points. The 11,438 Laravel paid + 9,829 Authorize.net paid likely overlap somewhat but aren't the same list.
 
 ---
 
@@ -107,7 +107,7 @@ We started with "audit Klaviyo, build flows, re-engage 150K." We ended with thre
 
 1. **Consent provenance:** Is the timestamp + source-of-capture for each Laravel signup retrievable? If yes, this is a SQL query. If no, the entire plan collapses to "fix sync first."
 2. **Email-only constraint relaxation:** Are you willing to spend ~1 day of dev time fixing the Laravel→Klaviyo sync so that future signups don't keep orphaning? Without this fix, every 2026 signup is invisible.
-3. **BigCommerce → Klaviyo Placed Order:** Same question. Without it, you can't measure revenue per email. Council's First Principles advisor argued this is the only thing that matters.
+3. **Authorize.net → Klaviyo Placed Order:** Same question. Without it, you can't measure revenue per email. Council's First Principles advisor argued this is the only thing that matters.
 4. **Hire 1 VA** to babysit waves so the operator constraint isn't also single point of failure (peer reviewer suggestion)?
 5. **Legal review on the 80K re-permission consent trail** before Phase 2 even appears on a calendar (multiple peer reviewers flagged)?
 

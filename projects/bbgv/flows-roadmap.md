@@ -16,8 +16,8 @@
 | 1 | Welcome Series | **DRAFT (since 2024)** | 2024-08-13 | Highest-ROI gap. Templates exist, never wired. |
 | 2 | 60-Day Re-Engagement | Not started | — | 18,188 profiles waiting. Templates drafted. |
 | 3 | Post-Purchase Value Reinforcement | Not started | — | 9,829 paid subs unprotected from churn. |
-| 4 | Post-Cancel Win-Back | Not started | — | Needs Cancelled Order event from BigCommerce. |
-| 5 | Dunning Recovery | Not started | — | Needs Payment Failed event from BigCommerce. |
+| 4 | Post-Cancel Win-Back | Not started | — | Needs Cancelled Order event from Authorize.net. |
+| 5 | Dunning Recovery | Not started | — | Needs Payment Failed event from Authorize.net. |
 | 6 | Never Engaged Winback | Not started | — | 13,678 profiles. Ultra-careful, last-chance. |
 | 7 | Book Sales / Lead Nurture | Not started | — | Needs "Signal Super-Engaged" segment. |
 | 8 | Referral Ask | Not started | — | Needs "Hyper-Engaged" segment + referral link. |
@@ -143,7 +143,7 @@
 5. **Day 30+ — Monthly recap.** "Your month in Blue Book" — lookups used, market shifts.
 
 **BBGV requirements:**
-- `customer_type` profile property (collector vs FFL) so Day 14 can segment. Either set at signup or via order metadata from BigCommerce.
+- `customer_type` profile property (collector vs FFL) so Day 14 can segment. Either set at signup or via order metadata from Authorize.net.
 - Lookup count per profile (to feed monthly recap). Requires app → Klaviyo event for each lookup. Currently missing.
 
 ---
@@ -152,7 +152,7 @@
 
 | Field | Value |
 |---|---|
-| Trigger | Cancelled Order event (BigCommerce → Klaviyo) |
+| Trigger | Cancelled Order event (Authorize.net → Klaviyo) |
 | Audience | All cancellations |
 | Cadence | Day 1, Day 7, Day 21, Day 45, then quarterly |
 | Expected reactivation | 3–5% |
@@ -165,7 +165,7 @@
 4. **Day 45 — Last touch.** "Your account data expires in 45 days."
 
 **BBGV requirements:**
-- **Cancelled Order event must fire from BigCommerce → Klaviyo.** This is the same broken integration that's killing campaign conversion attribution. Verify event flow before building.
+- **Cancelled Order event must fire from Authorize.net → Klaviyo.** This is the same broken integration that's killing campaign conversion attribution. Verify event flow before building.
 - Last-cancelled lookup data (which gun did they look up before cancel?) for Day 7 personalization.
 
 ---
@@ -181,8 +181,8 @@
 | Status | Copy in churn prevention doc |
 
 **BBGV requirements:**
-- **Payment Failed event from BigCommerce → Klaviyo.** Verify in BigCommerce → Klaviyo integration settings.
-- Update payment method link (deep link to BigCommerce billing portal).
+- **Payment Failed event from Authorize.net → Klaviyo.** Verify in Authorize.net → Klaviyo integration settings.
+- Update payment method link (deep link to Authorize.net billing portal).
 
 ---
 
@@ -258,7 +258,7 @@
 | Status | Concept |
 
 **BBGV requirements:**
-- `subscription_term` profile property (monthly / annual) synced from BigCommerce.
+- `subscription_term` profile property (monthly / annual) synced from Authorize.net.
 - Annual upgrade link with discount code applied.
 
 ---
@@ -318,7 +318,7 @@
 | Status | Concept |
 
 **BBGV requirements:**
-- `subscription_start_date` profile property (synced from BigCommerce).
+- `subscription_start_date` profile property (synced from Authorize.net).
 - Klaviyo "Date triggered" flow type works natively for this.
 
 ---
@@ -331,8 +331,8 @@ This is the master list of dependencies. Each item below blocks one or more flow
 
 | # | Item | Why | Owner | Status |
 |---|---|---|---|---|
-| 1 | **Verify BigCommerce → Klaviyo integration is firing all events** | Placed Order, Cancelled Order, Refunded Order, Payment Failed all need to flow into Klaviyo. Currently 0 conversions attributed in 30 days = something is broken. | BBGV dev / Troy | Broken |
-| 2 | **`customer_type` profile property** | Required for segmentation in Flows 3, 12, and any collector/FFL specific copy. Set at signup or via BigCommerce metadata. | BBGV dev | Missing |
+| 1 | **Verify Authorize.net → Klaviyo integration is firing all events** | Placed Order, Cancelled Order, Refunded Order, Payment Failed all need to flow into Klaviyo. Currently 0 conversions attributed in 30 days = something is broken. | BBGV dev / Troy | Broken |
+| 2 | **`customer_type` profile property** | Required for segmentation in Flows 3, 12, and any collector/FFL specific copy. Set at signup or via Authorize.net metadata. | BBGV dev | Missing |
 | 3 | **`subscription_term` profile property** | Required for Flow 10 (Switch to Annual). | BBGV dev | Missing |
 | 4 | **`subscription_start_date` profile property** | Required for Flow 14 (Anniversary). | BBGV dev | Missing |
 | 5 | **`Lookup` event from app to Klaviyo** | Required for Flows 3 (monthly recap), 9 (First Lookup Nudge), 12 (Upsell), and any usage-based personalization. **Highest leverage missing event.** | BBGV dev | Missing |
@@ -352,7 +352,7 @@ This is the master list of dependencies. Each item below blocks one or more flow
 
 | # | Item | Why | Owner |
 |---|---|---|---|
-| 12 | UTM tagging convention on all email links | Track downstream behavior in BigCommerce / GA4. Already documented; needs enforcement. | Claude |
+| 12 | UTM tagging convention on all email links | Track downstream behavior in Authorize.net / GA4. Already documented; needs enforcement. | Claude |
 | 13 | Image CDN consolidation | Currently mixed CDN paths. CLAUDE.md warns: never guess CDN paths. | Troy |
 | 14 | A/B testing framework for subject lines | Klaviyo supports native A/B; just need a discipline of running 1 test/week. | Troy |
 | 15 | SMS list growth strategy | TCPA-compliant opt-in flow. Untapped channel. | Troy |

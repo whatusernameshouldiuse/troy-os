@@ -31,6 +31,13 @@
 - **Marketing model:** Thought Leader (data-driven authority, long-form, unique 45-year dataset)
 - **Obsidian path:** `~/Documents/Obsidian/Work/Projects/BBGV/`
 
+## Hard Rules — Stack
+
+- **Payment processor: Authorize.net.** BBGV does NOT use BigCommerce, Shopify, or WooCommerce.
+- **NEVER mention BigCommerce** in any BBGV context, doc, email, or recommendation. It is not part of the stack.
+- Subscription / order events flow: Laravel app → Klaviyo (sync currently broken for new signups).
+- When discussing "Placed Order / Cancelled / Payment Failed" events, the source is Authorize.net (via Laravel), not an ecom platform.
+
 ## Brand Rules
 
 - Voice: Expert Friend (30%) + Trusted Authority (40%) + Educator (20%) + Market Insider (10%)

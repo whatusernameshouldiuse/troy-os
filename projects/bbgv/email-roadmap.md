@@ -21,7 +21,7 @@
 | Bounce rate | 0.4% | <2% | Healthy |
 | Spam rate | 0.05% | <0.1% | Healthy |
 | Net list growth | -89 organic | positive | Forms broken |
-| Attributed conversions | 0 | n/a | BigCommerce tracking dead |
+| Attributed conversions | 0 | n/a | Authorize.net tracking dead |
 
 ### Audience snapshot
 
@@ -70,7 +70,7 @@
 
 | # | Task | Status | Owner |
 |---|---|---|---|
-| H | Verify BigCommerce → Klaviyo Placed Order tracking | Pending | Troy |
+| H | Verify Authorize.net → Klaviyo Placed Order tracking | Pending | Troy |
 | I | Build 3-email FFL Dealers warming sequence (B2B voice) | Pending | Troy + Claude |
 | J | A/B test The Signal CTA structure (3 variants over 6 sends) | Pending | Troy |
 | K | SMS pilot: Live Auction Alerts as SMS, 30 min before stream | Pending | Troy |
@@ -174,7 +174,7 @@ Bounce dropped 90% and open rate rose +2.3pp from a single audience change. The 
 
 **3. Abandoned Cart (`Wn6Uau`) dropped from 75+ sends to 0 this week — the trigger is dead. Task H is now blocking Task C.**
 
-Prior review flagged 0% click rate and recommended a broken-link test. This week the flow received zero recipients — no cart/checkout events fired in 7 days. This is consistent with Task H (BigCommerce → Klaviyo Placed Order tracking dead): checkout metrics have likely also stopped firing. A broken-link fix on Task C has zero ROI if the trigger never fires. Action: Klaviyo → Analytics → Metrics → find the metric triggering `Wn6Uau` → check last event timestamp. If no events in 7+ days, BigCommerce end-to-end tracking is broken and Task H must be resolved before Task C. If events exist but the flow isn't sending, the trigger filter condition may have changed. Either way, this investigation takes 5 minutes and determines whether Task C is even actionable this week.
+Prior review flagged 0% click rate and recommended a broken-link test. This week the flow received zero recipients — no cart/checkout events fired in 7 days. This is consistent with Task H (Authorize.net → Klaviyo Placed Order tracking dead): checkout metrics have likely also stopped firing. A broken-link fix on Task C has zero ROI if the trigger never fires. Action: Klaviyo → Analytics → Metrics → find the metric triggering `Wn6Uau` → check last event timestamp. If no events in 7+ days, Authorize.net end-to-end tracking is broken and Task H must be resolved before Task C. If events exist but the flow isn't sending, the trigger filter condition may have changed. Either way, this investigation takes 5 minutes and determines whether Task C is even actionable this week.
 
 ---
 
@@ -194,7 +194,7 @@ Main sends: "The Signal — S&W Model 10-6" (`01KQD274`, 3,995 rcpt, Apr 29) and
 | Unsub rate | 0.41% | 0.57% | **+0.16pp** | FFL cold list inflating Signal (0.61%) |
 | Bounce rate | 0.4% | 0.95% | **+0.55pp** | FFL driving Signal bounces (1.28%); Price Guide clean at 0.55% |
 | Spam rate | 0.05% | 0.03% | -0.02pp | Healthy |
-| Conversions | 0 | 0 | — | BigCommerce tracking still dead (Task H) |
+| Conversions | 0 | 0 | — | Authorize.net tracking still dead (Task H) |
 
 **Price Guide vs Signal split:** Price Guide (`01KQFX8F`) sent to clean engaged-only audiences hit 60.22% open / 7.80% CTOR. Signal (`01KQD274`) mixed FFL Dealers + 90-Day Engaged, hit 55.25% open / 7.89% CTOR. The 4.97pp open-rate gap is entirely the FFL cold-list contamination. Price Guide is the closest to the recovery target this account has sent in the window.
 
@@ -238,7 +238,7 @@ Comparable send sizes: Mon Apr 27 (61 rcpt, 0 unsubs), Thu Apr 30 (63 rcpt, 1.61
 
 **3. Abandoned Cart 0% click rate across 75 emails is entering week 2 — run the 2-minute broken-link test before touching copy.**
 
-AV1 (`SawPV6`): 26 sends, 26.92% open rate, 0 clicks. AV2 (`RKJyd3`): 29 sends, 44.83% open, 0 clicks. AV3 (`YqeN4s`): 20 sends, 47.37% open, 0 clicks. Open rates are rising week-over-week (AV1 up from 23.1% to 26.9% as late opens accumulate), confirming people are reading the emails. Zero clicks across 75 opened emails rules out copy being the primary problem — a bad CTA still produces accidental clicks. The most probable cause is a broken redirect or dead BigCommerce destination link. Action: open each of the 3 flow messages in Klaviyo preview, click every CTA, verify the destination URL loads. If a link is dead, fix it — the flow becomes functional without any copy changes. This is Task C and is likely a 5-minute resolution.
+AV1 (`SawPV6`): 26 sends, 26.92% open rate, 0 clicks. AV2 (`RKJyd3`): 29 sends, 44.83% open, 0 clicks. AV3 (`YqeN4s`): 20 sends, 47.37% open, 0 clicks. Open rates are rising week-over-week (AV1 up from 23.1% to 26.9% as late opens accumulate), confirming people are reading the emails. Zero clicks across 75 opened emails rules out copy being the primary problem — a bad CTA still produces accidental clicks. The most probable cause is a broken redirect or dead Authorize.net destination link. Action: open each of the 3 flow messages in Klaviyo preview, click every CTA, verify the destination URL loads. If a link is dead, fix it — the flow becomes functional without any copy changes. This is Task C and is likely a 5-minute resolution.
 
 ---
 
@@ -256,7 +256,7 @@ AV1 (`SawPV6`): 26 sends, 26.92% open rate, 0 clicks. AV2 (`RKJyd3`): 29 sends, 
 | Unsub rate | 0.41% | 0.54% | +0.13pp | Elevated; Live Auctions far worse (see below) |
 | Bounce rate | 0.4% | 0.86% | **+0.46pp** | FFL cold list driving bounces on Signal |
 | Spam rate | 0.05% | 0.03% | -0.02pp | Healthy |
-| Conversions | 0 | 0 | — | BigCommerce tracking still dead (Task H) |
+| Conversions | 0 | 0 | — | Authorize.net tracking still dead (Task H) |
 
 _Main sends (7,285 combined recipients): "The Signal — S&W Model 10-6" (01KQD274, 3,995 rcpt) + "2026 Price Guide Launch v5" (01KQFX8F, 3,290 rcpt). Weighted averages._
 
@@ -317,7 +317,7 @@ _Hand-edit when you make a strategic decision (cadence change, flow kill, audien
 - **90-day flow plan:** `~/Work/BBGV/docs/BBGV-90-DAY-FLOW-PLAN.md`
 - **Recovery templates:** `~/Work/BBGV/docs/BBGV-RECOVERY-EMAIL-TEMPLATES.md`
 - **Klaviyo account ID:** `SMvTcV`
-- **Conversion metric ID:** `Xt9eLm` (Placed Order, BigCommerce)
+- **Conversion metric ID:** `Xt9eLm` (Placed Order, Authorize.net)
 
 ---
 
