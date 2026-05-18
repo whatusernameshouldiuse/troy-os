@@ -6,7 +6,7 @@
 
 ---
 
-## Current state — 2026-05-11
+## Current state — 2026-05-18
 
 **Account:** Blue Book Publications (Klaviyo `SMvTcV`) | **Sender:** troy@email.bluebookofgunvalues.com | **Reply-to:** troy@bluebookinc.com
 
@@ -100,6 +100,95 @@ _Nothing shipped yet. Coach will move tasks here as they complete._
 ## Weekly Reviews
 
 _Appended by coach agent every Monday. Newest first._
+
+### Week of 2026-05-18 — Coach Review #4
+
+**Account confirmed:** Blue Book Publications `SMvTcV` ✓
+
+#### KPIs vs Baseline (Apr 2026, last 30 days)
+
+Main send: "The Signal — Colt Python (Current MFG) at 6 Years + 46th Edition — 2026-05-14" (`01KRM52M3JEM6WX11ZF2HZ7Z2V`, 3,417 rcpt, May 14). Audience: [RECOVERY] 30-Day Engaged + Paid Subscribers. **First Signal to break above the April baseline since recovery began.**
+
+| Metric | Baseline | This Week | Δ vs Baseline | Δ vs Wk Prior |
+|---|---:|---:|---|---|
+| Open rate | 64.3% | 65.6% | **+1.3pp ✓ FIRST ABOVE BASELINE** | +8.0pp |
+| Click rate | 4.8% | 5.0% | **+0.2pp ✓** | +0.3pp |
+| CTOR | 7.5% | 7.6% | +0.1pp | -0.6pp |
+| Unsub rate | 0.41% | 0.21% | **-0.20pp ✓** | -0.08pp |
+| Bounce rate | 0.4% | 0.15% | **-0.25pp ✓** | flat |
+| Spam rate | 0.05% | 0% | clean | stable |
+| Conversions | 0 | 0 | — | — |
+
+Open rate above the April baseline for the first time. All hygiene metrics below baseline simultaneously for the first time. Recovery formula is working.
+
+**GunStreamer FFL Outreach — Van's Case Study (`01KRC2519BM61E11X9RHFTKWCJ`, May 11, 1,279 rcpt to FFL Dealers):**
+
+| Metric | Value | Status |
+|---|---:|---|
+| Open rate | 40.1% | Acceptable for cold single-opt-in |
+| Click rate | 0.0% | **510 openers, 0 clicks — broken CTA** |
+| Unsub rate | 0.71% | 1.73× baseline |
+| Bounce rate | 0.63% | 1.57× baseline |
+| Spam rate | 0.08% | **At ceiling — threshold is <0.1%** |
+
+**Live Auctions (4 sends, list now 109):**
+
+| Campaign | ID | Rcpt | Open | Click | Unsub | Bounce |
+|---|---|---:|---:|---:|---:|---:|
+| Mon May 11 | `01KRC2WBAP5R9DEZ06X5X32PC5` | 74 | 48.65% | 6.76% | **1.35%** | 0% |
+| Wed May 13 | `01KRHQFNX8RK3M00S5PFDZFEY2` | 76 | 50.67% | 2.67% | 0% | 1.32% |
+| Thu May 14 | `01KRKSM5FJZKE0TGJ228A532Y0` | 76 | 28.00% | 4.00% | **1.33%** | 1.32% |
+| Fri May 15 | `01KRPTSK3050Z6GHJ2V5TK3GNW` | 76 | 40.00% | 2.67% | 0% | 1.32% |
+
+Monday unsub broke from the historic 0% to 1.35% — cadence fatigue is now measurable on the previously-safe send day. Thursday open 28.00% = lowest in three weeks of Thursday data (prior: 36.62%, 43.55%). List grew +9 to 109 on gross adds; net churn persists.
+
+**Flows (last 7 days):**
+
+| Flow | ID | Rcpt | Open | Click | CTOR |
+|---|---|---:|---:|---:|---:|
+| Blue Book → GunStreamer | `SNbTjz` | 18 | 31.3% | 6.3% | 20.0% |
+| Abandoned Cart Leads | `Wn6Uau` | **0** | — | — | — |
+
+Abandoned Cart second consecutive week of 0 recipients. Trigger confirmed dead.
+
+#### Audience Snapshot vs Last Week
+
+| Audience | May 11 | May 18 | Δ | vs Apr Baseline |
+|---|---:|---:|---:|---:|
+| [RECOVERY] 30-Day Engaged | 3,049 | 3,244 | **+195** | +111 |
+| [RECOVERY] 60-Day Engaged | 3,418 | 3,562 | **+144** | -71 |
+| [EXPANSION] 90-Day Engaged | 4,605 | 4,815 | **+210** | +217 |
+| [EXPANSION] 120-Day Engaged | 5,133 | 5,336 | **+203** | +233 |
+| Paid Subscribers | 9,821 | 9,814 | -7 | -15 |
+| BBGV FFL Dealers | 1,293 | 1,282 | **-11** | -12 |
+| Blue Book Live Auctions | 100 | 109 | **+9** | +22 |
+
+All four engaged segments grew — largest across-the-board gain since recovery began. The Colt Python's 65.56% open injected enough engagement events to replenish every rolling window simultaneously. [RECOVERY] 30-Day reversed last week's -112 contraction to +195; [RECOVERY] 60-Day still -71 below April baseline — needs two Signal sends/week to close that gap. FFL Dealers -11 attributable to Van's Case Study unsubs.
+
+#### Task Status Review
+
+Live flows confirmed (2, unchanged): `SNbTjz` (Blue Book → GunStreamer Sequence) and `Wn6Uau` (Flow - Abandoned Cart Leads). No Welcome/Onboarding flow in live list — **Task A remains Pending.** Signal sent Thursday May 14 only; no Tue or Sat — **Task B remains Pending** (partial improvement: Thu send executed, 3×/week not yet achieved). Abandoned Cart `Wn6Uau` zero recipients for second consecutive week; trigger confirmed dead — **Task C remains Pending; Task H explicitly blocks it.** Four Live Auction sends (Mon/Wed/Thu/Fri) with Monday unsub now elevated — **Task F remains Pending, urgency increasing.**
+
+#### Tactical Optimizations
+
+**1. Colt Python 65.56% open = recovery threshold cleared with [RECOVERY] 30-Day + Paid Subscribers only. Lock this formula — no expansion until two consecutive Signals above 65% with bounce below 0.2%.**
+
+Signal progression across recovery sends:
+- S&W Model 10-6 (`01KQD274`, Apr 29): [EXPANSION] 90-Day + FFL → 55.25% open, 1.28% bounce
+- Winchester Model 12 (`01KQWRZ82QDW3NY332SBWK84NQ`, May 5): [RECOVERY] 60-Day + Paid + 90-Day → 57.56% open, 0.13% bounce
+- Colt Python (`01KRM52M3JEM6WX11ZF2HZ7Z2V`, May 14): [RECOVERY] 30-Day + Paid Subscribers → 65.56% open, 0.15% bounce
+
+Each tightening toward the 30-Day core gained 4–8pp open rate. The [RECOVERY] 60-Day segment (3,562) and [EXPANSION] 90-Day (4,815) both have warmer profiles than last month — they will be additive eventually — but adding them now dilutes the ISP quality signal at a critical moment. For the next Signal (Thursday May 21), use identical formula: [RECOVERY] 30-Day Engaged + Paid Subscribers, suppress [SUNSET] 60-Day Inactive, suppress FFL. If that send also clears 65% with bounce <0.2%, expand to include [RECOVERY] 60-Day on the following send.
+
+**2. GunStreamer FFL Van's Case Study (`01KRC2519BM61E11X9RHFTKWCJ`): 0 clicks / 510 openers / spam at ceiling — audit the CTA before any follow-up FFL send.**
+
+510 people opened the case study and zero clicked. Same broken-link fingerprint as Abandoned Cart (`Wn6Uau`): good open rate, zero clicks across a large sample. Spam at 0.08% means ~1 complaint per 1,271 delivered; the hard threshold is 0.1% (1 per 1,000). One more FFL send at this rate breaches it. The FFL list is also showing elevated bounce (0.63%) and unsub (0.71%) from a first send — it needs warming, not volume. Action before the next FFL send: open `01KRC2519BM61E11X9RHFTKWCJ` in Klaviyo, click every CTA, verify destination URLs load. If any link is dead, fix it. If links are live, the issue is copy — a case study needs an explicit CTA ("Read how Van's uses GunStreamer") rather than a passive reference. This is a 10-minute audit that determines whether Task I (FFL warming sequence) is even actionable.
+
+**3. Live Auctions Monday unsub broke to 1.35% after four sends in five days — cadence fatigue is now hitting the best send day. Execute Task F immediately: Monday only, every week.**
+
+The "Monday = 0% unsub" pattern held for three weeks. It broke this week after Mon/Wed/Thu/Fri sends to a 109-person list. When a small list gets four sends in five days, the warmest send slot absorbs the cumulative fatigue. Thursday May 14 at 28% open is the lowest Thursday open in three weeks of data (36.62%, 43.55%, now 28%) — a measurable declining trend. Monday gross adds (+9 to 109) are keeping the list growing, but net position is fragile. Collapse to Monday sends only per Task F. If an event happens on another day, the Monday alert still drives intent ("This Friday — join us live for…"). Do not send another Thu or Fri Live Auction send until the list exceeds 200.
+
+---
 
 ### Week of 2026-05-11 — Coach Review #3
 
