@@ -6,7 +6,7 @@
 
 ---
 
-## Current state — 2026-05-18
+## Current state — 2026-05-25
 
 **Account:** Blue Book Publications (Klaviyo `SMvTcV`) | **Sender:** troy@email.bluebookofgunvalues.com | **Reply-to:** troy@bluebookinc.com
 
@@ -27,13 +27,13 @@
 
 | Audience | Type | Size | Use |
 |---|---|---:|---|
-| [RECOVERY] 30-Day Engaged | Segment | 3,133 | Primary Signal target |
-| [RECOVERY] 60-Day Engaged | Segment | 3,633 | Signal expansion 1 |
-| [EXPANSION] 90-Day Engaged | Segment | 4,598 | Signal expansion 2 |
-| [EXPANSION] 120-Day Engaged | Segment | 5,103 | Backup pool |
-| Paid Subscribers | List | 9,829 | Premium audience |
-| BBGV FFL Dealers | List | 1,294 | Cold, single opt-in (Apr 29 import) |
-| Blue Book Live Auctions | List | 87 | Live auction alerts (over-emailed) |
+| [RECOVERY] 30-Day Engaged | Segment | 3,421 | Primary Signal target |
+| [RECOVERY] 60-Day Engaged | Segment | 3,688 | Signal expansion 1 |
+| [EXPANSION] 90-Day Engaged | Segment | 4,140 | Signal expansion 2 — contracting, see Weekly Review |
+| [EXPANSION] 120-Day Engaged | Segment | 5,333 | Backup pool |
+| Paid Subscribers | List | 9,806 | Premium audience |
+| BBGV FFL Dealers | List | 1,275 | Cold, single opt-in (Apr 29 import) |
+| Blue Book Live Auctions | List | 117 | Live auction alerts (over-emailed) |
 | [SUNSET] 60-Day Inactive | Segment | 18,188 | Excluded — re-engage candidates |
 | [SUNSET] Never Engaged | Segment | 13,678 | Excluded — suppress candidates |
 
@@ -71,7 +71,7 @@
 | # | Task | Status | Owner |
 |---|---|---|---|
 | H | Verify Authorize.net → Klaviyo Placed Order tracking | Pending | Troy |
-| I | Build 3-email FFL Dealers warming sequence (B2B voice) | Pending | Troy + Claude |
+| I | Build 3-email FFL Dealers warming sequence (B2B voice) | **Blocked — fix FFL CTA link first** | Troy + Claude |
 | J | A/B test The Signal CTA structure (3 variants over 6 sends) | Pending | Troy |
 | K | SMS pilot: Live Auction Alerts as SMS, 30 min before stream | Pending | Troy |
 | L | Suppress non-responders after re-engagement gauntlet | Blocked by D | Troy |
@@ -100,6 +100,89 @@ _Nothing shipped yet. Coach will move tasks here as they complete._
 ## Weekly Reviews
 
 _Appended by coach agent every Monday. Newest first._
+
+### Week of 2026-05-25 — Coach Review #5
+
+**Account confirmed:** Blue Book Publications `SMvTcV` ✓
+
+#### KPIs vs Baseline (Apr 2026, last 30 days)
+
+No Signal newsletter this week. Main send: "Vans Auction 20260522" (`01KS8ADETV5MW0N4JXRRMYRB4H`, 4,203 rcpt, May 22) — a GunStreamer auction promotion sent to a broad audience including **[SUNSET] 60-Day Inactive**. Open rate regressed from last week's 65.6% breakthrough back to 52.8%.
+
+| Metric | Baseline | This Week | Δ vs Baseline | Δ vs Wk Prior |
+|---|---:|---:|---|---|
+| Open rate | 64.3% | 52.8% | **-11.5pp ✗ REGRESSION** | -12.8pp |
+| Click rate | 4.8% | 4.1% | -0.7pp | -0.9pp |
+| CTOR | 7.5% | 7.7% | +0.2pp | +0.1pp |
+| Unsub rate | 0.41% | 0.24% | **-0.17pp ✓** | +0.03pp |
+| Bounce rate | 0.4% | 0.14% | **-0.26pp ✓** | -0.01pp |
+| Spam rate | 0.05% | 0.024% | **✓ clean** | clean |
+| Conversions | 0 | 0 | — | — |
+
+Hygiene metrics (unsub, bounce, spam) remain below baseline. Open rate collapse is fully attributable to audience contamination — [SUNSET] 60-Day Inactive mixed into the main send for the third time in five weeks.
+
+**GunStreamer FFL Outreach — Tucker's Case Study (`01KS2XKH1Q63V00BS6R4YZ4CP0`, May 19, 1,266 rcpt to FFL Dealers):**
+
+| Metric | Value | Status |
+|---|---:|---|
+| Open rate | 44.2% | Acceptable for cold list |
+| Click rate | 0.0% | **556 openers, 0 clicks — broken CTA (2nd consecutive FFL send)** |
+| Unsub rate | 0.24% | Improved vs Van's 0.71% |
+| Bounce rate | 0.63% | 1.58× baseline — FFL list degrading |
+| Spam rate | 0.0% | Clean (down from Van's 0.08%) |
+
+**Live Auctions (3 sends, list now 117):**
+
+| Campaign | ID | Rcpt | Open | Click | Unsub | Bounce |
+|---|---|---:|---:|---:|---:|---:|
+| Mon May 18 | `01KQT19GEN69HGWJ0CYF8GSS6W` | 82 | 46.9% | 1.2% | 0% | 1.22% |
+| Wed May 20 | `01KS3RDF18KKGFMZNCP4F6YB4W` | 86 | 42.4% | 0% | 0% | 1.16% |
+| Thu May 22 | `01KS8NDJGP6YKWKQ4K03N78RHQ` | 88 | 33.3% | 2.3% | 0% | 1.14% |
+
+Three sends despite Task F (Monday only). Open-rate trend within this single week: 46.9% → 42.4% → 33.3% — cadence fatigue compressing across days, not just weeks.
+
+**Flows (last 7 days):**
+
+| Flow | ID | Rcpt | Open | Click | CTOR |
+|---|---|---:|---:|---:|---:|
+| Blue Book → GunStreamer | `SNbTjz` | 21 | 47.6% | 0% | 0% |
+| Abandoned Cart Leads | `Wn6Uau` | **0** | — | — | — |
+
+GunStreamer flow CTOR dropped from 20% last week to 0% (21 rcpt — small sample, but worth monitoring). Abandoned Cart `Wn6Uau` zero recipients for third consecutive week.
+
+#### Audience Snapshot vs Last Week
+
+| Audience | May 18 | May 25 | Δ | vs Apr Baseline |
+|---|---:|---:|---:|---:|
+| [RECOVERY] 30-Day Engaged | 3,244 | 3,421 | **+177** | +288 |
+| [RECOVERY] 60-Day Engaged | 3,562 | 3,688 | **+126** | +55 |
+| [EXPANSION] 90-Day Engaged | 4,815 | 4,140 | **-675 ⚠** | -458 |
+| [EXPANSION] 120-Day Engaged | 5,336 | 5,333 | -3 | +230 |
+| Paid Subscribers | 9,814 | 9,806 | -8 | -23 |
+| BBGV FFL Dealers | 1,282 | 1,275 | -7 | -19 |
+| Blue Book Live Auctions | 109 | 117 | **+8** | +30 |
+
+[EXPANSION] 90-Day lost 675 profiles — largest single-week drop since recovery began, now 458 below April baseline. March engagement events are aging out of the 90-day window; the Vans Auction send's contaminated-audience opens failed to replenish it. FFL list is -19 from April baseline with zero conversion events — net negative since import. Paid Subscribers -23 from baseline; slow bleed continues (Task E unstarted).
+
+#### Task Status Review
+
+Live flows confirmed (2, unchanged): `SNbTjz` (Blue Book → GunStreamer Sequence) and `Wn6Uau` (Flow - Abandoned Cart Leads). No Welcome/Onboarding flow — **Task A remains Pending.** No Signal sent this week; last Signal was May 14 (11 days ago, longest gap since recovery began) — **Task B remains Pending.** Abandoned Cart `Wn6Uau` zero recipients for third consecutive week — **Task C remains Pending.** Live Auctions 3 sends (Mon/Wed/Thu) — **Task F remains Pending; 5 weeks without execution.** Tucker's Case Study confirmed second consecutive FFL send with 0% click rate — **Task I updated to Blocked pending FFL CTA link audit.**
+
+#### Tactical Optimizations
+
+**1. "Vans Auction 20260522" (`01KS8ADETV5MW0N4JXRRMYRB4H`) mixed in [SUNSET] 60-Day Inactive and erased the Week 4 recovery breakthrough — this contamination pattern has now cost ~12pp of open rate three separate times.**
+
+Colt Python (May 14), [RECOVERY] 30-Day + Paid only: 65.6% open, 3,417 rcpt. Vans Auction (May 22), six audiences including [SUNSET] 60-Day Inactive: 52.8% open, 4,203 rcpt. Delta: -12.8pp. Prior comparisons — Apr 29 S&W Model 10-6 with FFL mixed in: -10.6pp. May 5 Winchester Model 12 with FFL excluded: +2.3pp. The pattern is documented and unambiguous: any cold or inactive segment in a main send costs ~10–13pp of open rate. The [SUNSET] 60-Day Inactive segment (18,188 profiles, none engaged by definition) creates ISP-visible batch-level open drag regardless of content quality. Rule enforcement: [SUNSET] 60-Day Inactive is excluded from ALL sends — Signal, auction, FFL, or otherwise — until Task D (re-engagement gauntlet) ships as an isolated track with dedicated suppression logic. Every send to 4,000+ recipients uses the recovery formula: [RECOVERY] 30-Day + Paid Subscribers.
+
+**2. Tucker's Case Study (`01KS2XKH1Q63V00BS6R4YZ4CP0`) is the second consecutive FFL campaign with 0% click rate — 1,066 cumulative opens across two sends, zero clicks. The GunStreamer CTA is definitively broken on all FFL outreach.**
+
+Van's Case Study (May 11, `01KRC2519BM61E11X9RHFTKWCJ`): 510 openers, 0 clicks, spam at ceiling 0.08%. Tucker's Case Study (May 19, `01KS2XKH1Q63V00BS6R4YZ4CP0`): 556 openers, 0 clicks, bounce 0.63%. Two different case studies, two different subjects, 1,066 total openers, zero clicks. This is not copy — it is a broken URL. FFL list is now 1,275, down -19 from the 1,294 April baseline with zero attributed conversions; each send without a working CTA decays the list further. Action before any third FFL send: open both campaign previews in Klaviyo, click every CTA, verify destination URLs load. The GunStreamer partner link is almost certainly dead or redirecting to a 404. Task I (FFL warming sequence) has zero conversion value until the foundational link is confirmed live.
+
+**3. [EXPANSION] 90-Day Engaged dropped -675 this week (4,815 → 4,140) — largest single-week contraction since recovery began. Two weeks without a Signal is draining the click-engagement pool. Send Thursday May 28.**
+
+The 90-Day segment definition requires both opens AND clicks in the last 90 days (two AND-linked conditions in Klaviyo). The window now opens ~Feb 24. Profiles who clicked in late February/early March have aged out if they haven't clicked since — and with CTOR at 7.7% vs the 12–15% benchmark, most openers never clicked at all. The Vans Auction generated only ~172 unique click events (4.1% × 4,203) against a 675-profile deficit. Had CTOR been at benchmark (12%), the same send would have produced ~504 click events — enough to nearly offset the outflow. This is the segment-size cost of the CTOR problem (Task J). Immediate action: send Signal on Thursday May 28 to [RECOVERY] 30-Day Engaged (3,421) + Paid Subscribers (9,806), suppress [SUNSET] and FFL. Include one explicit, low-friction CTA to generate click events that keep profiles in the 90-Day window. If 90-Day falls below 4,000, future Signal audience pool quality degrades and Tue/Thu/Sat expansion becomes harder to justify.
+
+---
 
 ### Week of 2026-05-18 — Coach Review #4
 
