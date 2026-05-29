@@ -1,6 +1,6 @@
 # Rentagun — Project Settings
 
-> **Last Updated:** 2026-05-13
+> **Last Updated:** 2026-05-29
 > **Auto-loaded context skill:** `~/Work/Rentagun/rentagun-context.md` (canonical, deepest detail lives there)
 > **Full project root:** `~/Work/Rentagun/`
 > **Obsidian context:** `Projects/Rentagun/PROJECT-CONTEXT.md` (API keys, workflow IDs, Google Docs)
@@ -114,6 +114,20 @@ Two sources act as one:
 
 ---
 
+## Background Jobs (local launchd)
+
+| Job Label | Purpose | Interval | Script | State / Logs |
+|-----------|---------|----------|--------|--------------|
+| `com.troy.rentagun.order-slack-notify` | **Hermes order notifier** — polls WooCommerce, posts new orders to Slack `#orders` via incoming webhook. Filters `wcboc_*` overage invoices + a customer denylist (email + name). | 5 min | `~/rentagun-scripts/order-slack-notify.py` | State `~/rentagun-scripts/state/last_order.txt` · Logs `~/rentagun-scripts/logs/slack-notify.log` |
+| `com.rentagun.analytics-slack` | Daily 8am PostHog + WooCommerce digest to Slack `#rentagun-analytics`. | daily | (separate) | — |
+
+**Replaced (2026-05-29):** OpenClaw APP integration previously posted orders to `#orders`. Gateway config got clobbered ~Apr 20 2026 and never recovered; orders stopped Apr 13. Silenced as `~/Library/LaunchAgents/ai.openclaw.gateway.plist.silenced-2026-05-29`. Hermes notifier is the replacement and uses the same Slack webhook.
+
+**Customer denylist:** edit `SKIP_EMAILS` / `SKIP_NAMES` sets at the top of `order-slack-notify.py`. No restart needed — launchd reads the script fresh on every run.
+
+---
+
 ## Session Log
 
 - **2026-05-13** — Initial troy-os scaffold created (PROJECT-SETTINGS, BRAND-VOICE, MARKETING-PLAYBOOK). Pulled from `rentagun-context.md` v2026-05-13 (CZ-USA partnership + OEM Partner Program added).
+- **2026-05-29** — Rebuilt order→Slack pipeline as Hermes (replaces broken OpenClaw gateway). Added Background Jobs section + customer denylist (Cree Hall / hallcree94@yahoo.com). Verified live with order #9377.
