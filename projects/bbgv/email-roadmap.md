@@ -6,7 +6,7 @@
 
 ---
 
-## Current state — 2026-05-25
+## Current state — 2026-06-01
 
 **Account:** Blue Book Publications (Klaviyo `SMvTcV`) | **Sender:** troy@email.bluebookofgunvalues.com | **Reply-to:** troy@bluebookinc.com
 
@@ -27,13 +27,13 @@
 
 | Audience | Type | Size | Use |
 |---|---|---:|---|
-| [RECOVERY] 30-Day Engaged | Segment | 3,421 | Primary Signal target |
-| [RECOVERY] 60-Day Engaged | Segment | 3,688 | Signal expansion 1 |
-| [EXPANSION] 90-Day Engaged | Segment | 4,140 | Signal expansion 2 — contracting, see Weekly Review |
-| [EXPANSION] 120-Day Engaged | Segment | 5,333 | Backup pool |
-| Paid Subscribers | List | 9,806 | Premium audience |
+| [RECOVERY] 30-Day Engaged | Segment | 3,266 | Primary Signal target — **below April baseline** |
+| [RECOVERY] 60-Day Engaged | Segment | 3,663 | Signal expansion 1 |
+| [EXPANSION] 90-Day Engaged | Segment | 4,124 | Signal expansion 2 — contracting, see Weekly Review |
+| [EXPANSION] 120-Day Engaged | Segment | 5,065 | Backup pool — sharpest weekly drop on record (-268) |
+| Paid Subscribers | List | 9,805 | Premium audience |
 | BBGV FFL Dealers | List | 1,275 | Cold, single opt-in (Apr 29 import) |
-| Blue Book Live Auctions | List | 117 | Live auction alerts (over-emailed) |
+| Blue Book Live Auctions | List | 123 | Live auction alerts (over-emailed, 2×/day May 29) |
 | [SUNSET] 60-Day Inactive | Segment | 18,188 | Excluded — re-engage candidates |
 | [SUNSET] Never Engaged | Segment | 13,678 | Excluded — suppress candidates |
 
@@ -100,6 +100,78 @@ _Nothing shipped yet. Coach will move tasks here as they complete._
 ## Weekly Reviews
 
 _Appended by coach agent every Monday. Newest first._
+
+### Week of 2026-06-01 — Coach Review #6
+
+**Account confirmed:** Blue Book Publications `SMvTcV` ✓
+
+#### KPIs vs Baseline (Apr 2026, last 30 days)
+
+No Signal newsletter sent this week — 18 days elapsed since the last Signal (Colt Python, May 14). Only sends this week: two Live Auction alerts to `WuuaYj` (93 rcpt each), both on May 29 (Thursday). No Signal-comparable open-rate metric available.
+
+| Metric | Baseline | This Week (auction alerts only) | Δ vs Baseline | Note |
+|---|---:|---:|---|---|
+| Open rate | 64.3% | n/a — no Signal sent | — | 18 days without Signal |
+| Click rate | 4.8% | n/a | — | — |
+| CTOR | 7.5% | n/a | — | — |
+| Unsub rate | 0.41% | 0.55% avg | **+0.14pp ⚠** | eGunco send at 1.10% |
+| Bounce rate | 0.4% | 1.62% avg | **+1.22pp ✗** | eGunco 2.15% = 5.4× baseline |
+| Spam rate | 0.05% | 0% | ✓ clean | — |
+| Conversions | 0 | 0 | — | — |
+
+**Live Auction alerts — May 29 (2 sends, same list, same day):**
+
+| Campaign | ID | Rcpt | Open | Click | CTOR | Unsub | Bounce | Spam |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| eGunco's Live 5/29 1pm CT | `01KST42CMC718PK2TK54JGCV7N` | 93 | 32.97% | 1.10% | 3.33% | **1.10%** | **2.15%** | 0% |
+| Van's Sporting Goods LIVE NOW 5/29 | `01KSTRKTHWKBJ74E5ZTW06FV69` | 93 | 48.91% | 1.09% | 2.22% | 0% | **1.08%** | 0% |
+
+Two sends to the same 93-person list on the same day. Task F (Monday-only, 1×/week) unexecuted for the 6th consecutive week.
+
+**Flows (last 7 days):**
+
+| Flow | Message | Rcpt | Open | Click | CTOR |
+|---|---|---:|---:|---:|---:|
+| Blue Book → GunStreamer (`SNbTjz`) | RT2PuN (email 1) | 6 | 50.0% | 16.67% | 33.33% |
+| Blue Book → GunStreamer (`SNbTjz`) | TVGu4n (email 2) | 7 | 28.57% | 14.29% | 50.0% |
+| Blue Book → GunStreamer (`SNbTjz`) | SS7pAC (email 3) | 7 | 14.29% | 0% | **0%** |
+| Abandoned Cart Leads (`Wn6Uau`) | — | **0** | — | — | — |
+
+GunStreamer flow aggregate CTOR recovered from 0% to 33.3% — but email 3 (SS7pAC) is the sole structural failure: 0% CTOR for the second consecutive week. Abandoned Cart: 4th straight week of zero recipients.
+
+#### Audience Snapshot vs Last Week
+
+| Audience | May 25 | Jun 1 | Δ | vs Apr Baseline |
+|---|---:|---:|---:|---:|
+| [RECOVERY] 30-Day Engaged | 3,421 | 3,266 | **-155 ⚠** | **-155 — BELOW BASELINE** |
+| [RECOVERY] 60-Day Engaged | 3,688 | 3,663 | -25 | -25 |
+| [EXPANSION] 90-Day Engaged | 4,140 | 4,124 | -16 | -16 |
+| [EXPANSION] 120-Day Engaged | 5,333 | 5,065 | **-268 ⚠ RECORD DROP** | -268 |
+| Paid Subscribers | 9,806 | 9,805 | -1 | -1 |
+| BBGV FFL Dealers | 1,275 | 1,275 | flat | flat |
+| Blue Book Live Auctions | 117 | 123 | **+6** | +6 |
+
+[RECOVERY] 30-Day fell below April baseline for the first time since May 18 — the Signal-absence pattern is now unambiguous: -150/week without a send. [EXPANSION] 120-Day's -268 is the largest single-week contraction recorded; March click events (~Feb 1 window open) are expiring with no fresh click volume to replace them.
+
+#### Task Status Review
+
+Live flows confirmed (2, unchanged): `SNbTjz` (Blue Book → GunStreamer Sequence) and `Wn6Uau` (Flow - Abandoned Cart Leads). Welcome/Onboarding flow still absent from live flow list — **Task A remains Pending.** No Signal sent this week (18 days without one); Tue/Thu/Sat cadence unexecuted — **Task B remains Pending.** Abandoned Cart `Wn6Uau` zero recipients for 4th consecutive week — **Task C remains Pending.** Two Live Auction sends on same day to same list, Monday-only rule unexecuted for 6th consecutive week — **Task F remains Pending.**
+
+#### Tactical Optimizations
+
+**1. eGunco's Live (`01KST42CMC718PK2TK54JGCV7N`) posted 2.15% bounce (5.4× baseline) on the first of two same-day sends to 93 profiles — the Live Auctions list has a data-quality problem, not just cadence fatigue. Run a bounce suppression sweep before the next send.**
+
+eGunco (1pm CT, May 29): 2.15% bounce, 1.10% unsub on 93 rcpt = ~2 hard bounces, 1 unsub in a single send. Van's (later same day, 93 rcpt): 1.08% bounce, 0% unsub. Combined: ~3 hard bounces and 1 unsub from one event day. The list grew +6 gross (117 → 123) but is losing clean address data on every double-send day. At 2% bounce per send × 2 sends/event, Klaviyo's automatic suppression path triggers at cumulative bounce thresholds that are within reach for a 123-person list. Action: before the next send, go to `WuuaYj` → filter profiles by "Bounced email" → suppress all bounced addresses. Then execute Task F immediately: Monday-only, one send per week. No same-day doubles for any auction, regardless of sponsor count — the list cannot absorb two sends without measurable hygiene cost.
+
+**2. [RECOVERY] 30-Day fell below April baseline (-155 wk/wk, now 3,266 vs 3,421 baseline) while 120-Day posted its sharpest weekly drop on record (-268). Two Signal-less weeks have erased the recovery built by the Colt Python on May 14. Send Thursday June 4.**
+
+Signal-week vs no-Signal-week pattern across 6 weeks: Signal send weeks (May 5, May 14) — 30-Day grew +5 to +177. No-Signal weeks (May 11, May 25, Jun 1) — 30-Day contracted -84 to -155. The Colt Python on May 14 pushed 30-Day from 3,244 back to 3,421 (+177) in a single send. Two weeks of silence have driven it from 3,421 to 3,266 (-155). The 120-Day -268 is a separate alarm: the 120-day window opened ~Feb 1, and March click events are aging past it. If 120-Day falls below 5,000, the Tue/Thu/Sat expansion pool degrades significantly. Formula for Jun 4: [RECOVERY] 30-Day (3,266) + Paid Subscribers (9,805), suppress [SUNSET] 60-Day Inactive, suppress FFL Dealers — identical to the Colt Python formula that produced 65.6%.
+
+**3. GunStreamer flow email 3 (SS7pAC) has posted 0% CTOR for two consecutive weeks (7 rcpt this week, 21 rcpt last week, zero clicks across both). Emails 1 and 2 are working; the sequence is losing every conversion at the close email.**
+
+Flow breakdown this week: Email 1 (RT2PuN): 50% open, 33.33% CTOR — strong. Email 2 (TVGu4n): 28.57% open, 50% CTOR — stronger. Email 3 (SS7pAC): 14.29% open, **0% CTOR** — dead stop. The open rate halves at each step, which is normal sequence decay; the CTOR going 33% → 50% → 0% is not normal — it's a structural failure at the close. Email 3 is receiving profiles who already opened two prior emails, which is a highly-engaged cohort, and producing zero action. Diagnostic: open SS7pAC in Klaviyo Flow Editor → click every CTA link, verify destination loads (broken URL is the same failure mode as Abandoned Cart and FFL). If links are live, check send delay after email 2 — if it's 7+ days, the GunStreamer context has gone cold. A reframe from "Sign up" positioning to a concrete use case ("Here's how Van's used GunStreamer to move 12 consignments last month") with a soft CTA ("See the case study") will re-engage the cohort email 2 already warmed.
+
+---
 
 ### Week of 2026-05-25 — Coach Review #5
 
