@@ -6,7 +6,7 @@
 
 ---
 
-## Current state — 2026-06-01
+## Current state — 2026-06-08
 
 **Account:** Blue Book Publications (Klaviyo `SMvTcV`) | **Sender:** troy@email.bluebookofgunvalues.com | **Reply-to:** troy@bluebookinc.com
 
@@ -27,13 +27,13 @@
 
 | Audience | Type | Size | Use |
 |---|---|---:|---|
-| [RECOVERY] 30-Day Engaged | Segment | 3,266 | Primary Signal target — **below April baseline** |
-| [RECOVERY] 60-Day Engaged | Segment | 3,663 | Signal expansion 1 |
-| [EXPANSION] 90-Day Engaged | Segment | 4,124 | Signal expansion 2 — contracting, see Weekly Review |
-| [EXPANSION] 120-Day Engaged | Segment | 5,065 | Backup pool — sharpest weekly drop on record (-268) |
-| Paid Subscribers | List | 9,805 | Premium audience |
-| BBGV FFL Dealers | List | 1,275 | Cold, single opt-in (Apr 29 import) |
-| Blue Book Live Auctions | List | 123 | Live auction alerts (over-emailed, 2×/day May 29) |
+| [RECOVERY] 30-Day Engaged | Segment | 3,480 | Primary Signal target — **+347 above April baseline, highest recorded** |
+| [RECOVERY] 60-Day Engaged | Segment | 3,761 | Signal expansion 1 — recovering |
+| [EXPANSION] 90-Day Engaged | Segment | 4,196 | Signal expansion 2 — recovering (+72 wk/wk) |
+| [EXPANSION] 120-Day Engaged | Segment | 5,172 | Backup pool — recovering (+107 wk/wk) |
+| Paid Subscribers | List | 9,787 | Premium audience — -18 wk/wk, worst weekly drop recorded |
+| BBGV FFL Dealers | List | 1,269 | Cold, single opt-in (Apr 29 import) — -25 from baseline, 0 conversions |
+| Blue Book Live Auctions | List | 128 | Live auction alerts — spam rate critical (see Weekly Review) |
 | [SUNSET] 60-Day Inactive | Segment | 18,188 | Excluded — re-engage candidates |
 | [SUNSET] Never Engaged | Segment | 13,678 | Excluded — suppress candidates |
 
@@ -55,7 +55,7 @@
 |---|---|---|---|---|
 | A | Ship Welcome Series (5 emails) | Pending | Troy + Claude | +400–700 opens/mo |
 | B | Restore Tue/Thu/Sat Signal cadence (4 drafts ready) | Pending | Troy | +14–18K opens/mo |
-| C | Fix Abandoned Cart Leads flow (0% click rate) | Pending | Claude | Bring up to 3% click |
+| C | Fix Abandoned Cart Leads flow (0% click rate) | In Progress — AV1 50% CTOR; AV2 still 0% click | Claude | Bring up to 3% click |
 
 ### Tier 2: Next 2 weeks (list growth)
 
@@ -100,6 +100,80 @@ _Nothing shipped yet. Coach will move tasks here as they complete._
 ## Weekly Reviews
 
 _Appended by coach agent every Monday. Newest first._
+
+### Week of 2026-06-08 — Coach Review #7
+
+**Account confirmed:** Blue Book Publications `SMvTcV` ✓
+
+#### KPIs vs Baseline (Apr 2026, last 30 days)
+
+Two major sends this week. (1) "GS — Mike's Guns 100+ LIVE — Signal (60-Day Engaged) — Jun 1" (`01KT1QVPJH1D0RC0ZG4TWJ0EDN`, 4,105 rcpt, Jun 1) — contaminated again: [SUNSET] 60-Day Inactive included despite 6 prior weeks of documentation. (2) "Van's Auction Value Alert — Whole List (2026-06-05)" (`01KTCVJCEXCTMKAB0GDP1KEXP5`, 3,984 rcpt, Jun 5) — broad audience: BBGV Free Users (Enthusiast + Single Valuation), FFL Dealers, Collector Newsletter, Live Auctions, Paid Subscribers. First week with two main sends since recovery began.
+
+| Metric | Baseline | Jun 1 Signal | Jun 5 Auction Alert | Δ vs Baseline | Note |
+|---|---:|---:|---:|---|---|
+| Open rate | 64.3% | 61.82% | 62.03% | **-2.4pp avg** | [SUNSET] contamination Jun 1; broad list Jun 5 |
+| Click rate | 4.8% | 4.96% | 6.37% | **+1.6pp avg ✓** | Jun 5 strongest click rate in all 7 reviews |
+| CTOR | 7.5% | 8.02% | 10.28% | **+1.6pp avg ✓** | Closing gap vs 12–15% benchmark |
+| Unsub rate | 0.41% | 0.34% | 0.33% | **-0.07pp ✓** | Both below baseline |
+| Bounce rate | 0.4% | 0.27% | 0.38% | **-0.1pp ✓** | Both below baseline |
+| Spam rate | 0.05% | 0.049% | 0.025% | **✓ clean** | Main sends only — see Live Auctions below |
+| Conversions | 0 | 0 | 0 | — | — |
+
+**Live Auction sends — Jun 1–5 (3 dedicated sends):**
+
+| Campaign | ID | Rcpt | Open | Click | CTOR | Unsub | Bounce | Spam |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| GS Mike's Guns — Live Auctions — Jun 1 | `01KT1QD1DXR2FBX7FM0QZZ23SK` | 92 | 41.76% | 1.10% | 2.63% | 0% | **1.09%** | 0% |
+| Sharp's Shooting Supply — Jun 2 | `01KT4TMSJJ0CCQW637G12B4HSQ` | 96 | 36.84% | 5.26% | 14.29% | 0% | **1.04%** | **1.053% ⚠ CRITICAL** |
+| Live Auction Alert 3 Streams — Jun 4 | `01KT9SXANX8WM9P07XB970CZCT` | 93 | 35.17% | 2.20% | 6.25% | 0% | **2.15%** | 0% |
+
+Sharp's Shooting Supply spam rate 1.053% = 21× account baseline (0.05%) and 10× the 0.1% deliverability threshold. Jun 4 bounce 2.15% = 5.4× baseline. Task F unexecuted for 7th consecutive week.
+
+**Flows (last 7 days):**
+
+| Flow | Message | Rcpt | Open | Click | CTOR |
+|---|---|---:|---:|---:|---:|
+| Blue Book → GunStreamer (`SNbTjz`) | RT2PuN (email 1) | 6 | 50.0% | 16.67% | 33.33% |
+| Blue Book → GunStreamer (`SNbTjz`) | TVGu4n (email 2) | 2 | 50.0% | 0% | 0% |
+| Blue Book → GunStreamer (`SNbTjz`) | SS7pAC (email 3) | 3 | 66.67% | 0% | **0% (3rd week)** |
+| Abandoned Cart (`Wn6Uau`) | SawPV6 (AV1) | 4 | 50.0% | **50.0%** | **100% — REVERSAL** |
+| Abandoned Cart (`Wn6Uau`) | RKJyd3 (AV2) | 4 | 50.0% | 0% | 0% |
+
+Abandoned Cart trigger alive for first time in 5 weeks (4 rcpt each). AV1 (SawPV6) 100% CTOR — complete reversal from 0% across 75+ prior sends. AV2 (RKJyd3) still 0% click. GunStreamer email 3 (SS7pAC) 0% CTOR for third consecutive week.
+
+#### Audience Snapshot vs Last Week
+
+| Audience | Jun 1 | Jun 8 | Δ | vs Apr Baseline |
+|---|---:|---:|---:|---:|
+| [RECOVERY] 30-Day Engaged | 3,266 | 3,480 | **+214 ✓** | **+347 — highest on record** |
+| [RECOVERY] 60-Day Engaged | 3,663 | 3,761 | **+98 ✓** | +98 |
+| [EXPANSION] 90-Day Engaged | 4,124 | 4,196 | **+72 ✓** | +72 |
+| [EXPANSION] 120-Day Engaged | 5,065 | 5,172 | **+107 ✓** | +107 |
+| Paid Subscribers | 9,805 | 9,787 | **-18 ⚠** | -40 |
+| BBGV FFL Dealers | 1,275 | 1,269 | -6 | -25 |
+| Blue Book Live Auctions | 123 | 128 | +5 | +41 |
+
+All four engaged segments grew simultaneously — only the second time in 7 reviews (prior: Colt Python week, May 18). Jun 1 Signal + Jun 5 Auction Alert together generated enough click events to replenish all four rolling windows. [RECOVERY] 30-Day at 3,480 is 347 above the April baseline — highest in the review record. Paid Subscribers -18 is the single worst weekly drop recorded; forms still broken (Task E unstarted).
+
+#### Task Status Review
+
+Live flows confirmed (2, unchanged): `SNbTjz` (Blue Book → GunStreamer Sequence) and `Wn6Uau` (Abandoned Cart Leads). No Welcome/Onboarding flow in live list — **Task A remains Pending.** Two sends in one week for the first time (Jun 1 + Jun 5) — progress — but neither matches clean Tue/Thu/Sat Signal formula — **Task B remains Pending.** Abandoned Cart trigger resumed; AV1 (SawPV6) reversed from 0% to 100% CTOR — **Task C updated to In Progress: AV1 fixed, AV2 still 0% click.** Three Live Auction sends this week (Jun 1, 2, 4) — **Task F remains Pending, 7th consecutive week.**
+
+#### Tactical Optimizations
+
+**1. Sharp's Shooting Supply (`01KT4TMSJJ0CCQW637G12B4HSQ`) posted 1.053% spam rate on Jun 2 — 10× threshold. Suppress all complainers in `WuuaYj` before the next send or accumulating complaint rate triggers ISP filtering for all future sends.**
+
+One complaint per 95 recipients on a list of 128 is structurally unsustainable. Google and Yahoo begin suppression-list flagging at 0.1% cumulative complaint rate; a single send at 1.053% can push the sending domain into a filter-accumulation path that persists beyond the send that caused it. The Live Auctions list now has high bounce events in 2 of 3 sends this week (Jun 1: 1.09%, Jun 4: 2.15%) and a spam spike on Jun 2. Before any send to `WuuaYj`: Klaviyo → Lists & Segments → `WuuaYj` → filter profiles where "Marked email as spam" → suppress all hits. Then audit the Jun 2 Sharp's subject line and content for spam-trigger patterns (excessive caps, "FREE", image-to-text ratio, aggressive urgency). Task F (Monday-only, 1×/week) is now a deliverability mandate, not just a cadence preference — at the current 3 sends/week rate plus a 1.053% spam event, the list has weeks left before ISP-level filtering degrades reach to zero.
+
+**2. Abandoned Cart AV1 (SawPV6) reversed from 0% to 100% CTOR after 5 weeks at 0% — audit what changed and apply the same fix to AV2 (RKJyd3) before this week's recipients age out.**
+
+AV1 history: 75+ sends at 0% click (weeks 1–5), then 4 sends this week at 50% click / 100% CTOR. Something changed — a link fix, a trigger reconnection, or a CTA update — between last week and this week. AV2 (RKJyd3) has not received the same fix: 4 recipients this week, 50% open, 0% click. AV2 is the Day 2 follow-up to buyers who ignored AV1 — a high-intent cohort that now hits a broken CTA. Action: open AV2 in Klaviyo flow editor → click every CTA link → verify destination loads. If the AV1 fix was a URL correction, replicate it on AV2. AV2's 4 recipients this week are likely the same profiles AV1 fired on 24 hours prior — they opened AV1, didn't click, and AV2 is the recovery email. Fixing AV2 closes Task C entirely.
+
+**3. "Van's Auction Value Alert — Whole List" (`01KTCVJCEXCTMKAB0GDP1KEXP5`) posted 6.37% click rate and 10.28% CTOR on Jun 5 — highest click and CTOR metrics in all 7 reviews. Test the auction-preview content format on the next clean Signal send.**
+
+Jun 5 vs Jun 1 Signal, with audience contamination held roughly constant: open rate nearly identical (62.03% vs 61.82%), but click rate +1.41pp (6.37% vs 4.96%) and CTOR +2.26pp (10.28% vs 8.02%). The click uplift is attributable to content structure, not audience quality — both sends were contaminated. The Jun 5 "Auction Value Alert" format, with specific lot/model value data and a direct "see active bids" CTA, produced ~2× the click intent of the generic Signal editorial format. Test: apply the auction-preview format to the next clean Signal send ([RECOVERY] 30-Day, 3,480 + Paid Subscribers, 9,787, suppress [SUNSET] and FFL). Embed 1–2 specific gun models with current estimated values and an explicit "see current bids →" CTA before the editorial body. If CTOR hits 10%+ on a clean audience, the format is confirmed as the new Signal standard — and closes the gap toward the 12–15% benchmark.
+
+---
 
 ### Week of 2026-06-01 — Coach Review #6
 
