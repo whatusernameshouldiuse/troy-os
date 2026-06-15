@@ -2,6 +2,9 @@ import { NextResponse } from 'next/server';
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFile } from 'node:child_process';
+// Static import guarantees the bundler ships the data file; used as a read
+// fallback if the filesystem path isn't resolvable (e.g. on Vercel).
+import seedData from '../../../data/tasks.json';
 
 const DATA = path.join(process.cwd(), 'data', 'tasks.json');
 const SYNC = path.join(process.cwd(), '..', 'scripts', 'sync-board.mjs');
@@ -10,7 +13,12 @@ const COLUMNS = ['inbox', 'now', 'next', 'later', 'blocked', 'needs-fix', 'done'
 export const dynamic = 'force-dynamic';
 
 function read() {
-  return JSON.parse(fs.readFileSync(DATA, 'utf8'));
+  try {
+    return JSON.parse(fs.readFileSync(DATA, 'utf8'));
+  } catch {
+    // Deployed/read-only environment: serve the bundled snapshot.
+    return structuredClone(seedData);
+  }
 }
 
 function write(d) {

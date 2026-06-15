@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T15:26:04.757Z",
+  "updated": "2026-06-15T15:49:07.949Z",
   "meta": {
     "source": "troy-os/dashboard/web/data/tasks.json",
     "note": "Source of truth. BOARD.md is generated from this."
@@ -700,6 +700,21 @@
       "notes": "Check $? and updatedRows.",
       "sessions": [],
       "blockedOn": null
+    },
+    {
+      "id": "dev-tools-mission-board-shipped-visual-kanban",
+      "title": "Mission Board shipped — visual Kanban on Vercel, Hermes read/write wired, BOARD.md auto-syncs",
+      "project": "dev-tools",
+      "column": "done",
+      "priority": null,
+      "tags": [],
+      "category": null,
+      "captured": "2026-06-15",
+      "due": null,
+      "doneAt": null,
+      "notes": "",
+      "sessions": [],
+      "blockedOn": null
     }
   ],
   "agents": [],
@@ -713,6 +728,56 @@
       "source": "self",
       "url": "",
       "summary": "Build the Radar scraper agent: weekly sweep (last30days + skills-hub + MCP registries) → proposes new tech/skills/automations for Troy's systems → lands here as cards. THIS is the engine that keeps the board top-tier."
+    },
+    {
+      "id": "radar-agent-sdk-billing-change",
+      "title": "Agent SDK billing change (June 15 2026): headless claude -p now draws a separate monthly Agent SDK credit",
+      "type": "tech",
+      "source": "last30days",
+      "url": "https://releasebot.io/updates/anthropic/claude-code",
+      "summary": "Affects EVERY headless cron you run — Hermes daily brief, reddit-agent, forum autopost, this radar scout. First step: audit which crons run claude -p and confirm they fit the new credit pool before they silently throttle.",
+      "addedAt": "2026-06-15",
+      "status": "idea"
+    },
+    {
+      "id": "radar-official-ahrefs-semrush",
+      "title": "Official Ahrefs / Semrush MCP servers for SEO clients",
+      "type": "mcp",
+      "source": "last30days",
+      "url": "https://serpstat.com/blog/best-seo-mcp-servers-comparison/",
+      "summary": "Pipe live backlink/keyword data straight into agents for report generation — augments your DataForSEO work. First step: trial the Ahrefs MCP on one SEO client (Hallmark or Boaz) and compare to DataForSEO output.",
+      "addedAt": "2026-06-15",
+      "status": "idea"
+    },
+    {
+      "id": "radar-formalize-hermes-as-committed",
+      "title": "Formalize Hermes as committed .claude/agents sub-agents (parallel fan-out)",
+      "type": "workflow",
+      "source": "last30days",
+      "url": "https://www.developersdigest.tech/blog/claude-code-agent-teams-subagents-2026",
+      "summary": "Turn ad-hoc Hermes prompts into versioned sub-agent files that run in parallel for concurrent research + implementation. First step: convert the daily-brief + reddit-agent prompts into .claude/agents/ definitions.",
+      "addedAt": "2026-06-15",
+      "status": "idea"
+    },
+    {
+      "id": "radar-use-loop-for-verify-until-green",
+      "title": "Use /loop for verify-until-green on money-path checks",
+      "type": "workflow",
+      "source": "last30days",
+      "url": "https://toolsbase.dev/en/reference/claude-code-features",
+      "summary": "Auto-cycle a task until the artifact verifies — fits your 'verify the side-effect not the return value' rule. First step: wrap leadwatch money-path probes (and the BBGV email gate) in a /loop that re-runs until the lead actually lands.",
+      "addedAt": "2026-06-15",
+      "status": "idea"
+    },
+    {
+      "id": "radar-wire-owned-but-unused-skills-into",
+      "title": "Wire owned-but-unused skills into brands (free-tool-strategy, competitor-alternatives, churn-prevention)",
+      "type": "skill",
+      "source": "skills-hub",
+      "url": "",
+      "summary": "You own 120 skills in skills-hub but several high-leverage ones aren't running on any brand. First step: point free-tool-strategy at Rentagun/GunStreamer lead-gen and competitor-alternatives at BBGV BOFU content.",
+      "addedAt": "2026-06-15",
+      "status": "idea"
     }
   ]
 }

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Weekly Radar Scout — Mondays 7:00am (before Troy's Monday planning ritual).
+  Install (this enables recurring `claude -p` runs, which draw Agent SDK credit):
+    cp ~/troy-os/dashboard/scripts/com.troy.radar-scout.plist ~/Library/LaunchAgents/
+    launchctl load ~/Library/LaunchAgents/com.troy.radar-scout.plist
+  Disable:
+    launchctl unload ~/Library/LaunchAgents/com.troy.radar-scout.plist
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.troy.radar-scout</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>-lc</string>
+    <string>$HOME/troy-os/dashboard/scripts/radar-scout.sh</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Weekday</key><integer>1</integer>
+    <key>Hour</key><integer>7</integer>
+    <key>Minute</key><integer>0</integer>
+  </dict>
+  <key>StandardOutPath</key>
+  <string>/tmp/radar-scout.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/radar-scout.err.log</string>
+  <key>RunAtLoad</key>
+  <false/>
+</dict>
+</plist>

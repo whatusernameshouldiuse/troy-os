@@ -147,6 +147,11 @@ switch (cmd) {
   }
   case 'radar': {
     const sub = pos[0];
+    if (sub === 'list') {
+      for (const r of d.radar) console.log(`[${r.status}] (${r.type}) ${r.id} :: ${r.title}`);
+      console.log(`\n${d.radar.length} radar item(s)`);
+      break;
+    }
     if (sub === 'add') {
       const title = pos.slice(1).join(' ').trim();
       const r = {

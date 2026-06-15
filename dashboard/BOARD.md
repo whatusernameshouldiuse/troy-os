@@ -9,12 +9,13 @@ kanban-plugin: board
 > Raw capture only — never decide priority here. Triage every Friday.
 
 - [ ] **[Rentagun]** Verify 5 Rare-On-The-Range SKUs in stock before publishing new membership LP (Marlin 336 JM, Win 94, Norinco SKS, S&W 39-2, Ruger Speed Six .357) <!-- captured 2026-05-14 -->
+- [ ] **[Rentagun]** Monitor Hermes order notifier — check ~/rentagun-scripts/logs/slack-notify.log, verify orders in , watch wcboc_ misfires #orders <!-- captured 2026-05-29 -->
 
 ## Now
 
 > WIP LIMIT: 3. Close loops before starting anything below.
 
-- [ ] **[BBGV]** Complete Wn6Uau paste workflow: AV1 full HTML replace + AV2 + AV3 + 3 subject lines, "Update Live Version" per message — then RE-OPEN each message and confirm it shows the updated live version (verify the artifact, not the click) #P0 @2026-06-14 (STALE)
+- [ ] **[BBGV]** Complete Wn6Uau paste workflow: AV1 full HTML replace + AV2 + AV3 + 3 subject lines, "Update Live Version" per message — then RE-OPEN each message and confirm it shows the updated live version (verify the artifact, not the click) #P0 @2026-06-14
 
 ## Next
 
@@ -37,7 +38,6 @@ kanban-plugin: board
 - [ ] **[Rentagun]** Per-gun daily-rate pricing model (David/Dad) — import+handoff built, dev not started #P1
 - [ ] **[Rentagun]** Email capture wires — install Klaviyo JS + GA4 + PostHog on rentagun.com (currently dead code) #P1
 - [ ] **[Rentagun]** Paste V4 membership content into live /affiliates/ (redesign done, not pasted) #P2
-- [ ] **[Rentagun]** Monitor Hermes order notifier — check ~/rentagun-scripts/logs/slack-notify.log, verify orders land, watch wcboc_ misfires in #orders #P3 <!-- captured 2026-05-29 -->
 - [ ] **[Rentagun]** Decision Engine (200+ SEO comparison pages) — designed not built #P3
 - [ ] **[Rentagun]** Inventory Hub plugin — 8-phase plan, not started #P3
 
@@ -85,6 +85,7 @@ kanban-plugin: board
 - [x] **[Dev]** Creative Studio v1 (Symphony-clone agentic canvas) shipped ✅ 2026-06-11
 - [x] **[SEO]** Dutch Dumpsters two-site reality verified (live=GHL, Astro=rebuild) ✅ 2026-06-11
 - [x] **[Rentagun]** Membership funnel audit — found all CTAs dead-ended, 527 wasted clicks ✅ 2026-06-10
+- [x] **[Dev]** Mission Board shipped — visual Kanban on Vercel, Hermes read/write wired, BOARD.md auto-syncs <!-- captured 2026-06-15 -->
 
 %% kanban:settings
 ```
