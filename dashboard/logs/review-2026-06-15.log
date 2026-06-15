@@ -1,0 +1,70 @@
+[10:16:46] === friday board review start (dry_run=1) ===
+[10:16:46] gathered activity -> /Users/troyvanmaanen/troy-os/dashboard/.week-activity.md (37 lines)
+[10:16:46] DRY_RUN: skipping claude + commit. Activity file follows:
+# Activity for the week ending 2026-06-15
+
+## Git commits (last 7 days)
+
+### home repo (~/ — covers most of ~/Work)
+
+### Work/SEO-Clients/local-seo-astro-starter/
+- 2026-06-15 feat: extract buildable Astro starter from Dutch Dumpsters
+- 2026-06-14 docs(adr-0002): confirm GHL driver ranking (SEO > UX > cost)
+- 2026-06-14 docs(adr): seed local-SEO Astro starter with 9 platform ADRs
+
+## Cron / agent logs touched this week
+- ~/clawd/logs/bbgv-daily-audit-2026-06-13.md
+- ~/clawd/logs/bbgv-daily-audit-2026-06-12.md
+- ~/clawd/logs/bbgv-daily-audit-latest.md
+- ~/clawd/logs/weekly-analytics.log
+- ~/clawd/logs/rentagun-analytics-slack.err
+- ~/clawd/logs/gs-stream-reports.out
+- ~/clawd/logs/bbgv-daily-email-audit.err
+- ~/clawd/logs/bbgv-daily-audit-2026-06-09.md
+- ~/clawd/logs/bbgv-daily-email-audit.log
+- ~/clawd/logs/rentagun-analytics-slack.log
+- ~/clawd/logs/gs-weekly-recap.out
+- ~/clawd/logs/gs-stream-reports.log
+- ~/clawd/logs/bbgv-daily-audit-2026-06-11.md
+- ~/clawd/logs/daily-outreach.log
+- ~/clawd/logs/bbgv-daily-audit-2026-06-15.md
+- ~/clawd/logs/bbgv-daily-audit-2026-06-14.md
+- ~/clawd/logs/bbgv-daily-audit-2026-06-10.md
+- ~/.claude/skills/reddit-agent/logs/gunstreamer-2026-06-14.log
+- ~/.claude/skills/reddit-agent/logs/gunstreamer-2026-06-15.log
+- ~/.claude/skills/reddit-agent/logs/gunstreamer-2026-06-11.log
+- ~/.claude/skills/reddit-agent/logs/gunstreamer-2026-06-10.log
+- ~/.claude/skills/reddit-agent/logs/gunstreamer-2026-06-12.log
+- ~/.claude/skills/reddit-agent/logs/gunstreamer-2026-06-13.log
+- ~/.claude/skills/reddit-agent/logs/gunstreamer-2026-06-09.log
+- ~/.claude/skills/reddit-agent/logs/launchd-stdout.log
+[10:16:46] === dry run end ===
+[10:22:15] === friday board review start (dry_run=0) ===
+[10:22:15] gathered activity -> /Users/troyvanmaanen/troy-os/dashboard/.week-activity.md (37 lines)
+[10:22:15] invoking claude -p...
+/Users/troyvanmaanen/troy-os/dashboard/friday-review.sh: line 88: /Users/troyvanmaanen/.nvm/versions/node/v22.18.0/bin/claude: No such file or directory
+[10:22:15] WARN: claude -p exited non-zero; check log
+[10:22:15] board unchanged — agent made no edits
+[10:22:15] === review end ===
+[10:25:59] === friday board review start (dry_run=0) ===
+[10:25:59] gathered activity -> /Users/troyvanmaanen/troy-os/dashboard/.week-activity.md (37 lines)
+[10:25:59] invoking claude -p...
+Friday review done. Ruthless summary:
+
+**Shipped (with evidence):** Only the `local-seo-astro-starter` extraction + 9 ADRs. Everything else in the logs was automated cron — not task progress, so no checkmarks.
+
+**Board changes:**
+- BBGV Wn6Uau paste workflow → `(STALE)` (zero movement; only cron logs touched)
+- Hermes order-monitor → moved Inbox → Later/Rentagun (#P3, real recurring ops task)
+- SKU-verify left in Inbox (tied to de-emphasized membership LP — conservative hold)
+- Money-bleeders kept top of Later; Done items all dated this week → nothing archived
+
+**Next week's Now-3:**
+1. **[Dutch]** Fix the live lead-loss form bug — money bleeding *now*
+2. **[BBGV]** Close the STALE Wn6Uau paste loop — finish or kill
+3. **[Rentagun]** Redirect the 527 dead membership CTAs to the rental funnel
+
+**Kill outright:** **[Rentagun] Paste V4 membership content into /affiliates/** — it contradicts the rental-first pivot. Stop touching the membership funnel.
+
+The real signal: you shipped tooling this week while three #P0 money-bleeders sat untouched. The Dutch form bug is the one that's actively costing leads — start there Monday.
+[10:28:09] board changed — committing troy-os

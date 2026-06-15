@@ -29,3 +29,17 @@
 3. Confirm Cody attendance
 
 **Carry-over to next week:** MOU template, `/cz` landing wireframe, PostHog tracking spec, BBGV paste workflow, GunStreamer Section 0.1.
+
+---
+
+## Week of 2026-06-15 — Friday review 2026-06-15
+
+**What shipped:** The only verifiable build this week was the `local-seo-astro-starter` extraction + 9 platform ADRs (Dutch Dumpsters code pulled into a reusable buildable starter, 2026-06-14/15) — everything else in the activity log is automated cron (BBGV daily audits, reddit-agent, analytics Slack), not task progress. **What didn't:** The single Now item (BBGV Wn6Uau paste workflow) showed zero movement and is now marked (STALE); the #P0 Dutch Dumpsters live lead-loss bug, the Rentagun 527-dead-CTA bleed, and the GunStreamer FFL launch all sat untouched. **Why:** Attention went to infra/tooling (the Astro starter) instead of the open money-bleeders — too many P0s parked across Now/Next/Needs-Fix with no forcing function.
+
+**Recommended Now-3 for next week:**
+1. **[Dutch]** Fix the live lead-loss form bug (book.astro:68 + contact.astro:101 — 404 Formspree IDs, no res.ok check). Real money bleeding right now — top priority.
+2. **[BBGV]** Close the STALE Wn6Uau paste workflow — it's the oldest open Now loop; finish it or kill it.
+3. **[Rentagun]** Redirect the 527 dead-end membership CTAs to the rental funnel (stop the 60-day click bleed).
+
+**Kill outright:** **[Rentagun] Paste V4 membership content into live /affiliates/** (#P2, Later). It directly contradicts the rental-first pivot (membership is being de-emphasized). Stop maintaining the membership funnel — every hour on it is wasted against the current strategy.
+
