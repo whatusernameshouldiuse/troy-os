@@ -6,7 +6,7 @@
 
 ---
 
-## Current state — 2026-06-08
+## Current state — 2026-06-15
 
 **Account:** Blue Book Publications (Klaviyo `SMvTcV`) | **Sender:** troy@email.bluebookofgunvalues.com | **Reply-to:** troy@bluebookinc.com
 
@@ -27,13 +27,13 @@
 
 | Audience | Type | Size | Use |
 |---|---|---:|---|
-| [RECOVERY] 30-Day Engaged | Segment | 3,480 | Primary Signal target — **+347 above April baseline, highest recorded** |
-| [RECOVERY] 60-Day Engaged | Segment | 3,761 | Signal expansion 1 — recovering |
-| [EXPANSION] 90-Day Engaged | Segment | 4,196 | Signal expansion 2 — recovering (+72 wk/wk) |
-| [EXPANSION] 120-Day Engaged | Segment | 5,172 | Backup pool — recovering (+107 wk/wk) |
-| Paid Subscribers | List | 9,787 | Premium audience — -18 wk/wk, worst weekly drop recorded |
-| BBGV FFL Dealers | List | 1,269 | Cold, single opt-in (Apr 29 import) — -25 from baseline, 0 conversions |
-| Blue Book Live Auctions | List | 128 | Live auction alerts — spam rate critical (see Weekly Review) |
+| [RECOVERY] 30-Day Engaged | Segment | 3,408 | Primary Signal target — +275 above April baseline, -72 wk/wk |
+| [RECOVERY] 60-Day Engaged | Segment | 3,743 | Signal expansion 1 — +110 above April baseline, -18 wk/wk |
+| [EXPANSION] 90-Day Engaged | Segment | 3,968 | Signal expansion 2 — **-630 below April baseline, -228 wk/wk CRITICAL** |
+| [EXPANSION] 120-Day Engaged | Segment | 5,174 | Backup pool — +71 above baseline, flat (+2 wk/wk) |
+| Paid Subscribers | List | 9,785 | Premium audience — -44 from baseline, -2 wk/wk |
+| BBGV FFL Dealers | List | 1,268 | Cold, single opt-in (Apr 29 import) — -26 from baseline, 0 conversions |
+| Blue Book Live Auctions | List | 131 | Live auction alerts — +3 wk/wk; Task F unexecuted 8 weeks |
 | [SUNSET] 60-Day Inactive | Segment | 18,188 | Excluded — re-engage candidates |
 | [SUNSET] Never Engaged | Segment | 13,678 | Excluded — suppress candidates |
 
@@ -42,7 +42,7 @@
 | Flow | Status | Trigger | 30d Open | 30d Click |
 |---|---|---|---:|---:|
 | Blue Book → GunStreamer Sequence | Live | Added to List `WuuaYj` | 61.0% | 12.2% |
-| Flow - Abandoned Cart Leads | Live (NEW Apr 29) | Metric | 36.0% | 0.0% |
+| Flow - Abandoned Cart Leads | **DRAFT** (confirmed Jun 15 — not live) | Metric | — | 0.0% |
 | Onboarding Welcome Series | **DRAFT (since 2024)** | Unconfigured | — | — |
 
 ---
@@ -55,7 +55,7 @@
 |---|---|---|---|---|
 | A | Ship Welcome Series (5 emails) | Pending | Troy + Claude | +400–700 opens/mo |
 | B | Restore Tue/Thu/Sat Signal cadence (4 drafts ready) | Pending | Troy | +14–18K opens/mo |
-| C | Fix Abandoned Cart Leads flow (0% click rate) | In Progress — AV1 50% CTOR; AV2 still 0% click | Claude | Bring up to 3% click |
+| C | Fix Abandoned Cart Leads flow (0% click rate) | In Progress — Flow confirmed DRAFT in Klaviyo; AV1/AV2 absent from report; AV3 (YqeN4s) firing but 0% click | Claude | Bring up to 3% click |
 
 ### Tier 2: Next 2 weeks (list growth)
 
@@ -100,6 +100,78 @@ _Nothing shipped yet. Coach will move tasks here as they complete._
 ## Weekly Reviews
 
 _Appended by coach agent every Monday. Newest first._
+
+### Week of 2026-06-15 — Coach Review #8
+
+**Account confirmed:** Blue Book Publications `SMvTcV` ✓
+
+#### KPIs vs Baseline (Apr 2026, last 30 days)
+
+Main send: "The Signal — Value Watch — Fox Sterlingworth 16ga (2026-06-08)" (`01KTPGWQVB3WGM8S6WE6NZQQXC`, 3,727 rcpt, Jun 9). Audience: [RECOVERY] 30-Day Engaged + [EXPANSION] 120-Day Engaged — deviation from the proven Colt Python formula ([RECOVERY] 30-Day + Paid Subscribers only). Two Live Auction sends (Jun 12, Jun 13) to `WuuaYj`.
+
+| Metric | Baseline | This Week (Signal) | Δ vs Baseline | Note |
+|---|---:|---:|---|---|
+| Open rate | 64.3% | 57.6% | **-6.7pp** | 120-Day dilution vs Paid Subscribers formula |
+| Click rate | 4.8% | 3.74% | **-1.06pp** | |
+| CTOR | 7.5% | 6.49% | **-1.01pp** | Worst Signal CTOR in 4 weeks |
+| Unsub rate | 0.41% | 0.22% | **-0.19pp ✓** | Below baseline |
+| Bounce rate | 0.4% | 0.27% | **-0.13pp ✓** | Below baseline |
+| Spam rate | 0.05% | 0% | **✓ clean** | |
+| Conversions | 0 | 0 | — | — |
+
+**Live Auction sends — Jun 12–13 (2 sends):**
+
+| Campaign | ID | Rcpt | Open | Click | CTOR | Unsub | Bounce | Spam |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| Van's Sporting Goods Live 6/12 | `01KTYQGBWAJDT6ATQ21S6AB9SX` | 100 | 46.47% | 3.03% | 6.52% | 0% | **1.00%** | 0% |
+| Tucker's Live 6/13 | `01KV0JXX6121T1R7XYE3HJ5XXV` | 99 | 43.43% | 5.05% | **11.63%** | 0% | 0% | 0% |
+
+Task F (Monday-only, 1×/week) unexecuted for 8th consecutive week. Jun 12 Van's bounce 1.0% = 2.5× baseline; Tucker's Jun 13 is the highest CTOR (11.63%) recorded on any Live Auction send.
+
+**Flows (last 7 days):**
+
+| Flow | Message | Rcpt | Open | Click | CTOR |
+|---|---|---:|---:|---:|---:|
+| Blue Book → GunStreamer (`SNbTjz`) | RT2PuN (email 1) | 4 | 25.0% | 25.0% | **100% (1 click / 1 open)** |
+| Blue Book → GunStreamer (`SNbTjz`) | TVGu4n (email 2) | 5 | 60.0% | 0% | 0% |
+| Blue Book → GunStreamer (`SNbTjz`) | SS7pAC (email 3) | 6 | 33.3% | 0% | **0% (4th week)** |
+| Abandoned Cart (`Wn6Uau`) | YqeN4s (AV3) | 6 | 66.67% | 0% | 0% |
+
+**Critical: Abandoned Cart `Wn6Uau` confirmed DRAFT by Klaviyo API (`get_flows?filter=equals(status,"live")` returned only `SNbTjz`).** The roadmap's "Live (NEW Apr 29)" notation was incorrect. AV1 (SawPV6) and AV2 (RKJyd3) absent from flow report this week; last week's AV1 100% CTOR reversal did not repeat. Only AV3 (YqeN4s) fired, 0% click across 6 sends. GunStreamer email 1 (RT2PuN) 100% CTOR is a small-sample artifact (1 click from 1 opener, 4 total rcpt). SS7pAC (email 3) 0% CTOR for fourth consecutive week.
+
+#### Audience Snapshot vs Last Week
+
+| Audience | Jun 8 | Jun 15 | Δ | vs Apr Baseline |
+|---|---:|---:|---:|---:|
+| [RECOVERY] 30-Day Engaged | 3,480 | 3,408 | **-72 ⚠** | +275 |
+| [RECOVERY] 60-Day Engaged | 3,761 | 3,743 | -18 | +110 |
+| [EXPANSION] 90-Day Engaged | 4,196 | 3,968 | **-228 ⚠** | **-630 — CRITICAL** |
+| [EXPANSION] 120-Day Engaged | 5,172 | 5,174 | +2 | +71 |
+| Paid Subscribers | 9,787 | 9,785 | -2 | -44 |
+| BBGV FFL Dealers | 1,269 | 1,268 | -1 | -26 |
+| Blue Book Live Auctions | 128 | 131 | +3 | +44 |
+
+[EXPANSION] 90-Day at 3,968 is 630 below April baseline — largest cumulative deficit of any tracked segment. Jun 9 Signal generated ~139 click events (3,727 × 3.74%); 90-Day lost 228 profiles — net shortfall of 89 click events for the week. 120-Day flatlined despite being in the Signal audience, confirming 3,727 rcpt at current CTOR is insufficient to replenish even the broader 120-day click pool. 30-Day fell -72 for the first weekly decline since Jun 1.
+
+#### Task Status Review
+
+Live flows confirmed via Klaviyo API: **1 only — `SNbTjz` (Blue Book → GunStreamer Sequence)**. `Wn6Uau` (Abandoned Cart Leads) confirmed `status: "draft"` — roadmap live flows table corrected. No Welcome/Onboarding flow — **Task A remains Pending.** Signal sent once (Jun 9, Fox Sterlingworth); Tue/Thu/Sat cadence unexecuted — **Task B remains Pending.** Abandoned Cart confirmed DRAFT; AV1/AV2 absent from report; AV3 0% click — **Task C: updated to In Progress — flow in DRAFT; message-level status of AV1/AV2 unknown, requires Klaviyo flow editor audit.** Two Live Auction sends (Jun 12, Jun 13) — **Task F remains Pending, 8th consecutive week.**
+
+#### Tactical Optimizations
+
+**1. "The Signal — Fox Sterlingworth" (`01KTPGWQVB3WGM8S6WE6NZQQXC`) used [RECOVERY] 30-Day + [EXPANSION] 120-Day and posted 57.6% open — -6.7pp below baseline, -8pp below the Colt Python. Revert to [RECOVERY] 30-Day + Paid Subscribers for the next Signal.**
+
+Audience this week: 30-Day (3,408) + 120-Day (5,174). Because 30-Day is a subset of 120-Day, the effective unique pool was the 120-Day segment minus suppressions = 3,727 delivered. The marginal profiles added by 120-Day vs Paid Subscribers are contacts who last clicked 31–120 days ago — warm-ish, but measurably colder than Paid Subscribers who have an active financial relationship with BBGV. The Colt Python ([RECOVERY] 30-Day + Paid Subscribers, May 14): 65.6% open on 3,417 rcpt. This week: 57.6% on 3,727 rcpt — 8pp lower with 310 more recipients. The dilution cost is documented: each time a colder pool is substituted for Paid Subscribers, open rate drops 6–8pp. Next Signal formula: [RECOVERY] 30-Day (3,408) + Paid Subscribers (9,785), suppress [SUNSET] 60-Day Inactive and FFL Dealers. Target: 65%+ open rate. Paid Subscribers is the proven expansion audience.
+
+**2. [EXPANSION] 90-Day is declining at -228/week and is 630 below April baseline — a single weekly Signal at 3.74% click rate generates only ~139 clicks, 89 short of breakeven. Adding one Signal send this week (Tuesday Jun 17) would generate ~278 total clicks and begin reversing the outflow.**
+
+The 90-Day window now opens ~Mar 17. Click events from mid-March are expiring daily with no replacement volume. To hold 90-Day at current 3,968, the account needs ≥228 new click events per week. Jun 9 Signal produced ~139 — a 39% shortfall. At 2 Signals/week (Tue + Thu): ~278 clicks, enough to stabilize. At 3 Signals/week (Tue/Thu/Sat per Task B): ~417 clicks, enough to rebuild the segment. Formula for Tuesday Jun 17: [RECOVERY] 30-Day (3,408) + Paid Subscribers (9,785), different gun model (not Fox Sterlingworth again), tight CTA. If 90-Day falls below 3,800 before Task B executes, the Tue/Thu/Sat expansion pool quality degrades structurally and future opens will drop further. This is the single highest-leverage action this week — no new infrastructure required, just a second send.
+
+**3. Tucker's Live Jun 13 (`01KV0JXX6121T1R7XYE3HJ5XXV`) posted 11.63% CTOR — nearly 2× Van's Jun 12 (6.52% CTOR) sent to the same list within 21 hours. Tucker's is the only Live Auction send to approach the 12–15% CTOR benchmark. Audit the Tucker's CTA structure and apply it to next Monday's send.**
+
+Both sends went to the same `WuuaYj` list (~99–100 rcpt), 21 hours apart. Van's (Jun 12, 3:30pm CT): 3.03% click, 6.52% CTOR, 1% bounce. Tucker's (Jun 13, 3:00pm CT): 5.05% click, 11.63% CTOR, 0% bounce. Same audience, different send — the delta is copy and CTA structure, not timing or list quality. Open rates were comparable (46.47% vs 43.43%), so inbox placement was equivalent. Tucker's generated 66% more click intent per opener despite having 1 fewer recipient. Action: open both campaign previews in Klaviyo, compare subject line, preview text, and primary CTA. Tucker's format (whatever produced 11.63% CTOR) is the new Live Auction template standard. Apply it to Monday Jun 16 as the first Task F–compliant send. This is also the CTOR lever for the broader audience problem: if Tucker's format translates to Signal sends, CTOR would approach benchmark and generate the click volume needed to halt 90-Day segment decay.
+
+---
 
 ### Week of 2026-06-08 — Coach Review #7
 
