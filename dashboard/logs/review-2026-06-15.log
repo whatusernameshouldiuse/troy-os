@@ -68,3 +68,39 @@ Friday review done. Ruthless summary:
 
 The real signal: you shipped tooling this week while three #P0 money-bleeders sat untouched. The Dutch form bug is the one that's actively costing leads — start there Monday.
 [10:28:09] board changed — committing troy-os
+[main a56799a] chore(dashboard): automated Friday review 2026-06-15
+ 26 files changed, 3644 insertions(+), 28 deletions(-)
+ create mode 100644 dashboard/.week-activity.md
+ create mode 100644 dashboard/BOARD.md.bak-20260615-101707
+ create mode 100644 dashboard/BOARD.md.bak-20260615-102417
+ create mode 100644 dashboard/BOARD.md.bak-20260615-102418
+ create mode 100644 dashboard/BOARD.md.bak-20260615-102616
+ create mode 100644 dashboard/HERMES.md
+ create mode 100644 dashboard/TOMORROW.md
+ create mode 100755 dashboard/friday-review.sh
+ create mode 100644 dashboard/logs/review-2026-06-15.log
+ create mode 100644 dashboard/scripts/board.mjs
+ create mode 100644 dashboard/scripts/seed.mjs
+ create mode 100644 dashboard/scripts/sync-board.mjs
+ create mode 100644 dashboard/web/.gitignore
+ create mode 100644 dashboard/web/README.md
+ create mode 100644 dashboard/web/app/api/board/route.js
+ create mode 100644 dashboard/web/app/components/Board.jsx
+ create mode 100644 dashboard/web/app/globals.css
+ create mode 100644 dashboard/web/app/layout.js
+ create mode 100644 dashboard/web/app/page.js
+ create mode 100644 dashboard/web/data/tasks.json
+ create mode 100644 dashboard/web/middleware.js
+ create mode 100644 dashboard/web/next.config.mjs
+ create mode 100644 dashboard/web/package-lock.json
+ create mode 100644 dashboard/web/package.json
+To https://github.com/whatusernameshouldiuse/troy-os.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/whatusernameshouldiuse/troy-os.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[10:28:09] WARN: push failed (auth?) — board updated locally, push next time
+[10:28:09] === review end ===

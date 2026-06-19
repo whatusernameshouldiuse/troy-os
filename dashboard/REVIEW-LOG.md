@@ -43,3 +43,16 @@
 
 **Kill outright:** **[Rentagun] Paste V4 membership content into live /affiliates/** (#P2, Later). It directly contradicts the rental-first pivot (membership is being de-emphasized). Stop maintaining the membership funnel — every hour on it is wasted against the current strategy.
 
+---
+
+## Week of 2026-06-19 — Friday review 2026-06-19
+
+**What shipped:** Nothing on the board moved — the only real build evidence this week was the `local-seo-astro-starter` extraction + 9 platform ADRs (06-14/15) and the Mission Board Kanban web app (06-15), both of which were already captured/Done; everything else in the activity log is automated cron (BBGV daily audits, reddit-agent, GS recaps, analytics Slack), not task progress. **What didn't:** The single Now item (BBGV Wn6Uau paste) is now STALE for the **second consecutive week**, and all three money-bleeders flagged last Friday — the Dutch live lead-loss form bug, the Rentagun 527 dead-CTA bleed, and the GunStreamer FFL launch — sat untouched again. **Why:** No forcing function on the open P0s; attention stayed on tooling/infra and fresh capture (Inbox ballooned to 19, incl. a whole new BBGV SmartLead initiative) while the actual money loops stayed open — classic "adding > closing."
+
+**Recommended Now-3 for next week (same as last week — they were ignored, so they repeat):**
+1. **[Dutch]** Fix the live lead-loss form bug (book.astro:68 + contact.astro:101 — 404 Formspree IDs, no res.ok check). Real money bleeding right now.
+2. **[Rentagun]** Redirect the 527 dead-end membership CTAs to the rental funnel (stop the 60-day click bleed).
+3. **[BBGV]** Close the STALE Wn6Uau paste workflow — finish it or kill it. It's been the only Now item for two reviews with zero movement.
+
+**Kill outright:** **[Rentagun] Verify 5 Rare-On-The-Range SKUs before publishing a new membership LP** (Inbox, captured 05-14). Like the now-archived Paste V4 task, it serves the de-emphasized membership funnel — publishing a *new* membership LP runs directly against the rental-first pivot. Kill the membership-LP work; don't verify SKUs for a page that shouldn't ship. (Note: Paste V4 was formally retired to ARCHIVE this week after surviving its 06-15 kill.)
+

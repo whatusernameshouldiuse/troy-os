@@ -1,0 +1,20 @@
+[16:00:01] === friday board review start (dry_run=0) ===
+[16:00:01] gathered activity -> /Users/troyvanmaanen/troy-os/dashboard/.week-activity.md (48 lines)
+[16:00:01] invoking claude -p...
+Done. Friday review complete — board edited in place, header and settings block preserved byte-for-byte.
+
+**What I did:**
+- **Archived 5 Done items + 1 kill** → `ARCHIVE.md` (new June section). Done column is now empty.
+- **Marked the lone Now item STALE** — BBGV Wn6Uau paste, zero evidence, 2nd week running.
+- **Retired Paste V4 membership** to ARCHIVE as KILLED (it survived its 06-15 kill; ruthless this time).
+- **Triaged Inbox 19 → 8:** moved well-scoped items to Next/Later (Pocket Carry handoff → Next; catalog pricing sweep, go/no-go queue, Hermes monitor, Boaz GBP relocation, SEO portfolio audit, 4 GunStreamer items → Later). Left the 5-task SmartLead initiative, the Twitter-archive task (waiting on Troy), the half-done session report, and the membership-LP SKU check in Inbox.
+- **Re-ranked Later** — Dutch money-bleeders stay top; everything else P-ordered within project groups.
+
+**The honest read:** nothing on the board moved this week. The only real builds (Astro starter, Mission Board) were already captured. All three money-bleeders from last Friday — Dutch lead-loss form, Rentagun 527 dead CTAs, GunStreamer FFL launch — sat untouched *again*, and Inbox grew by a whole new SmartLead initiative. Adding > closing.
+
+**Next week's Now-3** (unchanged, because they were ignored): Dutch form bug → Rentagun 527 redirect → close-or-kill the Wn6Uau paste.
+
+**Kill nominated:** the membership-LP SKU-verify Inbox item — same dead funnel as the Paste V4 task I just archived.
+
+One thing worth your eye: the `[Ops] session report` Inbox item says "drop the Twitter writes." If that's *this* report, it's already handled — no Twitter writes were made.
+[16:03:09] board changed — committing troy-os

@@ -1,0 +1,4 @@
+[16:00:01] === friday board review start (dry_run=0) ===
+[16:00:01] gathered activity -> /Users/troyvanmaanen/troy-os/dashboard/.week-activity.md (48 lines)
+[16:00:01] invoking claude -p...
+[16:03:09] board changed — committing troy-os
