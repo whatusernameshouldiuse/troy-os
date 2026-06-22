@@ -6,7 +6,7 @@
 
 ---
 
-## Current state — 2026-06-15
+## Current state — 2026-06-22
 
 **Account:** Blue Book Publications (Klaviyo `SMvTcV`) | **Sender:** troy@email.bluebookofgunvalues.com | **Reply-to:** troy@bluebookinc.com
 
@@ -27,22 +27,22 @@
 
 | Audience | Type | Size | Use |
 |---|---|---:|---|
-| [RECOVERY] 30-Day Engaged | Segment | 3,408 | Primary Signal target — +275 above April baseline, -72 wk/wk |
-| [RECOVERY] 60-Day Engaged | Segment | 3,743 | Signal expansion 1 — +110 above April baseline, -18 wk/wk |
-| [EXPANSION] 90-Day Engaged | Segment | 3,968 | Signal expansion 2 — **-630 below April baseline, -228 wk/wk CRITICAL** |
-| [EXPANSION] 120-Day Engaged | Segment | 5,174 | Backup pool — +71 above baseline, flat (+2 wk/wk) |
-| Paid Subscribers | List | 9,785 | Premium audience — -44 from baseline, -2 wk/wk |
-| BBGV FFL Dealers | List | 1,268 | Cold, single opt-in (Apr 29 import) — -26 from baseline, 0 conversions |
-| Blue Book Live Auctions | List | 131 | Live auction alerts — +3 wk/wk; Task F unexecuted 8 weeks |
+| [RECOVERY] 30-Day Engaged | Segment | 3,357 | Primary Signal target — +224 above April baseline, -51 wk/wk |
+| [RECOVERY] 60-Day Engaged | Segment | 3,729 | Signal expansion 1 — +96 above April baseline, -14 wk/wk |
+| [EXPANSION] 90-Day Engaged | Segment | 3,921 | Signal expansion 2 — **-677 below April baseline, -47 wk/wk CRITICAL** |
+| [EXPANSION] 120-Day Engaged | Segment | 4,371 | **-732 below baseline, -803 wk/wk RECORD DROP — CRITICAL** |
+| Paid Subscribers | List | 9,780 | Premium audience — -49 from baseline, -5 wk/wk |
+| BBGV FFL Dealers | List | 1,267 | Cold, single opt-in (Apr 29 import) — -27 from baseline, 0 conversions |
+| Blue Book Live Auctions | List | 141 | Live auction alerts — +10 wk/wk; Task F unexecuted 9 weeks |
 | [SUNSET] 60-Day Inactive | Segment | 18,188 | Excluded — re-engage candidates |
 | [SUNSET] Never Engaged | Segment | 13,678 | Excluded — suppress candidates |
 
-### Live flows (2 active, 1 stuck in draft)
+### Live flows (1 active, 2 in draft)
 
 | Flow | Status | Trigger | 30d Open | 30d Click |
 |---|---|---|---:|---:|
 | Blue Book → GunStreamer Sequence | Live | Added to List `WuuaYj` | 61.0% | 12.2% |
-| Flow - Abandoned Cart Leads | **DRAFT** (confirmed Jun 15 — not live) | Metric | — | 0.0% |
+| Flow - Abandoned Cart Leads | **DRAFT** (confirmed Jun 15 + Jun 22 — not live) | Metric | — | 0.0% |
 | Onboarding Welcome Series | **DRAFT (since 2024)** | Unconfigured | — | — |
 
 ---
@@ -55,7 +55,7 @@
 |---|---|---|---|---|
 | A | Ship Welcome Series (5 emails) | Pending | Troy + Claude | +400–700 opens/mo |
 | B | Restore Tue/Thu/Sat Signal cadence (4 drafts ready) | Pending | Troy | +14–18K opens/mo |
-| C | Fix Abandoned Cart Leads flow (0% click rate) | In Progress — Flow confirmed DRAFT in Klaviyo; AV1/AV2 absent from report; AV3 (YqeN4s) firing but 0% click | Claude | Bring up to 3% click |
+| C | Fix Abandoned Cart Leads flow (0% click rate) | In Progress — Flow confirmed DRAFT; all messages absent from flow report 2nd consecutive week (Jun 15 + Jun 22) | Claude | Bring up to 3% click |
 
 ### Tier 2: Next 2 weeks (list growth)
 
@@ -100,6 +100,70 @@ _Nothing shipped yet. Coach will move tasks here as they complete._
 ## Weekly Reviews
 
 _Appended by coach agent every Monday. Newest first._
+
+### Week of 2026-06-22 — Coach Review #9
+
+**Account confirmed:** Blue Book Publications `SMvTcV` ✓
+
+#### KPIs vs Baseline (Apr 2026, last 30 days)
+
+Single send this week: "GunStreamer Value Watch - Python - 2026-06-19" (`01KVG9DCP88D8HC9TWMXG92VCS`, 3,966 rcpt, Jun 19). Audience: BBGV Free Users (Enthusiast + Single Valuation) + FFL Dealers + Collector Newsletter + Live Auctions + Paid Subscribers. **[RECOVERY] 30-Day and 60-Day segments excluded entirely.** Not a Signal newsletter — GunStreamer partner brand send. Lowest open rate in 8-week review history.
+
+| Metric | Baseline | This Week | Δ vs Baseline | Note |
+|---|---:|---:|---|---|
+| Open rate | 64.3% | 49.95% | **-14.35pp — RECORD LOW** | Free/FFL audience; [RECOVERY] segments excluded |
+| Click rate | 4.8% | 4.25% | **-0.55pp** | |
+| CTOR | 7.5% | 8.51% | **+1.01pp ✓** | Above baseline; low-quality opener pool skews numerator |
+| Unsub rate | 0.41% | 0.10% | **-0.31pp ✓** | |
+| Bounce rate | 0.4% | 0.30% | **-0.10pp ✓** | |
+| Spam rate | 0.05% | 0.025% | **✓ clean** | |
+| Conversions | 0 | 0 | — | — |
+
+Colt Python content (65.6% open on May 14 with [RECOVERY] 30-Day + Paid Subscribers only) was deployed to cold Free User lists. Jun 19 included zero [RECOVERY] profiles. The 15.6pp gap vs the Colt Python send is attributable entirely to audience composition — same subject theme, same sender domain, different engaged-profile mix.
+
+**Flows (last 7 days):**
+
+| Flow | Message | Rcpt | Open | Click | CTOR |
+|---|---|---:|---:|---:|---:|
+| Blue Book → GunStreamer (`SNbTjz`) | RT2PuN (email 1) | 8 | 62.5% | 0% | 0% |
+| Blue Book → GunStreamer (`SNbTjz`) | TVGu4n (email 2) | 8 | 50.0% | 12.5% | **25.0% — first meaningful click in 3 weeks** |
+| Blue Book → GunStreamer (`SNbTjz`) | SS7pAC (email 3) | 5 | 40.0% | 0% | **0% (5th consecutive week)** |
+
+No Abandoned Cart (`Wn6Uau`) activity for 2nd consecutive week. Only `SNbTjz` returned by `get_flows?filter=equals(status,"live")`. Email 2 (TVGu4n) reversal to 25% CTOR is the sole bright spot. Email 1 (RT2PuN) posted highest open rate in the sequence (62.5%) with zero clicks — CTA or link failure. Email 3 (SS7pAC) 0% CTOR for fifth consecutive week.
+
+#### Audience Snapshot vs Last Week
+
+| Audience | Jun 15 | Jun 22 | Δ | vs Apr Baseline |
+|---|---:|---:|---:|---:|
+| [RECOVERY] 30-Day Engaged | 3,408 | 3,357 | **-51** | +224 |
+| [RECOVERY] 60-Day Engaged | 3,743 | 3,729 | -14 | +96 |
+| [EXPANSION] 90-Day Engaged | 3,968 | 3,921 | -47 | **-677 — CRITICAL** |
+| [EXPANSION] 120-Day Engaged | 5,174 | 4,371 | **-803 ⚠ RECORD DROP** | **-732 — CRITICAL** |
+| Paid Subscribers | 9,785 | 9,780 | -5 | -49 |
+| BBGV FFL Dealers | 1,268 | 1,267 | -1 | -27 |
+| Blue Book Live Auctions | 131 | 141 | **+10 ✓** | +54 |
+
+120-Day crossed from +71 above April baseline to -732 below in one week — a complete structural reversal. The 120-day lookback window as of Jun 22 opens to Feb 22; Feb–Mar click events are expiring en masse with no sufficient replacement volume. Jun 19 generated ~168 unique clicks (4.25% × 3,954 delivered), covering only 21% of the 803-profile deficit. 90-Day now -677 below baseline vs -630 last week, 4th consecutive week of decline. Only Live Auctions grew (+10 to 141 — record weekly gain with no dedicated send).
+
+#### Task Status Review
+
+Live flows confirmed: **1 only — `SNbTjz` (Blue Book → GunStreamer Sequence)**. Abandoned Cart `Wn6Uau` absent from live flow list and flow report for 2nd consecutive week — **Task C remains In Progress (DRAFT).** No Welcome/Onboarding flow — **Task A remains Pending.** Jun 19 send was a broad-audience GunStreamer brand campaign excluding [RECOVERY] segments; Tue/Thu/Sat Signal cadence unexecuted — **Task B remains Pending.** No dedicated Live Auction sends this week — **Task F remains Pending, 9th consecutive week.**
+
+#### Tactical Optimizations
+
+**1. "GunStreamer Value Watch - Python" (`01KVG9DCP88D8HC9TWMXG92VCS`) posted 49.95% open — 14.35pp below baseline, lowest in 8-week history — because [RECOVERY] 30-Day (3,408) and 60-Day (3,743) were excluded. The same Colt Python content produced 65.6% on May 14 with the correct audience. Next Signal must go to [RECOVERY] 30-Day (3,357) + Paid Subscribers (9,780), no deviation.**
+
+Jun 19 included BBGV Free Users (Enthusiast + Single Valuation) — non-paying, low-engagement contacts whose ISP-visible open behavior drags aggregate open rate below 50%. Audience-only comparison: May 14 Python formula ([RECOVERY] 30-Day + Paid Subscribers, 3,417 rcpt) → 65.6% open, 0.15% bounce. Jun 19 same theme, contaminated audience (3,966 rcpt) → 49.95% open, 0.30% bounce. The Decisions Log and 8 weeks of reviews document this rule consistently; it has been violated twice in the last 3 sends (Jun 9: 120-Day substituted for Paid Subscribers; Jun 19: Free Users + FFL substituted entirely). Both deviations produced below-baseline opens. Next send formula: [RECOVERY] 30-Day (3,357) + Paid Subscribers (9,780), suppress [SUNSET] 60-Day Inactive, suppress FFL Dealers, suppress Free User lists. Expected: ≥65% open rate, ~150–170 click events toward 120-Day recovery.
+
+**2. [EXPANSION] 120-Day collapsed -803 in one week (5,174 → 4,371), crossing from +71 above to -732 below April baseline. At the Jun 19 click rate (4.25%), generating 803 replacement clicks requires ~18,900 delivered recipients per week — impossible at 1 send/week. Only the combination of Task B (cadence) and Task J (CTOR) makes 120-Day recovery mathematically viable.**
+
+Click deficit math: 120-Day needs ~803 new click events/week just to hold flat. Clean send ceiling (30-Day 3,357 + Paid Subscribers 9,780, overlap-adjusted): ~3,500 deliverable per send. At current CTOR 8.51% and 65% open: ~194 clicks per send — 24% of weekly breakeven. At 12% CTOR benchmark: ~273 clicks — 34%. At 2 sends/week × 12% CTOR: ~546 clicks — 68%. At 3 sends/week (Task B) × 12% CTOR: ~819 clicks — 102%, breakeven achieved. No single variable closes this gap alone. Task J (CTA A/B test) raises the multiplier; Task B (Tue/Thu/Sat cadence) raises the repetitions. Both must execute in parallel. Every week of delay costs another ~600 profiles from the 120-Day pool at current send frequency.
+
+**3. GunStreamer email 1 (RT2PuN) opened at 62.5% — highest in the 3-email sequence — and produced zero clicks for the 2nd consecutive week. Email 3 (SS7pAC) is 0% CTOR for 5th consecutive week. Both need a Klaviyo link-click audit before any copy changes. Email 2 (TVGu4n) at 25% CTOR this week proves the flow infrastructure is partially functional.**
+
+Email 1 (RT2PuN): last week 25% open, 25% CTOR; this week 62.5% open, 0% click across 5 openers — the CTOR collapse with higher open volume suggests a link that worked last week is broken again (or a different CTA block is rendering). Email 3 (SS7pAC): 5 recipients, 2 openers, 0 clicks — 5 consecutive weeks, ~25 cumulative recipients, zero clicks. Diagnose RT2PuN and SS7pAC first: open each in Klaviyo flow editor → click every CTA → verify destination loads. Email 2 (TVGu4n) working at 25% CTOR this week confirms the trigger, delivery, and at least one CTA link are functional — the RT2PuN and SS7pAC failures are message-specific, not flow-wide. Fix both broken CTAs before the flow adds more recipients to the dead-click funnel.
+
+---
 
 ### Week of 2026-06-15 — Coach Review #8
 
