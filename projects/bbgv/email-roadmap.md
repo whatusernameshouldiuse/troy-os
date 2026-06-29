@@ -6,7 +6,7 @@
 
 ---
 
-## Current state — 2026-06-22
+## Current state — 2026-06-29
 
 **Account:** Blue Book Publications (Klaviyo `SMvTcV`) | **Sender:** troy@email.bluebookofgunvalues.com | **Reply-to:** troy@bluebookinc.com
 
@@ -27,23 +27,31 @@
 
 | Audience | Type | Size | Use |
 |---|---|---:|---|
-| [RECOVERY] 30-Day Engaged | Segment | 3,357 | Primary Signal target — +224 above April baseline, -51 wk/wk |
-| [RECOVERY] 60-Day Engaged | Segment | 3,729 | Signal expansion 1 — +96 above April baseline, -14 wk/wk |
-| [EXPANSION] 90-Day Engaged | Segment | 3,921 | Signal expansion 2 — **-677 below April baseline, -47 wk/wk CRITICAL** |
-| [EXPANSION] 120-Day Engaged | Segment | 4,371 | **-732 below baseline, -803 wk/wk RECORD DROP — CRITICAL** |
-| Paid Subscribers | List | 9,780 | Premium audience — -49 from baseline, -5 wk/wk |
-| BBGV FFL Dealers | List | 1,267 | Cold, single opt-in (Apr 29 import) — -27 from baseline, 0 conversions |
-| Blue Book Live Auctions | List | 141 | Live auction alerts — +10 wk/wk; Task F unexecuted 9 weeks |
+| [RECOVERY] 30-Day Engaged | Segment | 3,925 | Primary Signal target — **+792 above April baseline, +568 wk/wk RECORD GAIN** |
+| [RECOVERY] 60-Day Engaged | Segment | 4,280 | Signal expansion 1 — **+647 above April baseline, +551 wk/wk RECORD GAIN** |
+| [EXPANSION] 90-Day Engaged | Segment | 4,459 | Signal expansion 2 — -139 below April baseline (+538 wk/wk RECOVERY) |
+| [EXPANSION] 120-Day Engaged | Segment | 4,889 | -214 below baseline (+518 wk/wk RECOVERY from prior CRITICAL) |
+| Paid Subscribers | List | 9,779 | Premium audience — -50 from baseline, -1 wk/wk |
+| BBGV FFL Dealers | List | 1,267 | Cold, single opt-in (Apr 29 import) — -27 from baseline, flat wk/wk |
+| Blue Book Live Auctions | List | 148 | Live auction alerts — +7 wk/wk; Task F unexecuted 10 weeks |
 | [SUNSET] 60-Day Inactive | Segment | 18,188 | Excluded — re-engage candidates |
 | [SUNSET] Never Engaged | Segment | 13,678 | Excluded — suppress candidates |
 
-### Live flows (1 active, 2 in draft)
+### Live flows (7 active as of Jun 26 — major infrastructure week)
 
-| Flow | Status | Trigger | 30d Open | 30d Click |
-|---|---|---|---:|---:|
-| Blue Book → GunStreamer Sequence | Live | Added to List `WuuaYj` | 61.0% | 12.2% |
-| Flow - Abandoned Cart Leads | **DRAFT** (confirmed Jun 15 + Jun 22 — not live) | Metric | — | 0.0% |
-| Onboarding Welcome Series | **DRAFT (since 2024)** | Unconfigured | — | — |
+| Flow | ID | Status | Trigger | Note |
+|---|---|---|---|---|
+| BBGV Welcome Series [control] | `TJNqBG` | **LIVE** (new Jun 26) | Added to List | 4.73% unsub — CRITICAL, audit trigger |
+| BBGV Sunset Reactivation | `SNUVDV` | **LIVE** (new Jun 25) | Added to List | Task D in progress |
+| BBGV Re-Engagement 60d [control] | `SNG6HE` | **LIVE** (new Jun 26) | Added to List | 23.08% CTOR — strongest in account |
+| BBGV Win-Back [control] | `URAZiF` | **LIVE** (new Jun 26) | Metric | 63.64% open, 0 clicks, 11 rcpt |
+| BBGV Post-Purchase [control] | `XGcdaK` | **LIVE** (new Jun 26) | Added to List | 0 recipients — trigger unconfirmed |
+| Abandoned Valuation — Rebuild | `V8qDgP` | **LIVE** (built Jun 10) | Metric | 0 recipients — trigger metric still dead |
+| BBGV Blue Book to GunStreamer [control] | `VU7PLd` | **LIVE** (new Jun 26) | Added to List | 8 rcpt, 25% open, 12.5% click |
+| Welcome Series — The Signal | `SeBVbw` | **DRAFT** (was sending) | Added to List | 1,310 rcpt last 7d; 0.08% spam — CRITICAL |
+| Blue Book → GunStreamer Sequence | `SNbTjz` | **DRAFT** (reversed from Live) | Added to List | 10 rcpt, 0% click; removed from live list |
+| Flow - Abandoned Cart Leads | `Wn6Uau` | **DRAFT** | Metric | 3rd consecutive week — 0 recipients |
+| Onboarding Welcome Series | — | **DRAFT (since 2024)** | Unconfigured | Superseded by TJNqBG / SeBVbw |
 
 ---
 
@@ -53,15 +61,15 @@
 
 | # | Task | Status | Owner | Expected lift |
 |---|---|---|---|---|
-| A | Ship Welcome Series (5 emails) | Pending | Troy + Claude | +400–700 opens/mo |
+| A | Ship Welcome Series (5 emails) | **In Progress** — TJNqBG [BBGV Welcome Series control] Live Jun 26; SeBVbw [draft] firing 1,310 rcpt; 4.73% unsub on TJNqBG CRITICAL — audit trigger | Troy + Claude | +400–700 opens/mo |
 | B | Restore Tue/Thu/Sat Signal cadence (4 drafts ready) | Pending | Troy | +14–18K opens/mo |
-| C | Fix Abandoned Cart Leads flow (0% click rate) | In Progress — Flow confirmed DRAFT; all messages absent from flow report 2nd consecutive week (Jun 15 + Jun 22) | Claude | Bring up to 3% click |
+| C | Fix Abandoned Cart Leads flow (0% click rate) | In Progress — Wn6Uau confirmed DRAFT; absent from flow report 3rd consecutive week (Jun 15 + Jun 22 + Jun 29); V8qDgP [Abandoned Valuation Rebuild] is Live but also 0 rcpt — trigger metric still dead | Claude | Bring up to 3% click |
 
 ### Tier 2: Next 2 weeks (list growth)
 
 | # | Task | Status | Owner |
 |---|---|---|---|
-| D | Re-engagement gauntlet for 31,866 sunset profiles (3 emails) | Pending | Troy + Claude |
+| D | Re-engagement gauntlet for 31,866 sunset profiles (3 emails) | **In Progress** — SNUVDV [Sunset Reactivation] Live Jun 25 (688 rcpt, 36.83% open, 0.87% unsub ✓); SNG6HE [Re-Engagement 60d control] Live Jun 26 (95 rcpt, 23.08% CTOR) | Troy + Claude |
 | E | Audit & rebuild signup forms on bluebookofgunvalues.com | Pending | Troy + Claude |
 | F | Live Auctions: cut cadence to 1×/week until list > 500; vary subject lines | Pending | Troy |
 | G | Delete or wire up dead Collector Newsletter list (`V8T7c2`, 0 subs) | Pending | Troy |
@@ -100,6 +108,75 @@ _Nothing shipped yet. Coach will move tasks here as they complete._
 ## Weekly Reviews
 
 _Appended by coach agent every Monday. Newest first._
+
+### Week of 2026-06-29 — Coach Review #10
+
+**Account confirmed:** Blue Book Publications `SMvTcV` ✓
+
+#### KPIs vs Baseline (Apr 2026, last 30 days)
+
+Single campaign: "The Signal — Winchester Model 70 Carbine (pre-64) — 2026-06-23" (`01KVTKF49ZQ2XH1CWN3QBR3PVE`, 3,706 rcpt, Jun 23). Audience: all four engaged segments + Collector Newsletter — **Paid Subscribers (9,779) not included.** Proven [RECOVERY] 30-Day + Paid Subscribers formula violated for the third time in four sends.
+
+| Metric | Baseline | This Week | Δ vs Baseline | Note |
+|---|---:|---:|---|---|
+| Open rate | 64.3% | 59.83% | **-4.47pp** | Paid Subscribers excluded; 90-Day/120-Day dilution |
+| Click rate | 4.8% | 3.51% | **-1.29pp** | |
+| CTOR | 7.5% | 5.87% | **-1.63pp — WORST ON RECORD** | All-time low in 10-week history |
+| Unsub rate | 0.41% | 0.22% | **-0.19pp ✓** | |
+| Bounce rate | 0.4% | 0.19% | **-0.21pp ✓** | |
+| Spam rate | 0.05% | 0.03% | **✓ clean** | |
+| Conversions | 0 | 0 | — | — |
+
+**Flows (last 7 days) — largest infrastructure buildout week on record:**
+
+7 flows confirmed live as of Jun 26. Critical unsub and spam metrics on Welcome flows require immediate action.
+
+| Flow | ID | Rcpt | Open | Click | CTOR | Unsub | Spam | Status |
+|---|---|---:|---:|---:|---:|---:|---|---|
+| Welcome Series — The Signal | `SeBVbw` | 1,310 | 38.12% | 4.46% | 11.69% | 2.23% | **0.08% ⚠** | DRAFT (firing) |
+| BBGV Welcome Series [control] | `TJNqBG` | 279 | 28.36% | 1.82% | 6.41% | **4.73% CRITICAL** | 0% | **LIVE** |
+| BBGV Sunset Reactivation | `SNUVDV` | 688 | 36.83% | 1.89% | 5.14% | 0.87% | 0% | **LIVE** |
+| BBGV Re-Engagement 60d [control] | `SNG6HE` | 95 | 13.68% | 3.16% | **23.08%** | 0% | 0% | **LIVE** |
+| BBGV Win-Back [control] | `URAZiF` | 11 | 63.64% | 0% | 0% | 0% | 0% | **LIVE** |
+| Blue Book → GunStreamer | `SNbTjz` | 10 | 22.22% | 0% | 0% | 0% | 0% | **DRAFT** (was Live) |
+
+`SNbTjz` (Blue Book → GunStreamer) confirmed DRAFT this week — status reversed vs all prior reviews. `Wn6Uau` (Abandoned Cart) absent from flow report for 3rd consecutive week. `V8qDgP` (Abandoned Valuation Rebuild) and `XGcdaK` (Post-Purchase [control]) are live but returned 0 recipients — triggers unconfirmed.
+
+#### Audience Snapshot vs Last Week
+
+| Audience | Jun 22 | Jun 29 | Δ | vs Apr Baseline |
+|---|---:|---:|---:|---:|
+| [RECOVERY] 30-Day Engaged | 3,357 | 3,925 | **+568 ✓ RECORD** | +792 |
+| [RECOVERY] 60-Day Engaged | 3,729 | 4,280 | **+551 ✓ RECORD** | +647 |
+| [EXPANSION] 90-Day Engaged | 3,921 | 4,459 | **+538 ✓ RECOVERY** | -139 |
+| [EXPANSION] 120-Day Engaged | 4,371 | 4,889 | **+518 ✓ RECOVERY** | -214 |
+| Paid Subscribers | 9,780 | 9,779 | -1 | -50 |
+| BBGV FFL Dealers | 1,267 | 1,267 | flat | -27 |
+| Blue Book Live Auctions | 141 | 148 | **+7 ✓** | +61 (record) |
+
+All four engaged segments grew simultaneously for only the second time in 10 reviews (prior: Jun 1–8). 30-Day +568 and 60-Day +551 are the largest single-week gains on record. 90-Day and 120-Day reversed multi-week CRITICAL declines — 90-Day from -677 to -139 below baseline, 120-Day from -732 to -214. Primary driver: Welcome Series `SeBVbw` onboarded ~1,310 new subscribers with opens and clicks entering the 30-Day window; Signal campaign generated ~130 unique clicks; Reactivation flow generated ~13 clicks from inactive profiles. Live Auctions at 148 is a new list record.
+
+#### Task Status Review
+
+Live flows confirmed via API: **7 active** — `TJNqBG` (Welcome Series [control]), `SNUVDV` (Sunset Reactivation), `SNG6HE` (Re-Engagement 60d [control]), `URAZiF` (Win-Back [control]), `VU7PLd` (GunStreamer [control]), `V8qDgP` (Abandoned Valuation Rebuild), `XGcdaK` (Post-Purchase [control]). `SNbTjz` (Blue Book → GunStreamer) now DRAFT.
+
+`TJNqBG` confirmed live Jun 26 — **Task A updated to In Progress; 4.73% unsub rate CRITICAL, requires trigger audit before scaling.** Signal sent once Jun 23 (Winchester Model 70 Carbine); Tue/Thu/Sat cadence unexecuted — **Task B remains Pending.** `Wn6Uau` absent from flow report 3rd week; `V8qDgP` live but 0 recipients — **Task C remains In Progress (trigger metric still dead).** `SNUVDV` live Jun 25, `SNG6HE` live Jun 26 — **Task D updated to In Progress.** No dedicated Live Auction send this week — **Task F remains Pending, 10th consecutive week.**
+
+#### Tactical Optimizations
+
+**1. BBGV Welcome Series [control] (`TJNqBG`) posted 4.73% aggregate unsub rate on 279 recipients — 11.5× baseline — in its first week live. Pause and audit trigger audience before deliverability damage compounds.**
+
+RjmuuA (first message): 5.24% unsub on 214 rcpt ≈ 11 unsubscribes from brand-new contacts. Draft companion `SeBVbw` (TWqykB): 0.177% spam rate on 567 rcpt, above the 0.1% Google/Yahoo suppression-list threshold. Combined, the Welcome infrastructure reached 1,589 recipients this week while generating unsub and spam rates that erode domain reputation faster than the Signal rebuilds it. A correctly-scoped Welcome flow should post <0.5% unsub; 5.24% on first contact indicates the trigger is pulling the wrong audience — likely profiles who subscribed months or years ago and don't recognize the "welcome" context, or profiles double-sequenced with `SNUVDV` (Sunset Reactivation). Action: Klaviyo → `TJNqBG` → Edit Trigger → verify qualification criteria. If any overlap exists with the Sunset Reactivation audience, add a filter excluding profiles in `SNUVDV`'s list. Target: <0.5% unsub over next 7 days before restoring full volume.
+
+**2. "Winchester Model 70 Carbine" (`01KVTKF49ZQ2XH1CWN3QBR3PVE`) posted 5.87% CTOR — worst on record in 10 weeks — because Paid Subscribers (9,779) were excluded in favor of all four overlapping engaged segments + Collector Newsletter.**
+
+Three data points on the Paid Subscribers substitution cost: May 14 Colt Python ([RECOVERY] 30-Day + Paid Subscribers only): 65.6% open, 7.6% CTOR. Jun 9 Fox Sterlingworth (30-Day + 120-Day, no Paid Subscribers): 57.6% open, 6.49% CTOR. Jun 23 Winchester Model 70 (all four segments + Collector Newsletter, no Paid Subscribers): 59.83% open, 5.87% CTOR. Every deviation from Paid Subscribers costs 4–8pp open rate and 1–2pp CTOR. Jun 23 generated ~130 unique clicks (3.51% × 3,699 delivered). The same content on [RECOVERY] 30-Day (3,925) + Paid Subscribers (9,779) at 65% open / 9% CTOR = ~229 clicks — 76% more engagement, cleaner ISP signal, smaller audience. Next Signal formula locked: [RECOVERY] 30-Day (3,925) + Paid Subscribers (9,779). Exclude 60-Day, 90-Day, 120-Day, Collector Newsletter, FFL Dealers.
+
+**3. Re-Engagement 60d [control] (`SNG6HE`) posted 23.08% CTOR on 95 recipients this week — 3.9× the Signal CTOR and above the 12–15% benchmark. Pull the CTA structure and apply it to the next Signal as a Task J variant.**
+
+SNG6HE went to [SUNSET] 60-Day Inactive profiles — people who haven't engaged in 60+ days — and produced 23.08% CTOR vs the Signal's 5.87% on a warm, engaged audience. The re-engagement format creates explicit click intent that editorial format doesn't: it leads with what the recipient has missed and a specific, low-friction action to reclaim it. That structure translates directly to a warm audience CTA variant. Action: open `SNG6HE` in Klaviyo, copy the primary CTA structure (subject framing, CTA copy, button text, link), and use it as the B variant in the next Signal send (Task J A/B test, 50/50 split). If CTOR lifts from the current 5.87% toward even 12% on a 65%-open clean Signal send (30-Day + Paid Subscribers, ~3,500 delivered), that's an additional ~210 click events per send — enough to close the remaining 90-Day and 120-Day segment deficits within 2 weeks without increasing send frequency.
+
+---
 
 ### Week of 2026-06-22 — Coach Review #9
 
